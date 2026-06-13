@@ -1,10 +1,10 @@
 {
   "schema_version": "3.0-final-starter",
   "report_type": "open",
-  "report_date": "2026-06-11",
-  "generated_at": "2026-06-11 17:36 UTC",
+  "report_date": "2026-06-13",
+  "generated_at": "2026-06-13 10:12 UTC",
   "report_window": "Final starter architecture",
-  "market_regime": "Balanced / neutral",
+  "market_regime": "Constructive risk-on",
   "sub_title": "המסך הסופי כולל summary ראשון, metrics, movers, sectors, macro, headlines, breadth, VIX, yields ו-scoring engine",
   "hero_title": "Opening report final architecture",
   "hero_text": "זוהי גרסה כמעט סופית של המערכת: תצוגת דוח אחידה, pipeline מתוזמן, ושכבות נתונים חיות שמזינות קודם כל את עשר נקודות הסיכום.",
@@ -26,46 +26,46 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "API pending",
-      "tone": "blue"
+      "value": "+0.54%",
+      "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "API pending",
-      "tone": "blue"
+      "value": "+0.59%",
+      "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "API pending",
-      "tone": "blue"
+      "value": "+0.73%",
+      "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "API pending",
-      "tone": "blue"
+      "value": "+0.87%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "pending",
+      "value": "19.44",
       "tone": "blue"
     },
     {
       "label": "US10Y",
-      "value": "pending",
+      "value": "4.45%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו בלוק 10 נקודות הסיכום של דוח פתיחה, והוא נשאר ראשון במסך גם בגרסה הסופית.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 0).",
+    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
     "סטטוס המסחר בארה\"ב כרגע: closed / pending.",
-    "תמונת המדדים/פרוקסים כרגע: S&P proxy API pending, Nasdaq proxy API pending, Dow proxy API pending, Russell proxy API pending.",
-    "מדד התנודתיות VIX עומד על pending, ותשואת אג\"ח ארה\"ב ל-10 שנים על pending%.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "תמונת המדדים/פרוקסים כרגע: S&P proxy +0.54%, Nasdaq proxy +0.59%, Dow proxy +0.73%, Russell proxy +0.87%.",
+    "מדד התנודתיות VIX עומד על 19.44, ותשואת אג\"ח ארה\"ב ל-10 שנים על pending%.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
     "אירוע המאקרו המרכזי שזוהה: Economic calendar pending API connection.",
     "המניה הבולטת ב-feed של movers היא NVDA, והסקטור הראשון בפיד הוא Technology.",
     "הסיכום העליון כבר משלב metrics, macro, movers, sectors, volatility, yields ו-breadth.",
-    "דוגמת headline חי שנקלט: Live headlines will appear here once API keys are configured."
+    "דוגמת headline חי שנקלט: Iran peace deal looms while new military action flares near Strait of Hormuz - Reuters"
   ],
   "movers": [
     {
@@ -99,9 +99,12 @@
     }
   ],
   "headlines": [
-    "Live headlines will appear here once API keys are configured.",
-    "The summary remains the first analytical block in the final dashboard structure.",
-    "You can still replace or enrich sources later without changing the reading flow."
+    "Iran peace deal looms while new military action flares near Strait of Hormuz - Reuters",
+    "Exclusive: US forces shoot down Iranian attack drones, source says - Reuters",
+    "US deports Iranian pro-democracy activist to Central African Republic, lawyer says - Reuters",
+    "Wall Street ends higher as SpaceX's market debut dominates - Reuters",
+    "U.S., Iran signal peace deal near as Tehran claims victory - Reuters",
+    "Iran team chief slams FIFA’s 'lack of coordination' on visa issues - Reuters"
   ],
   "tomorrow_setup": [
     "הפוקוס עכשיו צריך לעבור מחיבור מקורות לבקרת איכות של הטקסטים והדאטה.",
@@ -112,6 +115,8 @@
     "data_freshness": "final starter integration",
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions with FINNHUB_API_KEY, ALPHA_VANTAGE_API_KEY, FMP_API_KEY, FRED_API_KEY",
-    "scoring_reasons": []
+    "scoring_reasons": [
+      "Index proxies positive"
+    ]
   }
 }
