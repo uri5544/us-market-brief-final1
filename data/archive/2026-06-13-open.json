@@ -1,0 +1,122 @@
+{
+  "schema_version": "3.0-final-starter",
+  "report_type": "open",
+  "report_date": "2026-06-13",
+  "generated_at": "2026-06-13 10:12 UTC",
+  "report_window": "Final starter architecture",
+  "market_regime": "Constructive risk-on",
+  "sub_title": "המסך הסופי כולל summary ראשון, metrics, movers, sectors, macro, headlines, breadth, VIX, yields ו-scoring engine",
+  "hero_title": "Opening report final architecture",
+  "hero_text": "זוהי גרסה כמעט סופית של המערכת: תצוגת דוח אחידה, pipeline מתוזמן, ושכבות נתונים חיות שמזינות קודם כל את עשר נקודות הסיכום.",
+  "movers_title": "Live movers",
+  "badges": [
+    {
+      "label": "FINAL STARTER",
+      "class": "live"
+    },
+    {
+      "label": "10-POINT SUMMARY FIRST",
+      "class": "macro"
+    },
+    {
+      "label": "SCORING ENGINE",
+      "class": "info"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P proxy",
+      "value": "+0.54%",
+      "tone": "pos"
+    },
+    {
+      "label": "Nasdaq proxy",
+      "value": "+0.59%",
+      "tone": "pos"
+    },
+    {
+      "label": "Dow proxy",
+      "value": "+0.73%",
+      "tone": "pos"
+    },
+    {
+      "label": "Russell proxy",
+      "value": "+0.87%",
+      "tone": "pos"
+    },
+    {
+      "label": "VIX",
+      "value": "19.44",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "4.45%",
+      "tone": "blue"
+    }
+  ],
+  "summary": [
+    "זהו בלוק 10 נקודות הסיכום של דוח פתיחה, והוא נשאר ראשון במסך גם בגרסה הסופית.",
+    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
+    "סטטוס המסחר בארה\"ב כרגע: closed / pending.",
+    "תמונת המדדים/פרוקסים כרגע: S&P proxy +0.54%, Nasdaq proxy +0.59%, Dow proxy +0.73%, Russell proxy +0.87%.",
+    "מדד התנודתיות VIX עומד על 19.44, ותשואת אג\"ח ארה\"ב ל-10 שנים על pending%.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "אירוע המאקרו המרכזי שזוהה: Economic calendar pending API connection.",
+    "המניה הבולטת ב-feed של movers היא NVDA, והסקטור הראשון בפיד הוא Technology.",
+    "הסיכום העליון כבר משלב metrics, macro, movers, sectors, volatility, yields ו-breadth.",
+    "דוגמת headline חי שנקלט: Iran peace deal looms while new military action flares near Strait of Hormuz - Reuters"
+  ],
+  "movers": [
+    {
+      "asset": "NVDA",
+      "move": "+0.0%",
+      "driver": "Alpha Vantage movers pending"
+    },
+    {
+      "asset": "MSFT",
+      "move": "+0.0%",
+      "driver": "Alpha Vantage movers pending"
+    }
+  ],
+  "sectors": [
+    {
+      "sector": "Technology",
+      "move": "+0.0%",
+      "note": "FMP sectors pending"
+    },
+    {
+      "sector": "Financials",
+      "move": "+0.0%",
+      "note": "FMP sectors pending"
+    }
+  ],
+  "macro": [
+    {
+      "time": "n/a",
+      "event": "Economic calendar pending API connection",
+      "status": "Connect Finnhub key"
+    }
+  ],
+  "headlines": [
+    "Iran peace deal looms while new military action flares near Strait of Hormuz - Reuters",
+    "Exclusive: US forces shoot down Iranian attack drones, source says - Reuters",
+    "US deports Iranian pro-democracy activist to Central African Republic, lawyer says - Reuters",
+    "Wall Street ends higher as SpaceX's market debut dominates - Reuters",
+    "U.S., Iran signal peace deal near as Tehran claims victory - Reuters",
+    "Iran team chief slams FIFA’s 'lack of coordination' on visa issues - Reuters"
+  ],
+  "tomorrow_setup": [
+    "הפוקוס עכשיו צריך לעבור מחיבור מקורות לבקרת איכות של הטקסטים והדאטה.",
+    "אפשר לכוונן את scoring thresholds לפי סגנון הקריאה שאתה אוהב.",
+    "מבנית, זה כבר קרוב מאוד לתוצר סופי לשימוש יומי."
+  ],
+  "pipeline_status": {
+    "data_freshness": "final starter integration",
+    "generator": "scripts/generate_reports.py",
+    "environment": "github-actions with FINNHUB_API_KEY, ALPHA_VANTAGE_API_KEY, FMP_API_KEY, FRED_API_KEY",
+    "scoring_reasons": [
+      "Index proxies positive"
+    ]
+  }
+}
