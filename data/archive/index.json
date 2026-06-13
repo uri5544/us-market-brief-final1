@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "date": "2026-06-13",
+      "mode": "open",
+      "label": "2026-06-13 Open",
+      "file": "2026-06-13-open.json"
+    },
+    {
+      "date": "2026-06-13",
+      "mode": "close",
+      "label": "2026-06-13 Close",
+      "file": "2026-06-13-close.json"
+    },
+    {
       "date": "2026-06-11",
       "mode": "open",
       "label": "2026-06-11 Open",
