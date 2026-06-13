@@ -1,8 +1,5 @@
 name: Update final market reports and archive
 
-permissions:
-  contents: write
-
 on:
   workflow_dispatch:
   schedule:
@@ -33,7 +30,16 @@ jobs:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: python scripts/generate_reports.py
 
-      - name: Skip git push for now
+      - name: Verify generated files
         run: |
-          echo "Reports generated successfully."
-          echo "Skipping commit/push because main has remote history conflicts."
+          ls -la data
+          ls -la data/archive || true
+
+      - name: Upload generated reports artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: market-reports
+          path: |
+            data/*.json
+            data/archive/*.json
+          if-no-files-found: error
