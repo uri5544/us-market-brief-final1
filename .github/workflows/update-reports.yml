@@ -1,5 +1,6 @@
 name: Update final market reports and archive
-
+permissions:
+  contents: write
 on:
   workflow_dispatch:
   schedule:
