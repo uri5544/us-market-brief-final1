@@ -47,39 +47,58 @@ def get_finnhub_news():
 def get_finnhub_economic_calendar():
     if not FINNHUB_API_KEY:
         return []
-    data = safe_get_json('https://finnhub.io/api/v1/calendar/economic', {'from': TODAY, 'to': TODAY, 'token': FINNHUB_API_KEY})
+    data = safe_get_json(
+        'https://finnhub.io/api/v1/calendar/economic',
+        {'from': TODAY, 'to': TODAY, 'token': FINNHUB_API_KEY}
+    )
     return data.get('economicCalendar', [])[:6] if isinstance(data, dict) else []
 
 
 def get_finnhub_market_status():
     if not FINNHUB_API_KEY:
         return None
-    return safe_get_json('https://finnhub.io/api/v1/stock/market-status', {'exchange': 'US', 'token': FINNHUB_API_KEY})
+    return safe_get_json(
+        'https://finnhub.io/api/v1/stock/market-status',
+        {'exchange': 'US', 'token': FINNHUB_API_KEY}
+    )
 
 
 def get_alpha_news():
     if not ALPHA_VANTAGE_API_KEY:
         return []
-    data = safe_get_json('https://www.alphavantage.co/query', {'function': 'NEWS_SENTIMENT', 'tickers': 'SPY,QQQ', 'apikey': ALPHA_VANTAGE_API_KEY})
+    data = safe_get_json(
+        'https://www.alphavantage.co/query',
+        {'function': 'NEWS_SENTIMENT', 'tickers': 'SPY,QQQ', 'apikey': ALPHA_VANTAGE_API_KEY}
+    )
     return data.get('feed', [])[:4] if isinstance(data, dict) else []
 
 
 def get_alpha_top_movers():
     if not ALPHA_VANTAGE_API_KEY:
         return []
-    data = safe_get_json('https://www.alphavantage.co/query', {'function': 'TOP_GAINERS_LOSERS', 'apikey': ALPHA_VANTAGE_API_KEY})
+    data = safe_get_json(
+        'https://www.alphavantage.co/query',
+        {'function': 'TOP_GAINERS_LOSERS', 'apikey': ALPHA_VANTAGE_API_KEY}
+    )
     if not isinstance(data, dict):
         return []
     out = []
     for item in data.get('top_gainers', [])[:2] + data.get('top_losers', [])[:2]:
-        out.append({'asset': item.get('ticker', 'n/a'), 'move': item.get('change_percentage', 'n/a'), 'driver': 'Alpha Vantage top movers feed'})
+        out.append({
+            'asset': item.get('ticker', 'n/a'),
+            'move': item.get('change_percentage', 'n/a'),
+            'driver': 'Alpha Vantage top movers feed'
+        })
     return out[:4]
 
 
 def get_alpha_treasury(maturity='10year'):
     if not ALPHA_VANTAGE_API_KEY:
         return None
-    data = safe_get_json('https://www.alphavantage.co/query', {'function': 'TREASURY_YIELD', 'interval': 'daily', 'maturity': maturity, 'apikey': ALPHA_VANTAGE_API_KEY})
+    data = safe_get_json(
+        'https://www.alphavantage.co/query',
+        {'function': 'TREASURY_YIELD', 'interval': 'daily', 'maturity': maturity, 'apikey': ALPHA_VANTAGE_API_KEY}
+    )
     if isinstance(data, dict) and isinstance(data.get('data'), list) and data['data']:
         return data['data'][0].get('value')
     return None
@@ -88,29 +107,50 @@ def get_alpha_treasury(maturity='10year'):
 def get_fmp_sector_performance():
     if not FMP_API_KEY:
         return []
-    data = safe_get_json('https://financialmodelingprep.com/api/v3/sectors-performance', {'apikey': FMP_API_KEY})
+    data = safe_get_json(
+        'https://financialmodelingprep.com/api/v3/sectors-performance',
+        {'apikey': FMP_API_KEY}
+    )
     if not isinstance(data, list):
         return []
-    return [{'sector': item.get('sector', 'Unknown'), 'move': item.get('changesPercentage', 'n/a'), 'note': 'FMP sectors-performance feed'} for item in data[:6]]
+    return [
+        {
+            'sector': item.get('sector', 'Unknown'),
+            'move': item.get('changesPercentage', 'n/a'),
+            'note': 'FMP sectors-performance feed'
+        }
+        for item in data[:6]
+    ]
 
 
 def get_breadth_snapshot():
     if not ALPHA_VANTAGE_API_KEY:
         return None
-    data = safe_get_json('https://www.alphavantage.co/query', {'function': 'TOP_GAINERS_LOSERS', 'apikey': ALPHA_VANTAGE_API_KEY})
+    data = safe_get_json(
+        'https://www.alphavantage.co/query',
+        {'function': 'TOP_GAINERS_LOSERS', 'apikey': ALPHA_VANTAGE_API_KEY}
+    )
     if not isinstance(data, dict):
         return None
     gainers = data.get('top_gainers', [])
     losers = data.get('top_losers', [])
     most_active = data.get('most_actively_traded', [])
-    return {'gainers_count': len(gainers), 'losers_count': len(losers), 'active_count': len(most_active)}
+    return {
+        'gainers_count': len(gainers),
+        'losers_count': len(losers),
+        'active_count': len(most_active)
+    }
 
 
 def get_vix_latest():
     if FRED_API_KEY:
-        data = safe_get_json('https://api.stlouisfed.org/fred/series/observations', {'series_id': 'VIXCLS', 'api_key': FRED_API_KEY, 'file_type': 'json', 'sort_order': 'desc', 'limit': 1})
+        data = safe_get_json(
+            'https://api.stlouisfed.org/fred/series/observations',
+            {'series_id': 'VIXCLS', 'api_key': FRED_API_KEY, 'file_type': 'json', 'sort_order': 'desc', 'limit': 1}
+        )
         if isinstance(data, dict) and isinstance(data.get('observations'), list) and data['observations']:
             return data['observations'][0].get('value')
+
     quote = get_finnhub_quote('^VIX')
     if isinstance(quote, dict) and quote.get('c') is not None:
         return str(quote.get('c'))
@@ -124,7 +164,7 @@ def pct_move(current, prev_close):
 
 
 def fmt_move(v):
-    return 'n/a' if v is None else f"{'+' if v >= 0 else ''}{v:.2f}%"
+    return None if v is None else f"{'+' if v >= 0 else ''}{v:.2f}%"
 
 
 def tone(v):
@@ -141,22 +181,23 @@ def parse_num(value):
 def build_metrics():
     symbols = [('SPY', 'S&P proxy'), ('QQQ', 'Nasdaq proxy'), ('DIA', 'Dow proxy'), ('IWM', 'Russell proxy')]
     metrics = []
+
     for symbol, label in symbols:
         q = get_finnhub_quote(symbol)
         if isinstance(q, dict):
             move = pct_move(q.get('c'), q.get('pc'))
-            metrics.append({'label': label, 'value': fmt_move(move), 'tone': tone(move), 'raw_move': move})
-    if not metrics:
-        metrics = [
-            {'label': 'S&P proxy', 'value': 'API pending', 'tone': 'blue', 'raw_move': None},
-            {'label': 'Nasdaq proxy', 'value': 'API pending', 'tone': 'blue', 'raw_move': None},
-            {'label': 'Dow proxy', 'value': 'API pending', 'tone': 'blue', 'raw_move': None},
-            {'label': 'Russell proxy', 'value': 'API pending', 'tone': 'blue', 'raw_move': None},
-        ]
+            value = fmt_move(move)
+            if value is not None:
+                metrics.append({'label': label, 'value': value, 'tone': tone(move), 'raw_move': move})
+
     vix = get_vix_latest()
+    if vix not in (None, '', 'null'):
+        metrics.append({'label': 'VIX', 'value': str(vix), 'tone': 'blue', 'raw_move': None})
+
     y10 = get_alpha_treasury('10year')
-    metrics.append({'label': 'VIX', 'value': vix or 'pending', 'tone': 'blue', 'raw_move': None})
-    metrics.append({'label': 'US10Y', 'value': f'{y10}%' if y10 else 'pending', 'tone': 'blue', 'raw_move': None})
+    if y10 not in (None, '', 'null'):
+        metrics.append({'label': 'US10Y', 'value': f'{y10}%', 'tone': 'blue', 'raw_move': None})
+
     return metrics[:6]
 
 
@@ -168,37 +209,31 @@ def build_headlines():
     for item in get_alpha_news():
         if isinstance(item, dict) and item.get('title'):
             out.append(item['title'])
-    return out[:6] or [
-        'Live headlines will appear here once API keys are configured.',
-        'The summary remains the first analytical block in the final dashboard structure.',
-        'You can still replace or enrich sources later without changing the reading flow.'
-    ]
+    return out[:6]
 
 
 def build_macro():
     rows = []
     for item in get_finnhub_economic_calendar():
         if isinstance(item, dict):
-            rows.append({'time': item.get('time', 'n/a'), 'event': item.get('event', 'Unknown event'), 'status': item.get('impact', 'Watch')})
-    return rows[:5] or [{'time': 'n/a', 'event': 'Economic calendar pending API connection', 'status': 'Connect Finnhub key'}]
+            rows.append({
+                'time': item.get('time', 'n/a'),
+                'event': item.get('event', 'Unknown event'),
+                'status': item.get('impact', 'Watch')
+            })
+    return rows[:5]
 
 
 def build_movers():
-    return get_alpha_top_movers() or [
-        {'asset': 'NVDA', 'move': '+0.0%', 'driver': 'Alpha Vantage movers pending'},
-        {'asset': 'MSFT', 'move': '+0.0%', 'driver': 'Alpha Vantage movers pending'}
-    ]
+    return get_alpha_top_movers()
 
 
 def build_sectors():
-    return get_fmp_sector_performance() or [
-        {'sector': 'Technology', 'move': '+0.0%', 'note': 'FMP sectors pending'},
-        {'sector': 'Financials', 'move': '+0.0%', 'note': 'FMP sectors pending'}
-    ]
+    return get_fmp_sector_performance()
 
 
 def build_context():
-    breadth = get_breadth_snapshot() or {'gainers_count': 0, 'losers_count': 0, 'active_count': 0}
+    breadth = get_breadth_snapshot() or {}
     status = get_finnhub_market_status() or {}
     vix = get_vix_latest()
     y2 = get_alpha_treasury('2year')
@@ -215,30 +250,50 @@ def build_context():
 def build_scoring(metrics, sectors, context):
     score = 0
     reasons = []
+
     metric_moves = [m.get('raw_move') for m in metrics if isinstance(m.get('raw_move'), (int, float))]
     sector_moves = [parse_num(s.get('move')) for s in sectors]
     sector_moves = [x for x in sector_moves if x is not None]
+
     avg_metric = sum(metric_moves) / len(metric_moves) if metric_moves else 0
     avg_sector = sum(sector_moves) / len(sector_moves) if sector_moves else 0
-    if avg_metric > 0.35:
-        score += 2; reasons.append('Index proxies positive')
-    elif avg_metric < -0.35:
-        score -= 2; reasons.append('Index proxies negative')
-    if avg_sector > 0.2:
-        score += 1; reasons.append('Sector breadth supportive')
-    elif avg_sector < -0.2:
-        score -= 1; reasons.append('Sector breadth weak')
+
+    if metric_moves:
+        if avg_metric > 0.35:
+            score += 2
+            reasons.append('Index proxies positive')
+        elif avg_metric < -0.35:
+            score -= 2
+            reasons.append('Index proxies negative')
+
+    if sector_moves:
+        if avg_sector > 0.2:
+            score += 1
+            reasons.append('Sector breadth supportive')
+        elif avg_sector < -0.2:
+            score -= 1
+            reasons.append('Sector breadth weak')
+
     vix = parse_num(context.get('vix'))
     if vix is not None:
         if vix < 18:
-            score += 1; reasons.append('VIX relatively calm')
+            score += 1
+            reasons.append('VIX relatively calm')
         elif vix > 24:
-            score -= 1; reasons.append('VIX elevated')
+            score -= 1
+            reasons.append('VIX elevated')
+
     breadth = context.get('breadth', {})
-    if breadth.get('gainers_count', 0) > breadth.get('losers_count', 0):
-        score += 1; reasons.append('Gainers exceed losers in snapshot')
-    elif breadth.get('gainers_count', 0) < breadth.get('losers_count', 0):
-        score -= 1; reasons.append('Losers exceed gainers in snapshot')
+    g = breadth.get('gainers_count')
+    l = breadth.get('losers_count')
+    if isinstance(g, int) and isinstance(l, int):
+        if g > l:
+            score += 1
+            reasons.append('Gainers exceed losers in snapshot')
+        elif g < l:
+            score -= 1
+            reasons.append('Losers exceed gainers in snapshot')
+
     regime = 'Balanced / neutral'
     if score >= 3:
         regime = 'Risk-on confirmation'
@@ -248,33 +303,52 @@ def build_scoring(metrics, sectors, context):
         regime = 'Risk-off confirmation'
     elif score <= -2:
         regime = 'Cautious risk-off'
+
     return {'score': score, 'regime': regime, 'reasons': reasons[:4]}
 
 
 def build_summary(report_type, metrics, headlines, macro, movers, sectors, context, scoring):
     mode_text = 'פתיחה' if report_type == 'open' else 'סגירה'
-    metric_text = ', '.join([f"{m['label']} {m['value']}" for m in metrics[:4]])
-    macro_event = macro[0]['event'] if macro else 'No macro event loaded'
-    top_headline = headlines[0] if headlines else 'No live headline loaded'
-    top_mover = movers[0]['asset'] if movers else 'No mover loaded'
-    top_sector = sectors[0]['sector'] if sectors else 'No sector loaded'
-    breadth = context.get('breadth', {})
-    market_open = context.get('market_status', {}).get('isOpen')
-    market_state = 'open' if market_open is True else 'closed / pending'
-    vix = context.get('vix') or 'pending'
-    y10 = context.get('10y') or 'pending'
-    return [
-        f'זהו בלוק 10 נקודות הסיכום של דוח {mode_text}, והוא נשאר ראשון במסך גם בגרסה הסופית.',
-        f'מצב השוק לפי מנוע הניקוד: {scoring["regime"]} (score {scoring["score"]}).',
-        f'סטטוס המסחר בארה"ב כרגע: {market_state}.',
-        f'תמונת המדדים/פרוקסים כרגע: {metric_text}.',
-        f'מדד התנודתיות VIX עומד על {vix}, ותשואת אג"ח ארה"ב ל-10 שנים על {y10}%.',
-        f'תמונת breadth מה-snapshot: gainers {breadth.get("gainers_count",0)} מול losers {breadth.get("losers_count",0)}.',
-        f'אירוע המאקרו המרכזי שזוהה: {macro_event}.',
-        f'המניה הבולטת ב-feed של movers היא {top_mover}, והסקטור הראשון בפיד הוא {top_sector}.',
-        'הסיכום העליון כבר משלב metrics, macro, movers, sectors, volatility, yields ו-breadth.',
-        f'דוגמת headline חי שנקלט: {top_headline}'
+    lines = [
+        f'זהו דוח {mode_text} אוטומטי במבנה אחיד.',
+        f'מצב השוק לפי מנוע הניקוד: {scoring["regime"]} (score {scoring["score"]}).'
     ]
+
+    market_open = context.get('market_status', {}).get('isOpen')
+    if market_open is True:
+        lines.append('סטטוס המסחר בארה"ב כרגע: open.')
+    elif market_open is False:
+        lines.append('סטטוס המסחר בארה"ב כרגע: closed.')
+
+    metric_text = ', '.join([f'{m["label"]} {m["value"]}' for m in metrics[:4] if m.get('value')])
+    if metric_text:
+        lines.append(f'תמונת המדדים כרגע: {metric_text}.')
+
+    vix = context.get('vix')
+    y10 = context.get('10y')
+    if vix and y10:
+        lines.append(f'VIX עומד על {vix}, ותשואת אג"ח ארה"ב ל-10 שנים על {y10}%.')
+    elif vix:
+        lines.append(f'VIX עומד על {vix}.')
+    elif y10:
+        lines.append(f'תשואת אג"ח ארה"ב ל-10 שנים עומדת על {y10}%.')
+
+    breadth = context.get('breadth', {})
+    g = breadth.get('gainers_count')
+    l = breadth.get('losers_count')
+    if isinstance(g, int) and isinstance(l, int):
+        lines.append(f'תמונת breadth מה-snapshot: gainers {g} מול losers {l}.')
+
+    if macro:
+        lines.append(f'אירוע המאקרו המרכזי שזוהה: {macro[0]["event"]}.')
+    if movers:
+        lines.append(f'המניה הבולטת בפיד movers היא {movers[0]["asset"]}.')
+    if sectors:
+        lines.append(f'הסקטור הראשון בפיד הוא {sectors[0]["sector"]}.')
+    if headlines:
+        lines.append(f'כותרת בולטת שנקלטה: {headlines[0]}')
+
+    return lines[:10]
 
 
 def build_report(report_type='open'):
@@ -285,20 +359,21 @@ def build_report(report_type='open'):
     sectors = build_sectors()
     context = build_context()
     scoring = build_scoring(metrics, sectors, context)
+
     return {
-        'schema_version': '3.0-final-starter',
+        'schema_version': '4.0-clean',
         'report_type': report_type,
         'report_date': TODAY,
         'generated_at': NOW_LABEL,
-        'report_window': 'Final starter architecture',
+        'report_window': 'Automated market brief',
         'market_regime': scoring['regime'],
-        'sub_title': 'המסך הסופי כולל summary ראשון, metrics, movers, sectors, macro, headlines, breadth, VIX, yields ו-scoring engine',
-        'hero_title': 'Opening report final architecture' if report_type == 'open' else 'Closing report final architecture',
-        'hero_text': 'זוהי גרסה כמעט סופית של המערכת: תצוגת דוח אחידה, pipeline מתוזמן, ושכבות נתונים חיות שמזינות קודם כל את עשר נקודות הסיכום.',
+        'sub_title': 'סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד',
+        'hero_title': 'Opening market brief' if report_type == 'open' else 'Closing market brief',
+        'hero_text': 'הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.',
         'movers_title': 'Live movers',
         'badges': [
-            {'label': 'FINAL STARTER', 'class': 'live'},
-            {'label': '10-POINT SUMMARY FIRST', 'class': 'macro'},
+            {'label': 'LIVE DATA ONLY', 'class': 'live'},
+            {'label': 'CLEAN OUTPUT', 'class': 'macro'},
             {'label': 'SCORING ENGINE', 'class': 'info'}
         ],
         'metrics': [{'label': m['label'], 'value': m['value'], 'tone': m['tone']} for m in metrics],
@@ -308,14 +383,14 @@ def build_report(report_type='open'):
         'macro': macro,
         'headlines': headlines,
         'tomorrow_setup': [
-            'הפוקוס עכשיו צריך לעבור מחיבור מקורות לבקרת איכות של הטקסטים והדאטה.',
-            'אפשר לכוונן את scoring thresholds לפי סגנון הקריאה שאתה אוהב.',
-            'מבנית, זה כבר קרוב מאוד לתוצר סופי לשימוש יומי.'
+            'להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.',
+            'להמשיך לנקות ניסוחים מעורבים של עברית ואנגלית.',
+            'להסתיר בלוקים ריקים במקום להציג placeholder מטעה.'
         ],
         'pipeline_status': {
-            'data_freshness': 'final starter integration',
+            'data_freshness': 'live fields only',
             'generator': 'scripts/generate_reports.py',
-            'environment': 'github-actions with FINNHUB_API_KEY, ALPHA_VANTAGE_API_KEY, FMP_API_KEY, FRED_API_KEY',
+            'environment': 'github-actions',
             'scoring_reasons': scoring['reasons']
         }
     }
@@ -324,7 +399,12 @@ def build_report(report_type='open'):
 def write_archive(report):
     archive_name = f"{report['report_date']}-{report['report_type']}.json"
     save_json(ARCHIVE_DIR / archive_name, report)
-    return {'date': report['report_date'], 'mode': report['report_type'], 'label': f"{report['report_date']} {report['report_type'].title()}", 'file': archive_name}
+    return {
+        'date': report['report_date'],
+        'mode': report['report_type'],
+        'label': f"{report['report_date']} {report['report_type'].title()}",
+        'file': archive_name
+    }
 
 
 def merge_archive_index(new_items):
@@ -335,6 +415,7 @@ def merge_archive_index(new_items):
             existing = json.loads(index_path.read_text(encoding='utf-8')).get('items', [])
         except Exception:
             existing = []
+
     merged, seen = [], set()
     for item in new_items + existing:
         key = (item['date'], item['mode'])
@@ -342,6 +423,7 @@ def merge_archive_index(new_items):
             continue
         seen.add(key)
         merged.append(item)
+
     save_json(index_path, {'items': merged[:30]})
 
 
