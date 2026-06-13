@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Market dashboard NEWf</title>
+  <title>Market dashboard NEW</title>
   <link rel="preconnect" href="https://api.fontshare.com">
   <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet">
   <style>
@@ -245,12 +245,14 @@
       color:var(--muted);
       font-size:.86rem;
       margin-bottom:8px;
+      unicode-bidi:isolate;
     }
 
     .metric .value{
       font-size:2rem;
       font-weight:900;
       line-height:1;
+      unicode-bidi:isolate;
     }
 
     .pos{color:var(--good)}
@@ -310,12 +312,13 @@
 
     .bullet .text{
       min-width:0;
+      unicode-bidi:isolate;
     }
 
     .bullet .text[dir="ltr"],
     .ltr{
       direction:ltr;
-      unicode-bidi:embed;
+      unicode-bidi:isolate;
       text-align:left;
     }
 
@@ -338,6 +341,7 @@
 
     td{
       font-size:1rem;
+      unicode-bidi:isolate;
     }
 
     tr:last-child td{border-bottom:none}
@@ -368,6 +372,10 @@
       color:var(--muted);
       font-size:.9rem;
       margin-top:8px;
+    }
+
+    .is-hidden{
+      display:none !important;
     }
 
     @media (max-width:1200px){
@@ -440,7 +448,7 @@
         </div>
       </div>
 
-      <section class="hero">
+      <section class="hero" id="heroSection">
         <div class="badges" id="badges"></div>
         <h3 id="heroTitle">Loading…</h3>
         <p class="desc" id="heroText"></p>
@@ -448,20 +456,20 @@
         <div class="metrics" id="metrics"></div>
       </section>
 
-      <section class="grid">
-        <article class="card">
+      <section class="grid" id="gridTop">
+        <article class="card" id="statusCard">
           <h4>Pipeline status and scoring</h4>
           <div class="status-list" id="statusList"></div>
         </article>
 
-        <article class="card">
+        <article class="card" id="summaryCard">
           <h4 id="summaryTitle">10-point summary</h4>
           <div class="bullets" id="summary"></div>
         </article>
       </section>
 
-      <section class="grid">
-        <article class="card">
+      <section class="grid" id="gridMid">
+        <article class="card" id="moversCard">
           <h4 id="moversTitle">Live movers</h4>
           <table>
             <thead>
@@ -475,7 +483,7 @@
           </table>
         </article>
 
-        <article class="card">
+        <article class="card" id="sectorsCard">
           <h4>Sector performance</h4>
           <table>
             <thead>
@@ -490,8 +498,8 @@
         </article>
       </section>
 
-      <section class="grid">
-        <article class="card">
+      <section class="grid" id="gridBottom">
+        <article class="card" id="macroCard">
           <h4>Macro calendar</h4>
           <table>
             <thead>
@@ -505,25 +513,25 @@
           </table>
         </article>
 
-        <article class="card">
+        <article class="card" id="headlinesCard">
           <h4>Top headlines and context</h4>
           <div class="bullets" id="headlines"></div>
         </article>
       </section>
 
-      <section class="grid">
-        <article class="card">
+      <section class="grid" id="gridFinal">
+        <article class="card" id="tomorrowCard">
           <h4>Tomorrow setup / watch items</h4>
           <div class="bullets" id="tomorrow"></div>
         </article>
 
-        <article class="card">
+        <article class="card" id="notesCard">
           <h4>Notes</h4>
           <div class="footer-note">
-            הקובץ נטען ישירות מתוך JSON מקומי בריפו, כך שאין צורך בשרת צד־אחורי כדי להציג את הדוח. [web:590][web:597]
+            הקובץ נטען ישירות מתוך JSON מקומי בריפו.
           </div>
           <div class="footer-note">
-            העימוד משתמש ב־RTL ברמת הדף, ובאזורים עם אנגלית/מספרים מוגדר `dir="ltr"` כדי למנוע ערבוב כיווניות. [web:595][web:598][web:602]
+            אזורים עם טקסט מעורב עברית/אנגלית משתמשים ב־bidi isolate להצגה יציבה.
           </div>
         </article>
       </section>
@@ -548,7 +556,15 @@
       badges: $('badges'),
       statusList: $('statusList'),
       moversTitle: $('moversTitle'),
-      archiveList: $('archiveList')
+      archiveList: $('archiveList'),
+      summaryCard: $('summaryCard'),
+      moversCard: $('moversCard'),
+      sectorsCard: $('sectorsCard'),
+      macroCard: $('macroCard'),
+      headlinesCard: $('headlinesCard'),
+      tomorrowCard: $('tomorrowCard'),
+      statusCard: $('statusCard'),
+      heroSection: $('heroSection')
     };
 
     const cache = { reports: {}, archive: null };
@@ -567,6 +583,75 @@
       if (s.includes('-')) return 'neg';
       if (s.includes('+')) return 'pos';
       return fallback;
+    }
+
+    function hasRealText(value) {
+      if (value === null || value === undefined) return false;
+      const text = String(value).trim();
+      if (!text) return false;
+
+      const badPhrases = [
+        'n/a',
+        'pending',
+        'api pending',
+        'economic calendar pending api connection',
+        'alpha vantage movers pending',
+        'fmp sectors pending',
+        'connect finnhub key'
+      ];
+
+      const lower = text.toLowerCase();
+      if (badPhrases.some(p => lower.includes(p))) return false;
+      if (lower === '+0.0%' || lower === '0.0%') return false;
+
+      return true;
+    }
+
+    function validMetrics(items) {
+      return arr(items).filter(m => m && hasRealText(m.label) && hasRealText(m.value));
+    }
+
+    function validSummary(items) {
+      return arr(items).filter(t => hasRealText(t));
+    }
+
+    function validHeadlines(items) {
+      return arr(items).filter(t => hasRealText(t));
+    }
+
+    function validTomorrow(items) {
+      return arr(items).filter(t => String(t || '').trim().length > 0);
+    }
+
+    function validMovers(items) {
+      return arr(items).filter(item =>
+        item &&
+        hasRealText(item.asset) &&
+        hasRealText(item.move) &&
+        hasRealText(item.driver)
+      );
+    }
+
+    function validSectors(items) {
+      return arr(items).filter(item =>
+        item &&
+        hasRealText(item.sector) &&
+        hasRealText(item.move) &&
+        hasRealText(item.note)
+      );
+    }
+
+    function validMacro(items) {
+      return arr(items).filter(item =>
+        item &&
+        hasRealText(item.event) &&
+        hasRealText(item.status)
+      );
+    }
+
+    function show(el, yes) {
+      if (!el) return;
+      el.classList.toggle('is-hidden', !yes);
     }
 
     async function loadJSON(path, key) {
@@ -601,18 +686,20 @@
     }
 
     function renderMetrics(data) {
-      const html = arr(data.metrics).map(m => `
+      const rows = validMetrics(data.metrics);
+      const html = rows.map(m => `
         <div class="metric">
           <div class="label ltr">${txt(m.label)}</div>
           <div class="value ${txt(m.tone) || toneClass(m.value)} ltr">${txt(m.value)}</div>
         </div>
       `).join('');
-      els.metrics.innerHTML = html || `<div class="empty">אין נתוני metrics.</div>`;
+      els.metrics.innerHTML = html;
+      show(els.heroSection, true);
     }
 
     function bulletList(items, alpha = false) {
-      const list = arr(items);
-      if (!list.length) return `<div class="empty">אין נתונים להצגה.</div>`;
+      const list = alpha ? validTomorrow(items) : validSummary(items);
+      if (!list.length) return '';
       return list.map((t, i) => `
         <div class="bullet">
           <div class="text">${txt(t)}</div>
@@ -621,9 +708,20 @@
       `).join('');
     }
 
-    function renderTableRows(items, columns) {
-      const rows = arr(items);
-      if (!rows.length) return `<tr><td colspan="${columns.length}" class="muted">אין נתונים להצגה.</td></tr>`;
+    function headlinesList(items) {
+      const list = validHeadlines(items);
+      if (!list.length) return '';
+      return list.map((t, i) => `
+        <div class="bullet">
+          <div class="text">${txt(t)}</div>
+          <div class="index">${i + 1}</div>
+        </div>
+      `).join('');
+    }
+
+    function renderTableRows(items, columns, validator) {
+      const rows = validator(items);
+      if (!rows.length) return '';
 
       return rows.map(row => `
         <tr>
@@ -647,7 +745,7 @@
         ['Generator', txt(ps.generator)],
         ['Environment', txt(ps.environment)],
         ['Source', source]
-      ];
+      ].filter(([_, v]) => String(v || '').trim().length > 0);
 
       els.statusList.innerHTML = items.map(([k, v]) => `
         <div class="status-row">
@@ -655,6 +753,8 @@
           <div class="k">${k}</div>
         </div>
       `).join('');
+
+      show(els.statusCard, items.length > 0);
     }
 
     function render(data, source = 'live') {
@@ -667,27 +767,41 @@
       renderBadges(data);
       renderMetrics(data);
 
-      els.summary.innerHTML = bulletList(data.summary);
-      els.headlines.innerHTML = bulletList(data.headlines);
-      els.tomorrow.innerHTML = bulletList(data.tomorrow_setup, true);
+      const summaryHtml = bulletList(data.summary);
+      els.summary.innerHTML = summaryHtml;
+      show(els.summaryCard, !!summaryHtml);
 
-      els.movers.innerHTML = renderTableRows(data.movers, [
+      const headlinesHtml = headlinesList(data.headlines);
+      els.headlines.innerHTML = headlinesHtml;
+      show(els.headlinesCard, !!headlinesHtml);
+
+      const tomorrowHtml = bulletList(data.tomorrow_setup, true);
+      els.tomorrow.innerHTML = tomorrowHtml;
+      show(els.tomorrowCard, !!tomorrowHtml);
+
+      const moversHtml = renderTableRows(data.movers, [
         { key: 'asset', dir: 'ltr' },
         { key: 'move', dir: 'ltr', className: v => toneClass(v) },
         { key: 'driver' }
-      ]);
+      ], validMovers);
+      els.movers.innerHTML = moversHtml;
+      show(els.moversCard, !!moversHtml);
 
-      els.sectors.innerHTML = renderTableRows(data.sectors, [
+      const sectorsHtml = renderTableRows(data.sectors, [
         { key: 'sector' },
         { key: 'move', dir: 'ltr', className: v => toneClass(v) },
         { key: 'note' }
-      ]);
+      ], validSectors);
+      els.sectors.innerHTML = sectorsHtml;
+      show(els.sectorsCard, !!sectorsHtml);
 
-      els.macro.innerHTML = renderTableRows(data.macro, [
+      const macroHtml = renderTableRows(data.macro, [
         { key: 'time', dir: 'ltr' },
         { key: 'event' },
         { key: 'status' }
-      ]);
+      ], validMacro);
+      els.macro.innerHTML = macroHtml;
+      show(els.macroCard, !!macroHtml);
 
       renderStatus(data, source);
     }
