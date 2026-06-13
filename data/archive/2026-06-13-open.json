@@ -1,21 +1,21 @@
 {
-  "schema_version": "3.0-final-starter",
+  "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-06-13",
-  "generated_at": "2026-06-13 10:12 UTC",
-  "report_window": "Final starter architecture",
+  "generated_at": "2026-06-13 12:34 UTC",
+  "report_window": "Automated market brief",
   "market_regime": "Constructive risk-on",
-  "sub_title": "המסך הסופי כולל summary ראשון, metrics, movers, sectors, macro, headlines, breadth, VIX, yields ו-scoring engine",
-  "hero_title": "Opening report final architecture",
-  "hero_text": "זוהי גרסה כמעט סופית של המערכת: תצוגת דוח אחידה, pipeline מתוזמן, ושכבות נתונים חיות שמזינות קודם כל את עשר נקודות הסיכום.",
+  "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
+  "hero_title": "Opening market brief",
+  "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
   "movers_title": "Live movers",
   "badges": [
     {
-      "label": "FINAL STARTER",
+      "label": "LIVE DATA ONLY",
       "class": "live"
     },
     {
-      "label": "10-POINT SUMMARY FIRST",
+      "label": "CLEAN OUTPUT",
       "class": "macro"
     },
     {
@@ -56,65 +56,56 @@
     }
   ],
   "summary": [
-    "זהו בלוק 10 נקודות הסיכום של דוח פתיחה, והוא נשאר ראשון במסך גם בגרסה הסופית.",
+    "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
-    "סטטוס המסחר בארה\"ב כרגע: closed / pending.",
-    "תמונת המדדים/פרוקסים כרגע: S&P proxy +0.54%, Nasdaq proxy +0.59%, Dow proxy +0.73%, Russell proxy +0.87%.",
-    "מדד התנודתיות VIX עומד על 19.44, ותשואת אג\"ח ארה\"ב ל-10 שנים על pending%.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "אירוע המאקרו המרכזי שזוהה: Economic calendar pending API connection.",
-    "המניה הבולטת ב-feed של movers היא NVDA, והסקטור הראשון בפיד הוא Technology.",
-    "הסיכום העליון כבר משלב metrics, macro, movers, sectors, volatility, yields ו-breadth.",
-    "דוגמת headline חי שנקלט: Iran peace deal looms while new military action flares near Strait of Hormuz - Reuters"
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy +0.54%, Nasdaq proxy +0.59%, Dow proxy +0.73%, Russell proxy +0.87%.",
+    "VIX עומד על 19.44, ותשואת אג\"ח ארה\"ב ל-10 שנים על 4.45%.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "המניה הבולטת בפיד movers היא IVDAW.",
+    "כותרת בולטת שנקלטה: Pakistan PM says US-Iran peace deal signing expected within 24 hours - Reuters"
   ],
   "movers": [
     {
-      "asset": "NVDA",
-      "move": "+0.0%",
-      "driver": "Alpha Vantage movers pending"
+      "asset": "IVDAW",
+      "move": "260.0823%",
+      "driver": "Alpha Vantage top movers feed"
     },
     {
-      "asset": "MSFT",
-      "move": "+0.0%",
-      "driver": "Alpha Vantage movers pending"
-    }
-  ],
-  "sectors": [
-    {
-      "sector": "Technology",
-      "move": "+0.0%",
-      "note": "FMP sectors pending"
+      "asset": "GRAF+",
+      "move": "186.6667%",
+      "driver": "Alpha Vantage top movers feed"
     },
     {
-      "sector": "Financials",
-      "move": "+0.0%",
-      "note": "FMP sectors pending"
-    }
-  ],
-  "macro": [
+      "asset": "CPOP",
+      "move": "-81.4286%",
+      "driver": "Alpha Vantage top movers feed"
+    },
     {
-      "time": "n/a",
-      "event": "Economic calendar pending API connection",
-      "status": "Connect Finnhub key"
+      "asset": "TBLAW",
+      "move": "-55.0%",
+      "driver": "Alpha Vantage top movers feed"
     }
   ],
+  "sectors": [],
+  "macro": [],
   "headlines": [
-    "Iran peace deal looms while new military action flares near Strait of Hormuz - Reuters",
+    "Pakistan PM says US-Iran peace deal signing expected within 24 hours - Reuters",
+    "Iran says funeral for late Supreme Leader Khamenei to begin July 4, burial set for July 9 - Reuters",
+    "Mediator Pakistan says US and Iran expected to sign initial deal within 24 hours - Reuters",
     "Exclusive: US forces shoot down Iranian attack drones, source says - Reuters",
     "US deports Iranian pro-democracy activist to Central African Republic, lawyer says - Reuters",
-    "Wall Street ends higher as SpaceX's market debut dominates - Reuters",
-    "U.S., Iran signal peace deal near as Tehran claims victory - Reuters",
-    "Iran team chief slams FIFA’s 'lack of coordination' on visa issues - Reuters"
+    "Wall Street ends higher as SpaceX's market debut dominates - Reuters"
   ],
   "tomorrow_setup": [
-    "הפוקוס עכשיו צריך לעבור מחיבור מקורות לבקרת איכות של הטקסטים והדאטה.",
-    "אפשר לכוונן את scoring thresholds לפי סגנון הקריאה שאתה אוהב.",
-    "מבנית, זה כבר קרוב מאוד לתוצר סופי לשימוש יומי."
+    "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
+    "להמשיך לנקות ניסוחים מעורבים של עברית ואנגלית.",
+    "להסתיר בלוקים ריקים במקום להציג placeholder מטעה."
   ],
   "pipeline_status": {
-    "data_freshness": "final starter integration",
+    "data_freshness": "live fields only",
     "generator": "scripts/generate_reports.py",
-    "environment": "github-actions with FINNHUB_API_KEY, ALPHA_VANTAGE_API_KEY, FMP_API_KEY, FRED_API_KEY",
+    "environment": "github-actions",
     "scoring_reasons": [
       "Index proxies positive"
     ]
