@@ -41,10 +41,213 @@
   </main>
 </div>
 <script>
-const $=id=>document.getElementById(id);const els={subTitle:$('subTitle'),heroTitle:$('heroTitle'),heroText:$('heroText'),updated:$('updated'),metrics:$('metrics'),summary:$('summary'),movers:$('movers'),macro:$('macro'),headlines:$('headlines'),tomorrow:$('tomorrow'),sectors:$('sectors'),badges:$('badges'),statusList:$('statusList'),moversTitle:$('moversTitle'),archiveList:$('archiveList')};let cache={reports:{},archive:null};function getAutoMode(){const n=new Date(),t=n.getHours()*60+n.getMinutes();return(t>=23*60+30||t<6*60)?'close':'open';}async function loadJSON(path,key){if(cache[key])return cache[key];const r=await fetch(path);if(!r.ok)throw new Error('load failed');const d=await r.json();cache[key]=d;return d;}async function loadReport(mode,archiveFile=null){const key=archiveFile||mode;if(cache.reports[key])return cache.reports[key];const path=archiveFile?`./data/archive/${archiveFile}`:`./data/${mode}-report.json`;const r=await fetch(path);if(!r.ok)throw new Error('report missing');const d=await r.json();cache.reports[key]=d;return d;}function render(data,source='live'){els.subTitle.textContent=data.sub_title;els.heroTitle.textContent=data.hero_title;els.heroText.textContent=data.hero_text;els.updated.textContent=`Generated at ${data.generated_at} | Window: ${data.report_window} | Source: ${source}`;els.moversTitle.textContent=data.movers_title;els.badges.innerHTML=data.badges.map(b=>`<span class="badge ${b.class}">${b.label}</span>`).join('');els.metrics.innerHTML=data.metrics.map(m=>`<div class="metric"><span>${m.label}</span><strong class="${m.tone||''}">${m.value}</strong></div>`).join('');els.summary.innerHTML=data.summary.map((t,i)=>`<div class="bullet"><div class="num">${i+1}</div><div>${t}</div></div>`).join('');els.movers.innerHTML=data.movers.map(r=>`<tr><td>${r.asset}</td><td class="${String(r.move).startsWith('-')?'neg':'pos'}">${r.move}</td><td>${r.driver}</td></tr>`).join('');els.sectors.innerHTML=data.sectors.map(r=>`<tr><td>${r.sector}</td><td class="${String(r.move).startsWith('-')?'neg':'pos'}">${r.move}</td><td>${r.note}</td></tr>`).join('');els.macro.innerHTML=data.macro.map(r=>`<tr><td>${r.time}</td><td>${r.event}</td><td class="muted">${r.status}</td></tr>`).join('');els.headlines.innerHTML=data.headlines.map((t,i)=>`<div class="bullet"><div class="num">${i+1}</div><div>${t}</div></div>`).join('');els.tomorrow.innerHTML=data.tomorrow_setup.map((t,i)=>`<div class="bullet"><div class="num">${String.fromCharCode(65+i)}</div><div>${t}</div></div>`).join('');els.statusList.innerHTML=[`Mode: ${data.report_type}`,`Date: ${data.report_date}`,`Market regime: ${data.market_regime}`,`Freshness: ${data.pipeline_status.data_freshness}`,`Generator: ${data.pipeline_status.generator}`,`Environment: ${data.pipeline_status.environment}`].map((t,i)=>`<div class="bullet"><div class="num">${i+1}</div><div>${t}</div></div>`).join('');}
-async function setMode(mode){document.querySelectorAll('[data-mode]').forEach(btn=>btn.classList.toggle('active',btn.dataset.mode===mode));const actual=mode==='auto'?getAutoMode():mode;const data=await loadReport(actual);render(data,'live');}
-async function initArchive(){const archive=await loadJSON('./data/archive/index.json','archive');els.archiveList.innerHTML=archive.items.map(item=>`<button class="archive-btn" data-file="${item.file}">${item.label}<small>${item.date} · ${item.mode}</small></button>`).join('');document.querySelectorAll('[data-file]').forEach(btn=>btn.addEventListener('click',async()=>{const data=await loadReport('archive',btn.dataset.file);render(data,btn.dataset.file);}));}
-document.querySelectorAll('[data-mode]').forEach(btn=>btn.addEventListener('click',()=>setMode(btn.dataset.mode)));(function(){const t=document.querySelector('[data-theme-toggle]'),r=document.documentElement;let d=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';r.setAttribute('data-theme',d);t.addEventListener('click',()=>{d=d==='dark'?'light':'dark';r.setAttribute('data-theme',d);});})();initArchive();setMode('auto');
+const $ = id => document.getElementById(id);
+
+const els = {
+  subTitle: $('subTitle'),
+  heroTitle: $('heroTitle'),
+  heroText: $('heroText'),
+  updated: $('updated'),
+  metrics: $('metrics'),
+  summary: $('summary'),
+  movers: $('movers'),
+  macro: $('macro'),
+  headlines: $('headlines'),
+  tomorrow: $('tomorrow'),
+  sectors: $('sectors'),
+  badges: $('badges'),
+  statusList: $('statusList'),
+  moversTitle: $('moversTitle'),
+  archiveList: $('archiveList')
+};
+
+let cache = { reports: {}, archive: null };
+
+const arr = v => Array.isArray(v) ? v : [];
+const txt = v => v ?? '';
+
+function getAutoMode() {
+  const n = new Date();
+  const t = n.getHours() * 60 + n.getMinutes();
+  return (t >= 23 * 60 + 30 || t < 6 * 60) ? 'close' : 'open';
+}
+
+async function loadJSON(path, key) {
+  if (cache[key]) return cache[key];
+  const r = await fetch(path);
+  if (!r.ok) throw new Error(`load failed: ${path}`);
+  const d = await r.json();
+  cache[key] = d;
+  return d;
+}
+
+async function loadReport(mode, archiveFile = null) {
+  const key = archiveFile || mode;
+  if (cache.reports[key]) return cache.reports[key];
+
+  const path = archiveFile
+    ? `./data/archive/${archiveFile}`
+    : `./data/${mode}-report.json`;
+
+  const r = await fetch(path);
+  if (!r.ok) throw new Error(`report missing: ${path}`);
+  const d = await r.json();
+  cache.reports[key] = d;
+  return d;
+}
+
+function render(data, source = 'live') {
+  els.subTitle.textContent = txt(data.sub_title);
+  els.heroTitle.textContent = txt(data.hero_title);
+  els.heroText.textContent = txt(data.hero_text);
+  els.updated.textContent = `Generated at ${txt(data.generated_at)} | Window: ${txt(data.report_window)} | Source: ${source}`;
+  els.moversTitle.textContent = txt(data.movers_title || 'Live movers');
+
+  els.badges.innerHTML = arr(data.badges)
+    .map(b => `<span class="badge ${txt(b.class)}">${txt(b.label)}</span>`)
+    .join('');
+
+  els.metrics.innerHTML = arr(data.metrics)
+    .map(m => `
+      <div class="metric">
+        <span>${txt(m.label)}</span>
+        <strong class="${txt(m.tone)}">${txt(m.value)}</strong>
+      </div>
+    `)
+    .join('');
+
+  els.summary.innerHTML = arr(data.summary)
+    .map((t, i) => `
+      <div class="bullet">
+        <div class="num">${i + 1}</div>
+        <div>${txt(t)}</div>
+      </div>
+    `)
+    .join('');
+
+  els.movers.innerHTML = arr(data.movers)
+    .map(r => `
+      <tr>
+        <td>${txt(r.asset)}</td>
+        <td class="${String(txt(r.move)).startsWith('-') ? 'neg' : 'pos'}">${txt(r.move)}</td>
+        <td>${txt(r.driver)}</td>
+      </tr>
+    `)
+    .join('');
+
+  els.sectors.innerHTML = arr(data.sectors)
+    .map(r => `
+      <tr>
+        <td>${txt(r.sector)}</td>
+        <td class="${String(txt(r.move)).startsWith('-') ? 'neg' : 'pos'}">${txt(r.move)}</td>
+        <td>${txt(r.note)}</td>
+      </tr>
+    `)
+    .join('');
+
+  els.macro.innerHTML = arr(data.macro)
+    .map(r => `
+      <tr>
+        <td>${txt(r.time)}</td>
+        <td>${txt(r.event)}</td>
+        <td class="muted">${txt(r.status)}</td>
+      </tr>
+    `)
+    .join('');
+
+  els.headlines.innerHTML = arr(data.headlines)
+    .map((t, i) => `
+      <div class="bullet">
+        <div class="num">${i + 1}</div>
+        <div>${txt(t)}</div>
+      </div>
+    `)
+    .join('');
+
+  els.tomorrow.innerHTML = arr(data.tomorrow_setup)
+    .map((t, i) => `
+      <div class="bullet">
+        <div class="num">${String.fromCharCode(65 + i)}</div>
+        <div>${txt(t)}</div>
+      </div>
+    `)
+    .join('');
+
+  const ps = data.pipeline_status || {};
+  els.statusList.innerHTML = [
+    `Mode: ${txt(data.report_type)}`,
+    `Date: ${txt(data.report_date)}`,
+    `Market regime: ${txt(data.market_regime)}`,
+    `Freshness: ${txt(ps.data_freshness)}`,
+    `Generator: ${txt(ps.generator)}`,
+    `Environment: ${txt(ps.environment)}`
+  ]
+    .map((t, i) => `
+      <div class="bullet">
+        <div class="num">${i + 1}</div>
+        <div>${t}</div>
+      </div>
+    `)
+    .join('');
+}
+
+async function setMode(mode) {
+  document.querySelectorAll('[data-mode]').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.mode === mode);
+  });
+
+  const actual = mode === 'auto' ? getAutoMode() : mode;
+  const data = await loadReport(actual);
+  render(data, 'live');
+}
+
+async function initArchive() {
+  const archive = await loadJSON('./data/archive/index.json', 'archive');
+
+  els.archiveList.innerHTML = arr(archive.items)
+    .map(item => `
+      <button class="archive-btn" data-file="${txt(item.file)}">
+        ${txt(item.label)}
+        <small>${txt(item.date)} · ${txt(item.mode)}</small>
+      </button>
+    `)
+    .join('');
+
+  document.querySelectorAll('[data-file]').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const data = await loadReport('archive', btn.dataset.file);
+      render(data, btn.dataset.file);
+    });
+  });
+}
+
+document.querySelectorAll('[data-mode]').forEach(btn => {
+  btn.addEventListener('click', () => setMode(btn.dataset.mode));
+});
+
+(function () {
+  const t = document.querySelector('[data-theme-toggle]');
+  const r = document.documentElement;
+  let d = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  r.setAttribute('data-theme', d);
+
+  t.addEventListener('click', () => {
+    d = d === 'dark' ? 'light' : 'dark';
+    r.setAttribute('data-theme', d);
+  });
+})();
+
+(async function init() {
+  try {
+    await initArchive();
+    await setMode('open');
+  } catch (e) {
+    console.error(e);
+    els.heroTitle.textContent = 'Failed to load dashboard';
+    els.heroText.textContent = 'Check JSON paths or schema.';
+    els.updated.textContent = String(e.message || e);
+  }
+})();
 </script>
 </body>
 </html>
