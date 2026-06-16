@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-06-16",
-  "generated_at": "2026-06-16 16:03 UTC",
+  "generated_at": "2026-06-16 20:33 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,22 +26,22 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.17%",
+      "value": "-0.60%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-1.13%",
+      "value": "-1.90%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.83%",
+      "value": "+0.58%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.26%",
+      "value": "-0.87%",
       "tone": "neg"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy -0.17%, Nasdaq proxy -1.13%, Dow proxy +0.83%, Russell proxy -0.26%.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -0.60%, Nasdaq proxy -1.90%, Dow proxy +0.58%, Russell proxy -0.87%.",
     "VIX עומד על 16.2.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Spot oil premiums slip after US-Iran deal, but shipping angst provides floor - Reuters"
+    "כותרת בולטת שנקלטה: Norway's Equinor doubles share buyback as Iran war boosts cash flow - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Spot oil premiums slip after US-Iran deal, but shipping angst provides floor - Reuters",
-    "Novig wins CFTC approval as competition intensifies in sports prediction markets",
-    "As Hormuz crisis eases, gas prices may drop—other costs like groceries and home goods could stay high for a while",
-    "'Godfather' of options sees SpaceX surpassing Nvidia, Tesla as early trades come in",
-    "Self-driving tech supplier Mobileye targets U.S. robotaxi launch in 2027",
-    "Carvana is expanding into new vehicles. The implications could reshape the U.S. automotive retail market"
+    "Norway's Equinor doubles share buyback as Iran war boosts cash flow - Reuters",
+    "Lilly opens its checkbook again, and an insider buy at Broadcom captures our attention",
+    "BMW lowers profit outlook due to China downturn, Iran war double whammy - Reuters",
+    "Exclusive: Iran deal includes $300 billion fund, more than half of which already committed, source says - Reuters",
+    "Jim Cramer: Why we're headed back to pre-Iran war oil prices and what it means",
+    "Tehran can immediately sell oil upon signing US-Iran deal, US official says - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,6 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
+      "Index proxies negative",
       "VIX relatively calm"
     ]
   }
