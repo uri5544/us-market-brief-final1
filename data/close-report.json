@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-06-17",
-  "generated_at": "2026-06-17 12:39 UTC",
+  "generated_at": "2026-06-17 18:39 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.60%",
+      "value": "-0.26%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-1.90%",
-      "tone": "neg"
+      "value": "+0.29%",
+      "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.58%",
+      "value": "+0.02%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.87%",
-      "tone": "neg"
+      "value": "+0.65%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "16.2",
+      "value": "16.41",
       "tone": "blue"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.60%, Nasdaq proxy -1.90%, Dow proxy +0.58%, Russell proxy -0.87%.",
-    "VIX עומד על 16.2.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Trump on Iran deal: 'If I don't like it, we'll go back to shooting' - Reuters"
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -0.26%, Nasdaq proxy +0.29%, Dow proxy +0.02%, Russell proxy +0.65%.",
+    "VIX עומד על 16.41.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: Making money in this market requires rigor and passion — just not in equal parts"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Trump on Iran deal: 'If I don't like it, we'll go back to shooting' - Reuters",
-    "BMW shares sink after profit warning highlights China and Iran risk - Reuters",
-    "CNBC to simulcast 11 WNBA games this season",
-    "Iranian oil tankers pass US blockade after US-Iran deal, data shows - Reuters",
-    "Middle East crude slips into discounts as U.S.-Iran deal lifts supply outlook - Reuters",
-    "Trump's Iran war weighs on G7 economies, but don't expect hard talk in France - Reuters"
+    "Making money in this market requires rigor and passion — just not in equal parts",
+    "CarMax shares fall after used car retailer reports earnings beats, CEO details turnaround plan",
+    "Israel launches fresh airstrikes in Lebanon; Trump says he could still restart war - Reuters",
+    "JetBlue to reduce Newark, LaGuardia footprint as it forges ahead in Fort Lauderdale",
+    "UniQure to seek FDA approval for Huntington's disease gene therapy after previous clash with agency",
+    "3 of our stocks striking gold and 3 others hitting the skids over the past 3 weeks"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,7 +85,6 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies negative",
       "VIX relatively calm"
     ]
   }
