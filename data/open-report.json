@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-06-18",
-  "generated_at": "2026-06-18 11:56 UTC",
+  "generated_at": "2026-06-18 18:41 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Balanced / neutral",
+  "market_regime": "Constructive risk-on",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Opening market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-1.25%",
-      "tone": "neg"
+      "value": "+0.71%",
+      "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-1.01%",
-      "tone": "neg"
+      "value": "+2.29%",
+      "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.99%",
+      "value": "-0.03%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.75%",
-      "tone": "neg"
+      "value": "+1.56%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "16.41",
+      "value": "18.44",
       "tone": "blue"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -1.25%, Nasdaq proxy -1.01%, Dow proxy -0.99%, Russell proxy -0.75%.",
-    "VIX עומד על 16.41, ותשואת אג\"ח ארה\"ב ל-10 שנים על 4.43%.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Here are the odds of SpaceX becoming the world's most valuable company"
+    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +0.71%, Nasdaq proxy +2.29%, Dow proxy -0.03%, Russell proxy +1.56%.",
+    "VIX עומד על 18.44.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Markets are set for a much more hawkish Warsh Fed than expected"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Here are the odds of SpaceX becoming the world's most valuable company",
-    "Godfather of AI blasts Musk's xAI as 'failure,' says labs are risking a 'big bubble explosion'",
-    "Wall St futures bounce back as US-Iran deal optimism balances hawkish Fed; Intel up - Reuters",
-    "Three Saudi-flagged supertankers sail through Hormuz after Iran deal signed, data shows - Reuters",
-    "Switzerland says talks planned for Friday between Iran and U.S. - Reuters",
-    "Iran war fuel spikes lift Europe's EV sales again, but growth may not last - Reuters"
+    "Markets are set for a much more hawkish Warsh Fed than expected",
+    "Oil flowing through the strait, says Vance, but Israeli strikes in Lebanon raise doubts over peace - Reuters",
+    "Accenture forecast takes hit from Iran war, shares tumble over 17% - Reuters",
+    "White House sends text of interim US-Iran agreement to US Congress - Reuters",
+    "Israel demarcates expanded Lebanon occupation zone, challenging US-Iran pact - Reuters",
+    "Wall St advances as Iran deal optimism offsets hawkish Fed; Intel jumps - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,8 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies negative",
-      "VIX relatively calm"
+      "Index proxies positive"
     ]
   }
 }
