@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-06-19",
-  "generated_at": "2026-06-19 12:34 UTC",
+  "generated_at": "2026-06-19 17:31 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Constructive risk-on",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,7 +26,7 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.78%",
+      "value": "+0.79%",
       "tone": "pos"
     },
     {
@@ -36,12 +36,12 @@
     },
     {
       "label": "Dow proxy",
-      "value": "-0.15%",
+      "value": "-0.14%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+1.97%",
+      "value": "+1.98%",
       "tone": "pos"
     },
     {
@@ -59,21 +59,21 @@
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.78%, Nasdaq proxy +2.51%, Dow proxy -0.15%, Russell proxy +1.97%.",
+    "תמונת המדדים כרגע: S&P proxy +0.79%, Nasdaq proxy +2.51%, Dow proxy -0.14%, Russell proxy +1.98%.",
     "VIX עומד על 18.44.",
     "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Stocks dip after US-Iran peace talks delay; yen hovers near 40-year lows - Reuters"
+    "כותרת בולטת שנקלטה: For US Vice President JD Vance, Iran talks could shape political rise - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Stocks dip after US-Iran peace talks delay; yen hovers near 40-year lows - Reuters",
-    "Uncertainty hangs over timing of US-Iran peace talks as Switzerland meeting scrapped - Reuters",
-    "Brent heads for 9% weekly loss as traders weigh US-Iran truce outlook - Reuters",
-    "Bob Iger reflects on 10 years of Shanghai Disneyland as it defies the Chinese pullback",
-    "No UN sanctions lifting on Iran without France's approval, foreign minister says - Reuters",
-    "EXCLUSIVE: Iran's Revolutionary Guards set up covert Iraqi cells to attack Gulf neighbors, sources say - Reuters"
+    "For US Vice President JD Vance, Iran talks could shape political rise - Reuters",
+    "Israel, Hezbollah agree to ceasefire in Lebanon, U.S. official says - Reuters",
+    "Lebanon ceasefire agreed after US-Iran talks in Switzerland scrapped - Reuters",
+    "Oil shipments rise in Hormuz although questions grow over Iran's transit terms - Reuters",
+    "Iran to lodge FIFA complaint over World Cup travel restrictions - Reuters",
+    "29-year-old making $250k in tech went 'undercover' at a coffee chain before opening her own matcha cafe"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
