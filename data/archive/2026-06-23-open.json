@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-06-23",
-  "generated_at": "2026-06-23 08:48 UTC",
+  "generated_at": "2026-06-23 17:27 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.31%",
+      "value": "-0.89%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.36%",
+      "value": "-2.52%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.30%",
+      "value": "+0.26%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.88%",
-      "tone": "pos"
+      "value": "-0.23%",
+      "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "16.78",
+      "value": "17.28",
       "tone": "blue"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.31%, Nasdaq proxy -0.36%, Dow proxy +0.30%, Russell proxy +0.88%.",
-    "VIX עומד על 16.78.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: New Lebanon-Israel talks to begin, in shadow of US-Iran deal - Reuters"
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -0.89%, Nasdaq proxy -2.52%, Dow proxy +0.26%, Russell proxy -0.23%.",
+    "VIX עומד על 17.28.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Israel fire kills two in Lebanon, testing Iran-linked ceasefire - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "New Lebanon-Israel talks to begin, in shadow of US-Iran deal - Reuters",
-    "Rubio faces tough task of selling Iran reset to wary Gulf allies - Reuters",
-    "US waives Iran sanctions, Trump says he will 'do what I have to' if Tehran misbehaves - Reuters",
-    "India's LPG imports from US set to cross 1 million tons in June, sources say - Reuters",
-    "India pivots to Russian crude and coal to mitigate Iran war fallout - Reuters",
-    "Gold falls as dollar holds firm on Fed rate-hike expectations - Reuters"
+    "Israel fire kills two in Lebanon, testing Iran-linked ceasefire - Reuters",
+    "We're adding to our position in an industrial giant with a major catalyst nearing",
+    "Highly successful people do 5 things to get luckier in life, says Stanford leadership expert: 'Good luck isn't random or rare'",
+    "Oman and Iran to pursue talks on managing navigation in Strait of Hormuz - Reuters",
+    "The Club's top 10 things to watch in the stock market Tuesday",
+    "Israel smuggled Starlink systems into Iran, former PM says - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,6 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
+      "Index proxies negative",
       "VIX relatively calm"
     ]
   }
