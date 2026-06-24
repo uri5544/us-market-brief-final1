@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-06-24",
-  "generated_at": "2026-06-24 00:16 UTC",
+  "generated_at": "2026-06-24 17:28 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,71 +26,76 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-1.45%",
+      "value": "-0.12%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-3.29%",
+      "value": "-0.70%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.09%",
-      "tone": "neg"
+      "value": "+0.31%",
+      "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.96%",
-      "tone": "neg"
+      "value": "+0.43%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "17.28",
+      "value": "19.49",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "4.51%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -1.45%, Nasdaq proxy -3.29%, Dow proxy -0.09%, Russell proxy -0.96%.",
-    "VIX עומד על 17.28.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 0).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -0.12%, Nasdaq proxy -0.70%, Dow proxy +0.31%, Russell proxy +0.43%.",
+    "VIX עומד על 19.49.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "המניה הבולטת בפיד movers היא NXTS.",
-    "כותרת בולטת שנקלטה: Trump tests Rust Belt pitch in Pennsylvania amid Iran, inflation pressures - Reuters"
+    "המניה הבולטת בפיד movers היא ATLN.",
+    "כותרת בולטת שנקלטה: Bessent sees GDP growth booming again this year. Kalshi traders see little chance of that"
   ],
   "movers": [
     {
+      "asset": "ATLN",
+      "move": "202.4102%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "ILLRW",
+      "move": "126.3636%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "RQI^",
+      "move": "-69.6667%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
       "asset": "NXTS",
-      "move": "155.9055%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "EHGO",
-      "move": "125.5556%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "TBLAW",
-      "move": "-78.4946%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "MRNOW",
-      "move": "-68.9796%",
+      "move": "-55.3077%",
       "driver": "Alpha Vantage top movers feed"
     }
   ],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Trump tests Rust Belt pitch in Pennsylvania amid Iran, inflation pressures - Reuters",
-    "US Senate votes to halt Iran war in latest rebuke of Trump - Reuters",
-    "CFTC sues Kentucky over actions against prediction markets, making it first red state to face federal scrutiny",
-    "Few in US say Iran war was worth it; Trump approval ties lowest of term, Reuters/Ipsos poll finds - Reuters",
-    "Oil prices finish 1% lower as investors focus on Hormuz flows after peace talks - Reuters",
-    "US eases restrictions on Iran's world cup team, allowing them in a day earlier - Reuters"
+    "Bessent sees GDP growth booming again this year. Kalshi traders see little chance of that",
+    "European shares tread water as Iran uncertainty weighs, Rheinmetall slumps - Reuters",
+    "Israel, Lebanon discuss pilot scheme to hand over territory - Reuters",
+    "Israel insists on troops in southern Lebanon as Rubio defends Iran deal in Middle East - Reuters",
+    "US-Iran deal may leave Netanyahu as biggest casualty - Reuters",
+    "Polymarket-backed platform boosts funding to root out insider trading on prediction markets"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -101,9 +106,6 @@
     "data_freshness": "live fields only",
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
-    "scoring_reasons": [
-      "Index proxies negative",
-      "VIX relatively calm"
-    ]
+    "scoring_reasons": []
   }
 }
