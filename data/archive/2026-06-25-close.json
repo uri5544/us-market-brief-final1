@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-06-25",
-  "generated_at": "2026-06-25 08:37 UTC",
+  "generated_at": "2026-06-25 17:36 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Balanced / neutral",
+  "market_regime": "Constructive risk-on",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.05%",
+      "value": "-0.03%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.42%",
-      "tone": "neg"
+      "value": "+0.74%",
+      "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.37%",
+      "value": "+0.30%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.46%",
+      "value": "+0.56%",
       "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "19.49",
+      "value": "18.63",
       "tone": "blue"
     },
     {
@@ -57,23 +57,45 @@
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 0).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.05%, Nasdaq proxy -0.42%, Dow proxy +0.37%, Russell proxy +0.46%.",
-    "VIX עומד על 19.49.",
+    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -0.03%, Nasdaq proxy +0.74%, Dow proxy +0.30%, Russell proxy +0.56%.",
+    "VIX עומד על 18.63.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Rubio visits Bahrain seeking Gulf backing for Iran deal - Reuters"
+    "המניה הבולטת בפיד movers היא NIXXW.",
+    "כותרת בולטת שנקלטה: We're trimming a health-care stock into strength and raising our price target"
   ],
-  "movers": [],
+  "movers": [
+    {
+      "asset": "NIXXW",
+      "move": "235.2273%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "CCXIW",
+      "move": "221.4286%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "ADTX",
+      "move": "-77.2182%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "SPWRW",
+      "move": "-51.5152%",
+      "driver": "Alpha Vantage top movers feed"
+    }
+  ],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Rubio visits Bahrain seeking Gulf backing for Iran deal - Reuters",
-    "Indian shares advance after oil slips to pre-Iran war levels - Reuters",
-    "Trump says it may never be known who was at fault for strike on girls' school in Iran - Reuters",
-    "US military requires flu vaccine for some after outbreak in Texas training center - Reuters",
-    "Vance says review underway to see how Turkey can get F-35 fighter jets - Reuters",
-    "JPMorgan Chase unveils $50 billion buyback, Goldman Sachs raises dividend after Fed stress test"
+    "We're trimming a health-care stock into strength and raising our price target",
+    "Trump shouting match with Republican senator clouds US push to sell Iran deal - Reuters",
+    "We're locking in triple-digit profits on an AI winner at record highs",
+    "The Club's top 10 things to watch in the stock market Thursday",
+    "Apple raises prices on MacBook and iPad due to memory crunch, hints at more to come",
+    "U.S. giving topped $600 billion for the first time last year. Megadonors and bequests are to thank"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -84,6 +106,8 @@
     "data_freshness": "live fields only",
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
-    "scoring_reasons": []
+    "scoring_reasons": [
+      "Index proxies positive"
+    ]
   }
 }
