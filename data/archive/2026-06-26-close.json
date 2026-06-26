@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-06-26",
-  "generated_at": "2026-06-26 08:40 UTC",
+  "generated_at": "2026-06-26 17:12 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Constructive risk-on",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.14%",
+      "value": "+0.18%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.81%",
-      "tone": "pos"
+      "value": "-0.23%",
+      "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.14%",
+      "value": "+0.24%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.75%",
+      "value": "+0.02%",
       "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "18.63",
+      "value": "18.89",
       "tone": "blue"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.14%, Nasdaq proxy +0.81%, Dow proxy +0.14%, Russell proxy +0.75%.",
-    "VIX עומד על 18.63.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 0).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +0.18%, Nasdaq proxy -0.23%, Dow proxy +0.24%, Russell proxy +0.02%.",
+    "VIX עומד על 18.89.",
     "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Vance, Rubio strike different tone on Iran and Israel - Reuters"
+    "כותרת בולטת שנקלטה: Honeywell Aerospace lands an analyst endorsement ahead of its debut. This is our plan for the stock"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Vance, Rubio strike different tone on Iran and Israel - Reuters",
-    "As Social Security faces trust fund depletion, some Washington lawmakers call for taxing high earners",
-    "FIFA gives green light for rainbow flags at Egypt v Iran World Cup clash - Reuters",
-    "Apple stock gets slammed on bigger Mac, iPad price hikes. Why it can weather the storm",
-    "Obesity drugs approach a major milestone, and Lilly may have a 'game changer' ahead",
-    "Iran fired on cargo ship, US officials tell Reuters - Reuters"
+    "Honeywell Aerospace lands an analyst endorsement ahead of its debut. This is our plan for the stock",
+    "We're adding to our position in a newly public stock that's still finding its footing",
+    "Iran reasserts its right to control shipping in Strait of Hormuz after ship hit near Oman - Reuters",
+    "Why breakthrough GLP-1 weight loss pills may be a bad thing for employer insurance coverage",
+    "Middlemen offer Iranian oil to Indian refiners after US waiver, sources say - Reuters",
+    "The Club's top 10 things to watch in the stock market Friday"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -84,8 +84,6 @@
     "data_freshness": "live fields only",
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
-    "scoring_reasons": [
-      "Index proxies positive"
-    ]
+    "scoring_reasons": []
   }
 }
