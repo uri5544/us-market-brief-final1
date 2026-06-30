@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-06-30",
-  "generated_at": "2026-06-30 08:47 UTC",
+  "generated_at": "2026-06-30 17:24 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Constructive risk-on",
+  "market_regime": "Risk-on confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Opening market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+1.65%",
+      "value": "+0.77%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+2.49%",
+      "value": "+1.67%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.76%",
+      "value": "+0.22%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.29%",
-      "tone": "neg"
+      "value": "+0.52%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "18.41",
+      "value": "17.65",
       "tone": "blue"
     },
     {
@@ -57,13 +57,13 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +1.65%, Nasdaq proxy +2.49%, Dow proxy +0.76%, Russell proxy -0.29%.",
-    "VIX עומד על 18.41, ותשואת אג\"ח ארה\"ב ל-10 שנים על 4.38%.",
+    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +0.77%, Nasdaq proxy +1.67%, Dow proxy +0.22%, Russell proxy +0.52%.",
+    "VIX עומד על 17.65, ותשואת אג\"ח ארה\"ב ל-10 שנים על 4.38%.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
     "המניה הבולטת בפיד movers היא UPC.",
-    "כותרת בולטת שנקלטה: Buffett delays annual donation to Gates Foundation pending review of Jeffrey Epstein ties: WSJ"
+    "כותרת בולטת שנקלטה: Oil prices little changed but set for steepest monthly and quarterly losses since 2020 - Reuters"
   ],
   "movers": [
     {
@@ -90,12 +90,12 @@
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Buffett delays annual donation to Gates Foundation pending review of Jeffrey Epstein ties: WSJ",
-    "UK economy grows as expected before Iran war impact, ONS data shows - Reuters",
-    "Oil set to end June down by about 20%, with investors focused on Doha - Reuters",
-    "Trump urges gasoline retailers to lower prices, warns of 'big problems' if they don't - Reuters",
-    "Wall Street ends higher as US, Iran attacks ease; major tech-related shares jump - Reuters",
-    "US and Iran negotiators head to Doha, but meeting uncertain - Reuters"
+    "Oil prices little changed but set for steepest monthly and quarterly losses since 2020 - Reuters",
+    "Major egg producers settle price inflation probe for $3.3 million",
+    "Faces of elimination: World Cup fans in their moment of loss - Reuters",
+    "Trump administration expands list of graduate degrees subject to higher borrowing limits",
+    "Iran war and AI boom drive wild ride on global markets - Reuters",
+    "We're selling some shares of a parabolic mover, more than tripling our money"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -107,7 +107,8 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies positive"
+      "Index proxies positive",
+      "VIX relatively calm"
     ]
   }
 }
