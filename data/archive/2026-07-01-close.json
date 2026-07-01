@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-07-01",
-  "generated_at": "2026-07-01 10:50 UTC",
+  "generated_at": "2026-07-01 17:31 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Risk-on confirmation",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,54 +26,49 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.78%",
+      "value": "+0.19%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+1.70%",
-      "tone": "pos"
+      "value": "-1.06%",
+      "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.14%",
+      "value": "+0.38%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.50%",
+      "value": "+0.42%",
       "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "17.65",
-      "tone": "blue"
-    },
-    {
-      "label": "US10Y",
-      "value": "4.38%",
+      "value": "16.45",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.78%, Nasdaq proxy +1.70%, Dow proxy +0.14%, Russell proxy +0.50%.",
-    "VIX עומד על 17.65.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Tech leads first half stock gains — but the biggest winners weren't in the U.S."
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +0.19%, Nasdaq proxy -1.06%, Dow proxy +0.38%, Russell proxy +0.42%.",
+    "VIX עומד על 16.45.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: US factory activity eases off four-year high; input prices remain elevated - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Tech leads first half stock gains — but the biggest winners weren't in the U.S.",
-    "Iran insists on keeping control over Hormuz, senior Iranian sources say - Reuters",
-    "Oil falls over 1% as markets await outcome of Iran-US talks, US stocks data - Reuters",
-    "The next Iran war may come sooner than you think - Reuters",
-    "Faces of elimination: World Cup fans in their moment of loss - Reuters",
-    "NATO allies have grown silent on rights concerns in Turkey - Reuters"
+    "US factory activity eases off four-year high; input prices remain elevated - Reuters",
+    "Cramer shares next steps for a software stock after a rare bullish analyst call",
+    "S&P 500, Dow rise after Warsh says inflation risks have eased - Reuters",
+    "US and Iran enter technical talks to secure peace deal, shipping restart - Reuters",
+    "PlayStation will end physical disc production for new games in 2028",
+    "Trump says the U.S. and Iran getting along very well - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,7 +80,6 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies positive",
       "VIX relatively calm"
     ]
   }
