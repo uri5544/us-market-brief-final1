@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-07-02",
-  "generated_at": "2026-07-02 08:30 UTC",
+  "generated_at": "2026-07-02 16:30 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,49 +26,54 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.14%",
+      "value": "-0.30%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-1.52%",
+      "value": "-1.67%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.00%",
+      "value": "+0.66%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.38%",
+      "value": "-0.82%",
       "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "16.45",
+      "value": "16.59",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "4.44%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.14%, Nasdaq proxy -1.52%, Dow proxy +0.00%, Russell proxy -0.38%.",
-    "VIX עומד על 16.45.",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -0.30%, Nasdaq proxy -1.67%, Dow proxy +0.66%, Russell proxy -0.82%.",
+    "VIX עומד על 16.59.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: US resumes dollar transfers to Iraq, NYT reports - Reuters"
+    "כותרת בולטת שנקלטה: Damascus cafe blast kills 5, wounds 16, Syrian state news agency says - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "US resumes dollar transfers to Iraq, NYT reports - Reuters",
-    "Indian shares rise as crude prices drop, IT stocks rebound - Reuters",
-    "Oil falls for a third straight day after US, Iran conclude talks in Doha - Reuters",
-    "Wall Street ends choppy session lower as tech shares drop - Reuters",
-    "US car sales on cruise control despite pressures - Reuters",
-    "Uber-backed Lime rides IPO wave to $1.7 billion valuation in Nasdaq debut - Reuters"
+    "Damascus cafe blast kills 5, wounds 16, Syrian state news agency says - Reuters",
+    "Stock market gains minted nearly 1 million new millionaires in 2025, new UBS report says",
+    "Trump says 'everybody's profiting' from recent market rallies — but it’s mostly the 1%",
+    "How high hopes for Biden’s student-loan forgiveness plans cost borrowers",
+    "Jim Cramer's top 10 things to watch in the stock market Thursday",
+    "High-end camping and a capital raise: AutoCamp is banking on summer travel to fuel growth"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
