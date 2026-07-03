@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-07-03",
-  "generated_at": "2026-07-03 08:38 UTC",
+  "generated_at": "2026-07-03 16:08 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -36,22 +36,17 @@
     },
     {
       "label": "Dow proxy",
-      "value": "+1.05%",
+      "value": "+1.06%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.58%",
+      "value": "-0.57%",
       "tone": "neg"
     },
     {
       "label": "VIX",
       "value": "16.59",
-      "tone": "blue"
-    },
-    {
-      "label": "US10Y",
-      "value": "4.48%",
       "tone": "blue"
     }
   ],
@@ -59,9 +54,9 @@
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.13%, Nasdaq proxy -1.73%, Dow proxy +1.05%, Russell proxy -0.58%.",
+    "תמונת המדדים כרגע: S&P proxy -0.13%, Nasdaq proxy -1.73%, Dow proxy +1.06%, Russell proxy -0.57%.",
     "VIX עומד על 16.59.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
     "כותרת בולטת שנקלטה: NATO leaders to gather in Ankara, aiming to smooth over tensions with Trump - Reuters"
   ],
   "movers": [],
@@ -69,11 +64,11 @@
   "macro": [],
   "headlines": [
     "NATO leaders to gather in Ankara, aiming to smooth over tensions with Trump - Reuters",
-    "Oil prices little changed ahead of long US weekend as peace efforts hold - Reuters",
-    "Blast at Damascus cafe kills nine, wounds 20, Syrian interior ministry says - Reuters",
-    "Iran warns US, Israel against attacks ahead of funeral processions for Khamenei - Reuters",
-    "GE Vernova's gas turbines aren't the only way it's winning from the AI boom",
-    "EXCLUSIVE: Kuwait sharply boosts crude production in June after US-Iran deal, source says - Reuters"
+    "NATO leaders including Trump to affirm 'ironclad commitment' to collective defence in Ankara, summit text says - Reuters",
+    "Khamenei lies in state in Tehran as Iran begins week of funeral ceremonies - Reuters",
+    "How does the Iran crisis compare with the 1979 oil shock? - Reuters",
+    "EXCLUSIVE: Iran exploring oil sales to Japan, buyers seek longer sanctions waiver, sources say - Reuters",
+    "Gulf oil exports jump in June on record UAE flows - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
