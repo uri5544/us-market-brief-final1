@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-07-07",
-  "generated_at": "2026-07-07 10:14 UTC",
+  "generated_at": "2026-07-07 17:35 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Risk-on confirmation",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Opening market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.87%",
-      "tone": "pos"
+      "value": "-0.30%",
+      "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+1.43%",
-      "tone": "pos"
+      "value": "-1.35%",
+      "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.42%",
-      "tone": "pos"
+      "value": "-0.25%",
+      "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.44%",
-      "tone": "pos"
+      "value": "-0.50%",
+      "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "15.81",
+      "value": "15.57",
       "tone": "blue"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.87%, Nasdaq proxy +1.43%, Dow proxy +0.42%, Russell proxy +0.44%.",
-    "VIX עומד על 15.81.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -0.30%, Nasdaq proxy -1.35%, Dow proxy -0.25%, Russell proxy -0.50%.",
+    "VIX עומד על 15.57.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Qatari LNG tanker badly damaged after being hit in Strait of Hormuz, sources say - Reuters"
+    "כותרת בולטת שנקלטה: LNG tanker at risk of exploding after two vessels struck near Strait of Hormuz - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Qatari LNG tanker badly damaged after being hit in Strait of Hormuz, sources say - Reuters",
-    "Blasts rock Damascus during Macron visit - Reuters",
-    "Saudi Arabia slices crude oil prices, but is it enough? - Reuters",
-    "Vancouver's vulnerable fear sweeps and raids during World Cup - Reuters",
-    "India to supply BrahMos, Astra missiles to Indonesia, India government official says - Reuters",
-    "Saudi oil price cut unlikely to convince sated Asia buyers, traders say - Reuters"
+    "LNG tanker at risk of exploding after two vessels struck near Strait of Hormuz - Reuters",
+    "Qatar says Iran struck tanker in strait as vast crowds mourn Khamenei - Reuters",
+    "Record capital goods imports help to sharply widen US trade deficit in May - Reuters",
+    "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran - Reuters",
+    "Israeli fire kills four people in Gaza, medics say - Reuters",
+    "We're trimming a rotation winner and adding to an exciting new stock"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,7 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies positive",
+      "Index proxies negative",
       "VIX relatively calm"
     ]
   }
