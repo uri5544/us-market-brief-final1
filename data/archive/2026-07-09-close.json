@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-07-09",
-  "generated_at": "2026-07-09 09:01 UTC",
+  "generated_at": "2026-07-09 17:30 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Balanced / neutral",
+  "market_regime": "Risk-on confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.31%",
-      "tone": "neg"
+      "value": "+0.85%",
+      "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.28%",
+      "value": "+1.78%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "-1.07%",
-      "tone": "neg"
+      "value": "+0.39%",
+      "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.91%",
-      "tone": "neg"
+      "value": "+1.45%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "16.13",
+      "value": "16.9",
       "tone": "blue"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.31%, Nasdaq proxy +0.28%, Dow proxy -1.07%, Russell proxy -0.91%.",
-    "VIX עומד על 16.13.",
+    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +0.85%, Nasdaq proxy +1.78%, Dow proxy +0.39%, Russell proxy +1.45%.",
+    "VIX עומד על 16.9.",
     "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Morning Bid: Chip euphoria vies with war weariness - Reuters"
+    "כותרת בולטת שנקלטה: Palo Alto CEO Arora says AI pricing needs to fall 90% as token costs skyrocket"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Morning Bid: Chip euphoria vies with war weariness - Reuters",
-    "Gulf companies are set to reveal the unequal toll of Iran war - Reuters",
-    "Gold rises from one-week low as softer dollar lends support - Reuters",
-    "Oil prices little changed as markets weigh impact of US strikes on Iran - Reuters",
-    "Trump orders halt to US trade with Spain over NATO spending, Iran - Reuters",
-    "Giuliani defends White house handling of Iran at World Cup - Reuters"
+    "Palo Alto CEO Arora says AI pricing needs to fall 90% as token costs skyrocket",
+    "Cramer defends a struggling tech giant and says another stock could soon be a buy",
+    "Iran says it hits US military targets in Gulf, lays slain leader to rest - Reuters",
+    "Body of slain Iranian Supreme Leader approaches Shi'ite shrine for burial - Reuters",
+    "Wall St rises as chip stocks' gains offset Middle East jitters - Reuters",
+    "Goldman Sachs wins $70 billion in asset management deals with Verizon, Lockheed Martin"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,7 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies negative",
+      "Index proxies positive",
       "VIX relatively calm"
     ]
   }
