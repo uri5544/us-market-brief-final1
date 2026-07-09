@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "date": "2026-07-09",
+      "mode": "open",
+      "label": "2026-07-09 Open",
+      "file": "2026-07-09-open.json"
+    },
+    {
+      "date": "2026-07-09",
+      "mode": "close",
+      "label": "2026-07-09 Close",
+      "file": "2026-07-09-close.json"
+    },
+    {
       "date": "2026-07-08",
       "mode": "open",
       "label": "2026-07-08 Open",
@@ -167,18 +179,6 @@
       "mode": "close",
       "label": "2026-06-23 Close",
       "file": "2026-06-23-close.json"
-    },
-    {
-      "date": "2026-06-22",
-      "mode": "open",
-      "label": "2026-06-22 Open",
-      "file": "2026-06-22-open.json"
-    },
-    {
-      "date": "2026-06-22",
-      "mode": "close",
-      "label": "2026-06-22 Close",
-      "file": "2026-06-22-close.json"
     }
   ]
 }
