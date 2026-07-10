@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-07-10",
-  "generated_at": "2026-07-10 08:52 UTC",
+  "generated_at": "2026-07-10 17:13 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Risk-on confirmation",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Opening market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,54 +26,49 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.85%",
+      "value": "+0.26%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+1.66%",
+      "value": "+0.22%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.27%",
+      "value": "+0.26%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+1.28%",
-      "tone": "pos"
+      "value": "-0.53%",
+      "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "16.9",
-      "tone": "blue"
-    },
-    {
-      "label": "US10Y",
-      "value": "4.56%",
+      "value": "15.84",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.85%, Nasdaq proxy +1.66%, Dow proxy +0.27%, Russell proxy +1.28%.",
-    "VIX עומד על 16.9.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Gold heads for weekly drop as Gulf attacks reinforce rate-hike bets - Reuters"
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +0.26%, Nasdaq proxy +0.22%, Dow proxy +0.26%, Russell proxy -0.53%.",
+    "VIX עומד על 15.84.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: We're looking to buy more of this chip stock as the once-hot group cools"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Gold heads for weekly drop as Gulf attacks reinforce rate-hike bets - Reuters",
-    "Oil heads for weekly gain as Middle East supply risks persist - Reuters",
-    "Trading Day: What war? Chip-led rally helps markets ignore on-again, off-again US-Iran truce - Reuters",
-    "Nasdaq ends sharply higher; chip surge offsets Iran worries - Reuters",
-    "Skeptical US Democrats in Congress urge debate on Israel plans - Reuters",
-    "A huge trade just happened on the Nasdaq 100. Bulls are taking notice"
+    "We're looking to buy more of this chip stock as the once-hot group cools",
+    "Trump says US agreed to Iran's request to continue talks, but ceasefire is over - Reuters",
+    "Iran has asked to continue talks and the US agreed, Trump says - Reuters",
+    "48-year-old worked at a garden center for $17/hour to make ends meet: 'It's one of the best jobs I've ever had'",
+    "China temporarily bans helium exports as US-Iran tensions flare again - Reuters",
+    "Wall St Week Ahead Investors to grapple with packed week of earnings, CPI, Iran headlines - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,7 +80,6 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies positive",
       "VIX relatively calm"
     ]
   }
