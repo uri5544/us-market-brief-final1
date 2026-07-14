@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-07-14",
-  "generated_at": "2026-07-14 11:42 UTC",
+  "generated_at": "2026-07-14 22:08 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Balanced / neutral",
+  "market_regime": "Risk-on confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Opening market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.77%",
-      "tone": "neg"
+      "value": "+0.36%",
+      "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-1.90%",
-      "tone": "neg"
+      "value": "+1.12%",
+      "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.25%",
-      "tone": "neg"
+      "value": "+0.04%",
+      "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.85%",
-      "tone": "neg"
+      "value": "+0.35%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "15.03",
+      "value": "17.16",
       "tone": "blue"
     },
     {
@@ -57,23 +57,45 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
+    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.77%, Nasdaq proxy -1.90%, Dow proxy -0.25%, Russell proxy -0.85%.",
-    "VIX עומד על 15.03.",
+    "תמונת המדדים כרגע: S&P proxy +0.36%, Nasdaq proxy +1.12%, Dow proxy +0.04%, Russell proxy +0.35%.",
+    "VIX עומד על 17.16, ותשואת אג\"ח ארה\"ב ל-10 שנים על 4.56%.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: World Cup's biggest spenders show up late as semifinals drive host city travel boom"
+    "המניה הבולטת בפיד movers היא VEEE.",
+    "כותרת בולטת שנקלטה: Trump wants fees for Hormuz just like Iran - is that legal? - Reuters"
   ],
-  "movers": [],
+  "movers": [
+    {
+      "asset": "VEEE",
+      "move": "415.7676%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "SOBR",
+      "move": "174.7463%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "QTEXW",
+      "move": "-63.9222%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "NVNIW",
+      "move": "-60.4167%",
+      "driver": "Alpha Vantage top movers feed"
+    }
+  ],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "World Cup's biggest spenders show up late as semifinals drive host city travel boom",
-    "Retail-trader `bottleneck bros' eyeing AI supply chain can't wait for SK Hynix options",
-    "Wall St futures mixed ahead of CPI, bank earnings; US-Iran tensions in focus - Reuters",
-    "Lebanon, Israel hold US-brokered talks in Rome to implement framework deal - Reuters",
-    "Most Gulf markets fall on US-Iran hostilities - Reuters",
-    "China's June oil imports hit near 10-year low amid Iran war - Reuters"
+    "Trump wants fees for Hormuz just like Iran - is that legal? - Reuters",
+    "S&P 500 and Nasdaq end higher on cool inflation data, solid bank earnings - Reuters",
+    "Johnson & Johnson has a chance to show it's more than just a rotation winner",
+    "Cybersecurity stocks surge thanks to IBM, and Nvidia climbs on more good China news",
+    "Lucid stock plunges after report that EV maker is considering bankruptcy, which company denies",
+    "Lebanon, Israel hold US-brokered talks in Rome to implement framework deal - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,7 +107,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies negative",
+      "Index proxies positive",
       "VIX relatively calm"
     ]
   }
