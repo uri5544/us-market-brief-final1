@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-07-14",
-  "generated_at": "2026-07-14 00:09 UTC",
+  "generated_at": "2026-07-14 11:42 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -62,18 +62,18 @@
     "תמונת המדדים כרגע: S&P proxy -0.77%, Nasdaq proxy -1.90%, Dow proxy -0.25%, Russell proxy -0.85%.",
     "VIX עומד על 15.03.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: UAE says two tankers hit by Iranian cruise missiles in Strait of Hormuz; one crew member killed - Reuters"
+    "כותרת בולטת שנקלטה: World Cup's biggest spenders show up late as semifinals drive host city travel boom"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "UAE says two tankers hit by Iranian cruise missiles in Strait of Hormuz; one crew member killed - Reuters",
-    "3 things you need to know about cyclospora",
-    "Trump says the US will take out Pickaxe Mountain in Iran - Reuters",
-    "Wall Street ends lower as Iran tensions dampen risk appetite; chipmakers drop - Reuters",
-    "Chipotle is opening its first restaurant in Mexico",
-    "Houthis fire missiles at Saudi Arabia, breaking years of calm - Reuters"
+    "World Cup's biggest spenders show up late as semifinals drive host city travel boom",
+    "Retail-trader `bottleneck bros' eyeing AI supply chain can't wait for SK Hynix options",
+    "Wall St futures mixed ahead of CPI, bank earnings; US-Iran tensions in focus - Reuters",
+    "Lebanon, Israel hold US-brokered talks in Rome to implement framework deal - Reuters",
+    "Most Gulf markets fall on US-Iran hostilities - Reuters",
+    "China's June oil imports hit near 10-year low amid Iran war - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
