@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-07-15",
-  "generated_at": "2026-07-15 11:46 UTC",
+  "generated_at": "2026-07-15 22:10 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Risk-on confirmation",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Opening market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.36%",
+      "value": "+0.40%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+1.12%",
-      "tone": "pos"
+      "value": "-0.27%",
+      "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.04%",
+      "value": "+0.24%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.35%",
+      "value": "+0.43%",
       "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "17.16",
+      "value": "16.5",
       "tone": "blue"
     },
     {
@@ -57,23 +57,45 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.36%, Nasdaq proxy +1.12%, Dow proxy +0.04%, Russell proxy +0.35%.",
-    "VIX עומד על 17.16.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Iran threatens to block more vital seaways as Trump orders renewed Iran blockade - Reuters"
+    "תמונת המדדים כרגע: S&P proxy +0.40%, Nasdaq proxy -0.27%, Dow proxy +0.24%, Russell proxy +0.43%.",
+    "VIX עומד על 16.5.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "המניה הבולטת בפיד movers היא NXTC.",
+    "כותרת בולטת שנקלטה: Kalshi traders see gas prices crossing $4 by end of July"
   ],
-  "movers": [],
+  "movers": [
+    {
+      "asset": "NXTC",
+      "move": "201.8349%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "FGIWW",
+      "move": "136.2205%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "RQI^",
+      "move": "-71.0%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "LCDL",
+      "move": "-51.2542%",
+      "driver": "Alpha Vantage top movers feed"
+    }
+  ],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Iran threatens to block more vital seaways as Trump orders renewed Iran blockade - Reuters",
-    "Iran-linked vessels pass through Hormuz ahead of US blockade - Reuters",
-    "Indian shares edge higher as financials lead; U.S.-Iran tensions cap gains - Reuters",
-    "Oil prices rise 1% as hostilities worsen in the Middle East - Reuters",
-    "UK summons senior Iranian diplomat over alleged proxy attacks in Europe - Reuters",
-    "Jim Cramer says concerns about AI market froth are overblown. Here's why"
+    "Kalshi traders see gas prices crossing $4 by end of July",
+    "Some ships refusing US-military guided Hormuz transits after attacks, sources say - Reuters",
+    "EXCLUSIVE: US strikes on Iran strengthen Trump's options for new escalation, officials say - Reuters",
+    "Apple's China breakthrough on AI provides another tailwind for its stock",
+    "White House weighs extending Jones Act waivers as Iran conflict raises price concerns - Reuters",
+    "SpaceX stock sinks below $135 IPO price for the first time"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,7 +107,6 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies positive",
       "VIX relatively calm"
     ]
   }
