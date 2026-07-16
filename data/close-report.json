@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-07-16",
-  "generated_at": "2026-07-16 11:52 UTC",
+  "generated_at": "2026-07-16 22:12 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,54 +26,49 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.40%",
-      "tone": "pos"
+      "value": "-0.54%",
+      "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.27%",
+      "value": "-1.64%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.24%",
-      "tone": "pos"
+      "value": "-0.21%",
+      "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.43%",
-      "tone": "pos"
+      "value": "-0.06%",
+      "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "16.5",
-      "tone": "blue"
-    },
-    {
-      "label": "US10Y",
-      "value": "4.58%",
+      "value": "15.67",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.40%, Nasdaq proxy -0.27%, Dow proxy +0.24%, Russell proxy +0.43%.",
-    "VIX עומד על 16.5, ותשואת אג\"ח ארה\"ב ל-10 שנים על 4.58%.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Iran warns Strait of Hormuz is a 'red line' and will resist until the end - Reuters"
+    "תמונת המדדים כרגע: S&P proxy -0.54%, Nasdaq proxy -1.64%, Dow proxy -0.21%, Russell proxy -0.06%.",
+    "VIX עומד על 15.67.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Dubai media office says no sounds of 'explosions' in downtown Dubai - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Iran warns Strait of Hormuz is a 'red line' and will resist until the end - Reuters",
-    "UnitedHealth blows past estimates, hikes earnings outlook as it reins in costs",
-    "Explainer: Who are the Houthis, Iran’s allies in Yemen? - Reuters",
-    "Iran war leaves crisis-weary European airlines ready for a shakeout - Reuters",
-    "Gold falls as Mideast conflict dims easing inflation hopes - Reuters",
-    "Fewer vessels travel through Hormuz after US resumes blockade - Reuters"
+    "Dubai media office says no sounds of 'explosions' in downtown Dubai - Reuters",
+    "Trump threatens new Iran escalation and risks repeating old mistakes - Reuters",
+    "Iran and US step up attacks, release of American in dispute - Reuters",
+    "Vance says some in Israeli government sought to sway US on Iran deal - Reuters",
+    "Here's a rapid-fire update on our stock portfolio, including the 5 names to buy",
+    "We're trimming our hedge on lower rates, which may take longer to materialize"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,6 +80,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
+      "Index proxies negative",
       "VIX relatively calm"
     ]
   }
