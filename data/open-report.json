@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-07-17",
-  "generated_at": "2026-07-17 11:38 UTC",
+  "generated_at": "2026-07-17 22:02 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.54%",
+      "value": "-0.99%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-1.64%",
+      "value": "-1.50%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.21%",
+      "value": "-0.77%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.06%",
+      "value": "-0.52%",
       "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "15.67",
+      "value": "16.73",
       "tone": "blue"
     },
     {
@@ -59,21 +59,21 @@
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.54%, Nasdaq proxy -1.64%, Dow proxy -0.21%, Russell proxy -0.06%.",
-    "VIX עומד על 15.67.",
+    "תמונת המדדים כרגע: S&P proxy -0.99%, Nasdaq proxy -1.50%, Dow proxy -0.77%, Russell proxy -0.52%.",
+    "VIX עומד על 16.73.",
     "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Inside the Chinese fraud rings stealing billions from banks and retailers"
+    "כותרת בולטת שנקלטה: FAA lets Boeing sign off on 737 Max, 787 airworthiness certificates again"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Inside the Chinese fraud rings stealing billions from banks and retailers",
-    "Oil rises on renewed US-Iran hostilities and threat of Red Sea closure - Reuters",
-    "Suspected pirates seize tanker off Yemen coast in Gulf of Aden, sources say - Reuters",
+    "FAA lets Boeing sign off on 737 Max, 787 airworthiness certificates again",
+    "Meta's latest move in the AI talent war — plus Cramer's 4 quick hits on the market",
+    "Retail and Wall Street are underwater on SpaceX — but not going down without a fight",
     "UK police charge man over Iran-linked spying offences - Reuters",
-    "Strait of Hormuz transits drop as US and Iran escalate attacks across Gulf - Reuters",
-    "Burberry's Europe sales hit by Iran war while US and China grow - Reuters"
+    "California's billionaire tax: What's at risk for the biggest state economy in America",
+    "Suspected pirates seize tanker off Yemen coast in Gulf of Aden, sources say - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
