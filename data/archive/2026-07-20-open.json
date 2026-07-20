@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-07-20",
-  "generated_at": "2026-07-20 12:25 UTC",
+  "generated_at": "2026-07-20 22:09 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.99%",
+      "value": "-0.16%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-1.50%",
-      "tone": "neg"
+      "value": "+0.10%",
+      "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.77%",
+      "value": "-0.55%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.52%",
+      "value": "-0.59%",
       "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "16.73",
+      "value": "18.77",
       "tone": "blue"
     },
     {
@@ -57,23 +57,45 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 0).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.99%, Nasdaq proxy -1.50%, Dow proxy -0.77%, Russell proxy -0.52%.",
-    "VIX עומד על 16.73.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Spain beat Argentina to win World Cup - Reuters"
+    "תמונת המדדים כרגע: S&P proxy -0.16%, Nasdaq proxy +0.10%, Dow proxy -0.55%, Russell proxy -0.59%.",
+    "VIX עומד על 18.77.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "המניה הבולטת בפיד movers היא CELUW.",
+    "כותרת בולטת שנקלטה: Yemen's Houthis declare naval blockade against Saudi Arabia - Reuters"
   ],
-  "movers": [],
+  "movers": [
+    {
+      "asset": "CELUW",
+      "move": "533.3333%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "PSNYW",
+      "move": "162.7358%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "RNWWW",
+      "move": "-54.5455%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "NEXRW",
+      "move": "-52.9412%",
+      "driver": "Alpha Vantage top movers feed"
+    }
+  ],
   "sectors": [],
   "macro": [],
   "headlines": [
+    "Yemen's Houthis declare naval blockade against Saudi Arabia - Reuters",
+    "After deadly weekend for US troops, Trump vows revenge against Iran - Reuters",
+    "S&P 500 edges down with Iran and earnings season in focus - Reuters",
+    "Houthis announce Saudi naval blockade, threatening new front in US-Iran war - Reuters",
     "Spain beat Argentina to win World Cup - Reuters",
-    "US pump prices cross $4 again on renewed fighting in the Middle East - Reuters",
-    "Why oil prices haven't gone crazy despite 5 months of US-Iran war - Reuters",
-    "UK to get a new prime minister as Trump slams Britain as 'Poverty Stricken Disaster'",
-    "U.S. Treasury yields edge higher as Wall Street monitors Middle East tensions",
-    "Iranian Sunni cleric killed by unknown gunmen in country's southeast, state media - Reuters"
+    "Here's our advice for investors looking to buy the dip in volatile AI stocks"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -84,9 +106,6 @@
     "data_freshness": "live fields only",
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
-    "scoring_reasons": [
-      "Index proxies negative",
-      "VIX relatively calm"
-    ]
+    "scoring_reasons": []
   }
 }
