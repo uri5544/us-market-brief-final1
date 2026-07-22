@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-07-22",
-  "generated_at": "2026-07-22 12:01 UTC",
+  "generated_at": "2026-07-22 22:13 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Constructive risk-on",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.83%",
-      "tone": "pos"
+      "value": "-0.12%",
+      "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+1.85%",
-      "tone": "pos"
+      "value": "-0.51%",
+      "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.69%",
-      "tone": "pos"
+      "value": "-0.01%",
+      "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+1.45%",
-      "tone": "pos"
+      "value": "-0.93%",
+      "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "18.65",
+      "value": "17.05",
       "tone": "blue"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.83%, Nasdaq proxy +1.85%, Dow proxy +0.69%, Russell proxy +1.45%.",
-    "VIX עומד על 18.65.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Gold climbs to two-week high as investors watch Middle East conflict - Reuters"
+    "תמונת המדדים כרגע: S&P proxy -0.12%, Nasdaq proxy -0.51%, Dow proxy -0.01%, Russell proxy -0.93%.",
+    "VIX עומד על 17.05.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: EXCLUSIVE: Iran strikes on CIA facilities prompt questions about possible Russian role - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Gold climbs to two-week high as investors watch Middle East conflict - Reuters",
-    "Iranian official denies two French diplomats were mistreated - Reuters",
-    "Houthi Red Sea threat would challenge a stretched US military - Reuters",
-    "Mideast war escalation threatens recovery in global oil refining - Reuters",
-    "Rubio says US still willing to negotiate over Iran crisis - Reuters",
-    "Rupee languishes at two-month lows as supply worries raise oil prices - Reuters"
+    "EXCLUSIVE: Iran strikes on CIA facilities prompt questions about possible Russian role - Reuters",
+    "J&J gets a big win on its new robotic surgical system — plus, a flood of earnings",
+    "Trump attends return of US soldiers killed in Iran war - Reuters",
+    "Senate panel advances China auto bill that could bar Mercedes-Benz from U.S.",
+    "Amazon cuts some jobs in its artificial general intelligence unit",
+    "More ships change course in Red Sea after Houthi threats, data shows - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,7 +85,8 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies positive"
+      "Index proxies negative",
+      "VIX relatively calm"
     ]
   }
 }
