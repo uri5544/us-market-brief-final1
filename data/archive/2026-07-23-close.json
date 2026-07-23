@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-07-23",
-  "generated_at": "2026-07-23 12:00 UTC",
+  "generated_at": "2026-07-23 22:11 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.12%",
+      "value": "-1.23%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.51%",
+      "value": "-1.90%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.01%",
+      "value": "-1.00%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.93%",
+      "value": "-0.58%",
       "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "17.05",
+      "value": "16.64",
       "tone": "blue"
     },
     {
@@ -59,21 +59,21 @@
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.12%, Nasdaq proxy -0.51%, Dow proxy -0.01%, Russell proxy -0.93%.",
-    "VIX עומד על 17.05.",
+    "תמונת המדדים כרגע: S&P proxy -1.23%, Nasdaq proxy -1.90%, Dow proxy -1.00%, Russell proxy -0.58%.",
+    "VIX עומד על 16.64.",
     "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: A tax break for preserving land has drawn IRS scrutiny. Here’s when it still makes sense"
+    "כותרת בולטת שנקלטה: Southwest Airlines put Texas jet fuel on a boat to LA for the first time amid supply worries"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "A tax break for preserving land has drawn IRS scrutiny. Here’s when it still makes sense",
-    "Moonshot AI accessed Nvidia's chips despite Chinese export ban, White House official says",
-    "American Airlines slashes 2026 earnings outlook as fuel costs spike",
-    "EXCLUSIVE: Buyers to press Qatar, UAE for cheaper, more flexible LNG deals after Hormuz shock - Reuters",
-    "TotalEnergies posts strongest profit in nearly three years as Iran conflict lifts oil prices - Reuters",
-    "Cutting off Red Sea oil route may be one crisis too many - Reuters"
+    "Southwest Airlines put Texas jet fuel on a boat to LA for the first time amid supply worries",
+    "OpenAI's Hugging Face hack triggers 'AI Kill Switch' bill in Congress",
+    "US says Saudi nuclear deal off without Israel recognition - Reuters",
+    "Wall Street stumbles as oil surges, and Lilly takes a new path on next-gen obesity drug",
+    "US House votes to curb Trump's Iran war powers but Senate backs president - Reuters",
+    "EXCLUSIVE: Iran flew IRGC commanders, missile gear to Yemen's Houthis, sources say - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
