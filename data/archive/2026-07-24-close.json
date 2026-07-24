@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-07-24",
-  "generated_at": "2026-07-24 11:54 UTC",
+  "generated_at": "2026-07-24 22:14 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Cautious risk-off",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,23 +26,28 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-1.23%",
-      "tone": "neg"
+      "value": "+0.10%",
+      "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-1.90%",
+      "value": "-1.12%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-1.00%",
-      "tone": "neg"
+      "value": "+0.48%",
+      "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.58%",
+      "value": "-0.31%",
       "tone": "neg"
+    },
+    {
+      "label": "VIX",
+      "value": "18.7",
+      "tone": "blue"
     },
     {
       "label": "US10Y",
@@ -52,22 +57,23 @@
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Cautious risk-off (score -2).",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 0).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -1.23%, Nasdaq proxy -1.90%, Dow proxy -1.00%, Russell proxy -0.58%.",
+    "תמונת המדדים כרגע: S&P proxy +0.10%, Nasdaq proxy -1.12%, Dow proxy +0.48%, Russell proxy -0.31%.",
+    "VIX עומד על 18.7.",
     "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Oil retreats from above $100, but set for weekly rise on Middle East escalation - Reuters"
+    "כותרת בולטת שנקלטה: Yemen teeters towards renewed war in shadow of Iran conflict - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Oil retreats from above $100, but set for weekly rise on Middle East escalation - Reuters",
-    "Treasury yields retreat, 10-year hovers around January 2025 highs",
-    "In India, Iran war forces Diet Coke to roll out a bigger can, heftier price tag - Reuters",
-    "Morning Bid: Oil batters bonds as AI burns cash - Reuters",
-    "Trump vows to punish Iran and Houthis for attacks in Red Sea - Reuters",
-    "Hormuz ship transits steady at three for three days, data shows - Reuters"
+    "Yemen teeters towards renewed war in shadow of Iran conflict - Reuters",
+    "Trump says he trusts Russia and China's leaders not to enable Iran - Reuters",
+    "Trump says US and Iran are talking, but Tehran is not yet ready for deal - Reuters",
+    "Mozambique-flagged LPG tanker attacked in Iranian waters, Indian embassy says - Reuters",
+    "The 'sell chips, buy software' trade reappears as Wall Street caps off another volatile week",
+    "Strait of Hormuz traffic may not return to normal for 12 months or more, according to prediction markets"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -78,8 +84,6 @@
     "data_freshness": "live fields only",
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
-    "scoring_reasons": [
-      "Index proxies negative"
-    ]
+    "scoring_reasons": []
   }
 }
