@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-07-27",
-  "generated_at": "2026-07-27 13:20 UTC",
+  "generated_at": "2026-07-27 22:14 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,12 +26,12 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.10%",
+      "value": "+0.02%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-1.12%",
+      "value": "-0.31%",
       "tone": "neg"
     },
     {
@@ -41,12 +41,12 @@
     },
     {
       "label": "Russell proxy",
-      "value": "-0.31%",
-      "tone": "neg"
+      "value": "+0.60%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "18.7",
+      "value": "18.58",
       "tone": "blue"
     },
     {
@@ -59,21 +59,21 @@
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 0).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.10%, Nasdaq proxy -1.12%, Dow proxy +0.48%, Russell proxy -0.31%.",
-    "VIX עומד על 18.7.",
+    "תמונת המדדים כרגע: S&P proxy +0.02%, Nasdaq proxy -0.31%, Dow proxy +0.48%, Russell proxy +0.60%.",
+    "VIX עומד על 18.58.",
     "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Jim Cramer's top 10 things to watch in the stock market Monday"
+    "כותרת בולטת שנקלטה: Apple ends day as world's most valuable company, passing Nvidia"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Jim Cramer's top 10 things to watch in the stock market Monday",
-    "Crude oil futures are pricing market adaptability, not hopeful Iran peace - Reuters",
-    "Morning Bid: Markets dare to hope as US, Iran put war on hold - Reuters",
-    "Indian rupee heads for steepest rise in three weeks as oil falls - Reuters",
-    "Gold gains over 1% on pause in US-Iran fighting; Fed decision looms - Reuters",
-    "Shares, bonds bounce in Asia as oil skids - Reuters"
+    "Apple ends day as world's most valuable company, passing Nvidia",
+    "Nvidia's potential $250B backstop for OpenAI is another strike against the AI trade",
+    "From 'oil' to 'shock',  here's what Kalshi traders expect Fed Chair Kevin Warsh will say this week",
+    "More tech pain means gains elsewhere. What's winning in Monday's mixed market",
+    "JetBlue overhauls fare options, from basic first to flexible economy. Here's what to know",
+    "Why Boeing and Corning are moving in opposite directions and what to expect next"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
