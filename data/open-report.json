@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-07-28",
-  "generated_at": "2026-07-28 12:10 UTC",
+  "generated_at": "2026-07-28 22:13 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.02%",
+      "value": "+0.24%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.31%",
+      "value": "-0.97%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.48%",
+      "value": "+1.08%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.60%",
+      "value": "+0.16%",
       "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "18.58",
+      "value": "18.67",
       "tone": "blue"
     },
     {
@@ -59,43 +59,21 @@
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 0).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.02%, Nasdaq proxy -0.31%, Dow proxy +0.48%, Russell proxy +0.60%.",
-    "VIX עומד על 18.58.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "המניה הבולטת בפיד movers היא FGIWW.",
-    "כותרת בולטת שנקלטה: Coca-Cola is about to report earnings. Here's what to expect"
+    "תמונת המדדים כרגע: S&P proxy +0.24%, Nasdaq proxy -0.97%, Dow proxy +1.08%, Russell proxy +0.16%.",
+    "VIX עומד על 18.67.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: The Dow jumps as the AI trade wobbles. Plus, a portfolio name goes on the M&A hunt"
   ],
-  "movers": [
-    {
-      "asset": "FGIWW",
-      "move": "422.5653%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "DFNS",
-      "move": "201.1494%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "BIOT",
-      "move": "-82.4584%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "CISS",
-      "move": "-80.3115%",
-      "driver": "Alpha Vantage top movers feed"
-    }
-  ],
+  "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Coca-Cola is about to report earnings. Here's what to expect",
-    "Apple ends day as world's most valuable company, passing Nvidia",
-    "Nvidia's potential $250B backstop for OpenAI is another strike against the AI trade",
-    "From 'oil' to 'shock',  here's what Kalshi traders expect Fed Chair Kevin Warsh will say this week",
-    "More tech pain means gains elsewhere. What's winning in Monday's mixed market",
-    "JetBlue overhauls fare options, from basic first to flexible economy. Here's what to know"
+    "The Dow jumps as the AI trade wobbles. Plus, a portfolio name goes on the M&A hunt",
+    "Jim Cramer: J&J talc settlement is good for a stock that has so much going for it already",
+    "We're trimming a rallying stock to protect against a potential earnings letdown",
+    "We're buying the dip on one of our stocks for two key reasons",
+    "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+    "Coca-Cola is about to report earnings. Here's what to expect"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
