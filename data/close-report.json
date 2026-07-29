@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-07-29",
-  "generated_at": "2026-07-29 12:16 UTC",
+  "generated_at": "2026-07-29 22:08 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Balanced / neutral",
+  "market_regime": "Cautious risk-off",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,54 +26,71 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.24%",
-      "tone": "pos"
+      "value": "-1.54%",
+      "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.97%",
+      "value": "-2.04%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+1.08%",
-      "tone": "pos"
+      "value": "-2.18%",
+      "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.16%",
-      "tone": "pos"
+      "value": "-1.64%",
+      "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "18.67",
-      "tone": "blue"
-    },
-    {
-      "label": "US10Y",
-      "value": "4.6500000000%",
+      "value": "18.21",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 0).",
+    "מצב השוק לפי מנוע הניקוד: Cautious risk-off (score -2).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.24%, Nasdaq proxy -0.97%, Dow proxy +1.08%, Russell proxy +0.16%.",
-    "VIX עומד על 18.67.",
+    "תמונת המדדים כרגע: S&P proxy -1.54%, Nasdaq proxy -2.04%, Dow proxy -2.18%, Russell proxy -1.64%.",
+    "VIX עומד על 18.21.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: EXCLUSIVE: US commander warns troops their videos help Iran, sources say - Reuters"
+    "המניה הבולטת בפיד movers היא RNWWW.",
+    "כותרת בולטת שנקלטה: Here are the five big takeaways from this week's Fed meeting"
   ],
-  "movers": [],
+  "movers": [
+    {
+      "asset": "RNWWW",
+      "move": "209.0909%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "STKH",
+      "move": "166.6667%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "FGIWW",
+      "move": "-88.6364%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "YYAI",
+      "move": "-70.12%",
+      "driver": "Alpha Vantage top movers feed"
+    }
+  ],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "EXCLUSIVE: US commander warns troops their videos help Iran, sources say - Reuters",
-    "Zendaya, Tom Holland and more at Spider Man: Brand New Day premiere - Reuters",
-    "EXCLUSIVE: Yemen's Houthis considering fees for ships sailing through Red Sea, sources say - Reuters",
-    "Oil rises as US-Iran tension escalates after Iraq strikes, missile attack - Reuters",
-    "Israeli elections: how they work and who is in the race - Reuters",
-    "Iran rules out regional management of Hormuz Strait, hitting hopes for breakthrough - Reuters"
+    "Here are the five big takeaways from this week's Fed meeting",
+    "US issues new Iran-related sanctions targeting insurers, more tankers - Reuters",
+    "Drone hits gas storage tanker at Egypt's Mediterranean port, Ambrey reports - Reuters",
+    "Trump and Netanyahu explored all Iran options including attack, Israeli official says - Reuters",
+    "Fed keeps rates steady. The big question now: What will Microsoft and Meta say on AI capex?",
+    "Hims and Hers shares fall 10% as FTC sues company over data, billing practices"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -84,6 +101,8 @@
     "data_freshness": "live fields only",
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
-    "scoring_reasons": []
+    "scoring_reasons": [
+      "Index proxies negative"
+    ]
   }
 }
