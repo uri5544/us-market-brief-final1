@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-07-30",
-  "generated_at": "2026-07-30 12:02 UTC",
+  "generated_at": "2026-07-30 22:15 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Cautious risk-off",
+  "market_regime": "Constructive risk-on",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,76 +26,49 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-1.54%",
-      "tone": "neg"
+      "value": "+1.68%",
+      "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-2.04%",
-      "tone": "neg"
+      "value": "+3.30%",
+      "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "-2.18%",
-      "tone": "neg"
+      "value": "+1.18%",
+      "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "-1.64%",
-      "tone": "neg"
+      "value": "+1.39%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "18.21",
-      "tone": "blue"
-    },
-    {
-      "label": "US10Y",
-      "value": "4.6100000000%",
+      "value": "20.66",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Cautious risk-off (score -2).",
+    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -1.54%, Nasdaq proxy -2.04%, Dow proxy -2.18%, Russell proxy -1.64%.",
-    "VIX עומד על 18.21.",
+    "תמונת המדדים כרגע: S&P proxy +1.68%, Nasdaq proxy +3.30%, Dow proxy +1.18%, Russell proxy +1.39%.",
+    "VIX עומד על 20.66.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "המניה הבולטת בפיד movers היא NCRA.",
-    "כותרת בולטת שנקלטה: Ferrari raises 2026 guidance after Q2 earnings beat"
+    "כותרת בולטת שנקלטה: Drone strike in Egypt sparks security concerns about Suez oil exports - Reuters"
   ],
-  "movers": [
-    {
-      "asset": "NCRA",
-      "move": "118.1818%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "DFNS",
-      "move": "109.25%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "MUA^#",
-      "move": "-80.6667%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "YYAI",
-      "move": "-67.6484%",
-      "driver": "Alpha Vantage top movers feed"
-    }
-  ],
+  "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Ferrari raises 2026 guidance after Q2 earnings beat",
-    "Egypt says drone hit two ships at Mediterranean port as attacks on energy infrastructure widen",
-    "Wealth managers face a new challenger: their clients’ AI chatbots",
-    "Oil steady as traders assess US-Iran conflict - Reuters",
-    "QatarEnergy-controlled LNG tanker exits Hormuz, first in nearly three weeks - Reuters",
-    "Treasury sell-off continues after divided Fed holds interest rates steady"
+    "Drone strike in Egypt sparks security concerns about Suez oil exports - Reuters",
+    "'The Odyssey' extends stay in 70mm IMAX theaters as shows sell out weeks in advance",
+    "Saudi Arabia unveils plans for multinational maritime defence coalition - Reuters",
+    "Iran's Araqchi presses European counterparts over use of bases in US operations - Reuters",
+    "Microsoft wins back Jim Cramer's support after a surprisingly good quarter",
+    "Imports hold back US economic growth in Q2, but domestic demand robust - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -107,7 +80,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies negative"
+      "Index proxies positive"
     ]
   }
 }
