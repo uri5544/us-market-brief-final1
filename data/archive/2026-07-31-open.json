@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-07-31",
-  "generated_at": "2026-07-31 12:14 UTC",
+  "generated_at": "2026-07-31 22:13 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Constructive risk-on",
+  "market_regime": "Risk-on confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Opening market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+1.68%",
+      "value": "+0.72%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+3.30%",
+      "value": "+0.65%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+1.18%",
+      "value": "+0.54%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+1.39%",
-      "tone": "pos"
+      "value": "-0.48%",
+      "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "20.66",
+      "value": "17.09",
       "tone": "blue"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
+    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +1.68%, Nasdaq proxy +3.30%, Dow proxy +1.18%, Russell proxy +1.39%.",
-    "VIX עומד על 20.66.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: The Tech Download: Anduril CEO Brian Schimpf talks AI in warfare and manufacturing push"
+    "תמונת המדדים כרגע: S&P proxy +0.72%, Nasdaq proxy +0.65%, Dow proxy +0.54%, Russell proxy -0.48%.",
+    "VIX עומד על 17.09.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Andy Jassy soothed concerns over Amazon's massive AI spending. Here's how he did it"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "The Tech Download: Anduril CEO Brian Schimpf talks AI in warfare and manufacturing push",
-    "Trump convenes Cabinet at Camp David amid simmering Iran war - Reuters",
-    "Illicit Iranian gambling network helped pull off a $4 billion sanctions dodge - Reuters",
-    "Man suspected of spying on UK military base for Iran arrested in Cyprus - Reuters",
-    "British Airways-owner IAG trims capacity outlook; jet fuel bill eases - Reuters",
-    "Oil steady as traders assess shipping flows; monthly gains in sight - Reuters"
+    "Andy Jassy soothed concerns over Amazon's massive AI spending. Here's how he did it",
+    "Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks",
+    "The S&P 500 is stuck at a key battleground level. This obscure index could determine the market’s next move",
+    "‘Spider-Man: Brand New Day’ sets domestic box office preview record with $72 million",
+    "Jim Cramer: Buy this industrial stock on the dip if you don't own it already",
+    "FIFA tests the limits of private equity in sports with World Cup subsidiary sale"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,7 +85,8 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies positive"
+      "Index proxies positive",
+      "VIX relatively calm"
     ]
   }
 }
