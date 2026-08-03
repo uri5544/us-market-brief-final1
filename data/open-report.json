@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-08-03",
-  "generated_at": "2026-08-03 13:18 UTC",
+  "generated_at": "2026-08-03 22:14 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Risk-on confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.72%",
+      "value": "+1.42%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.65%",
+      "value": "+1.76%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.54%",
+      "value": "+1.32%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.48%",
-      "tone": "neg"
+      "value": "+1.72%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "17.09",
+      "value": "15.99",
       "tone": "blue"
     },
     {
@@ -59,21 +59,21 @@
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.72%, Nasdaq proxy +0.65%, Dow proxy +0.54%, Russell proxy -0.48%.",
-    "VIX עומד על 17.09.",
+    "תמונת המדדים כרגע: S&P proxy +1.42%, Nasdaq proxy +1.76%, Dow proxy +1.32%, Russell proxy +1.72%.",
+    "VIX עומד על 15.99.",
     "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Senate appears ready to advance Blanche after Cornyn strikes deal"
+    "כותרת בולטת שנקלטה: Larry Berg named next Major League Soccer commissioner"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Senate appears ready to advance Blanche after Cornyn strikes deal",
-    "OPEC+ oil output hike is irrelevant for now, not for later - Reuters",
-    "How Iran is widening its pressure campaign to force US concessions - Reuters",
-    "Iran executes two people accused of spying for Israel - Reuters",
-    "Iran war hit euro zone consumption especially hard, ECB says - Reuters",
-    "Iran says no current talks with U.S. - Reuters"
+    "Larry Berg named next Major League Soccer commissioner",
+    "Wall Street rallies, Dow closes at record on Iran talks optimism - Reuters",
+    "Trump says Iran faces 'decapitation' if it doesn't strike deal - Reuters",
+    "Trump sours on Pirro over Reflecting Pool case, won't say her job is safe",
+    "A trio of positive developments has Boeing shares soaring",
+    "After deadly day, Gazans say Trump's touting of plan jars with grim reality - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
