@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-08-04",
-  "generated_at": "2026-08-04 12:16 UTC",
+  "generated_at": "2026-08-04 22:19 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Risk-on confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+1.42%",
+      "value": "+1.80%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+1.76%",
+      "value": "+3.40%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+1.32%",
+      "value": "+1.73%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+1.72%",
+      "value": "+1.85%",
       "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "15.99",
+      "value": "15.86",
       "tone": "blue"
     },
     {
@@ -59,21 +59,21 @@
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +1.42%, Nasdaq proxy +1.76%, Dow proxy +1.32%, Russell proxy +1.72%.",
-    "VIX עומד על 15.99.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: EXCLUSIVE: US has used 'virtually all' of its long-range precision missiles during Iran war, sources say - Reuters"
+    "תמונת המדדים כרגע: S&P proxy +1.80%, Nasdaq proxy +3.40%, Dow proxy +1.73%, Russell proxy +1.85%.",
+    "VIX עומד על 15.86.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Qatar says mediators make progress in efforts to end US-Iran war - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "EXCLUSIVE: US has used 'virtually all' of its long-range precision missiles during Iran war, sources say - Reuters",
-    "Pfizer tops quarterly estimates, hikes low end of revenue guidance on strength of non-Covid products",
-    "Palantir jumps 16% on 'otherworldly' commercial revenue — here's what's driving the demand",
-    "Iran demands Hormuz inbound control, outbound oversight, source says - Reuters",
-    "Turkey calls on Russia, Ukraine to ensure Black Sea safety after drone attack - Reuters",
-    "Goldman sees Brent at $80-$90 until US-Iran deal or major escalation - Reuters"
+    "Qatar says mediators make progress in efforts to end US-Iran war - Reuters",
+    "Projectile sinks Indian ship near Yemeni waters but all seafarers safe, Indian minister says - Reuters",
+    "TikTok users are sharing the items they say are always worth the money—here's what financial planners say",
+    "Chipotle stock falls on potential link to salmonella outbreak in Minnesota",
+    "US-facilitated Israel-Lebanon talks have begun, says State Department - Reuters",
+    "Turkey calls on Russia, Ukraine to ensure Black Sea safety after drone attack - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
