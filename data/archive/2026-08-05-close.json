@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-08-05",
-  "generated_at": "2026-08-05 12:13 UTC",
+  "generated_at": "2026-08-05 22:17 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Risk-on confirmation",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,44 +26,39 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+1.80%",
-      "tone": "pos"
+      "value": "-0.20%",
+      "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+3.40%",
-      "tone": "pos"
+      "value": "-0.90%",
+      "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+1.73%",
+      "value": "+0.44%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+1.85%",
-      "tone": "pos"
+      "value": "-0.64%",
+      "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "15.86",
-      "tone": "blue"
-    },
-    {
-      "label": "US10Y",
-      "value": "4.7000000000%",
+      "value": "16.5",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +1.80%, Nasdaq proxy +3.40%, Dow proxy +1.73%, Russell proxy +1.85%.",
-    "VIX עומד על 15.86.",
+    "תמונת המדדים כרגע: S&P proxy -0.20%, Nasdaq proxy -0.90%, Dow proxy +0.44%, Russell proxy -0.64%.",
+    "VIX עומד על 16.5.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
     "המניה הבולטת בפיד movers היא AMIX.",
-    "כותרת בולטת שנקלטה: UN rights chief says Iran executed at least 56 people since March - Reuters"
+    "כותרת בולטת שנקלטה: Hollywood is cranking out billion-dollar movies again. Spider-Man just joined the ranks"
   ],
   "movers": [
     {
@@ -90,12 +85,12 @@
   "sectors": [],
   "macro": [],
   "headlines": [
-    "UN rights chief says Iran executed at least 56 people since March - Reuters",
-    "Yemen's Houthis say they attacked Saudi oil tanker in Red Sea - Reuters",
-    "US and Iran having 'very good discussions', Trump says - Reuters",
-    "Trump says US held 'all-day negotiation' with Iran on Tuesday - Reuters",
-    "China eases controls on fuel exports for a second month, sources say - Reuters",
-    "Gulf shipping traffic steady amid uncertainty of peace talks - Reuters"
+    "Hollywood is cranking out billion-dollar movies again. Spider-Man just joined the ranks",
+    "Dow closes at record on Mideast optimism; SpaceX, AMD drag Nasdaq - Reuters",
+    "EXCLUSIVE: Iran threatens to hit Gulf states if US launches new strikes - Reuters",
+    "Israeli military strikes southern Lebanon after evacuation warning to village - Reuters",
+    "Alphabet slumps on more AI brain drain. We're not too worried",
+    "Phillips 66 beats quarterly estimates as Iran war boosts US refining margins - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -107,7 +102,6 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies positive",
       "VIX relatively calm"
     ]
   }
