@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-08-07",
-  "generated_at": "2026-08-07 01:01 UTC",
+  "generated_at": "2026-08-07 11:04 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -62,40 +62,18 @@
     "תמונת המדדים כרגע: S&P proxy -0.16%, Nasdaq proxy -0.37%, Dow proxy -0.85%, Russell proxy -0.51%.",
     "VIX עומד על 15.81.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "המניה הבולטת בפיד movers היא YXT.",
-    "כותרת בולטת שנקלטה: Jim Cramer highlights 5 investing themes — and the stocks to buy for each"
+    "כותרת בולטת שנקלטה: Saudi Arabia, Turkey and Pakistan to sign joint defence deal amid regional turmoil - Reuters"
   ],
-  "movers": [
-    {
-      "asset": "YXT",
-      "move": "632.1875%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "NVNIW",
-      "move": "98.2456%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "RCON",
-      "move": "-84.5255%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "SHFSW",
-      "move": "-59.6%",
-      "driver": "Alpha Vantage top movers feed"
-    }
-  ],
+  "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Jim Cramer highlights 5 investing themes — and the stocks to buy for each",
-    "Saudi Arabia expects imminent attacks from north and south, senior official says - reuters.com",
-    "Trump says he thinks war with Iran will end 'pretty soon' - reuters.com",
-    "Virginia governor to intervene in NextEra, Dominion merger over electricity price concerns",
-    "Sweetgreen cuts full-year outlook as cyclospora fears weigh on sales",
-    "Stocks close lower as investors eye Mideast talks, earnings - reuters.com"
+    "Saudi Arabia, Turkey and Pakistan to sign joint defence deal amid regional turmoil - Reuters",
+    "Oil prices firm on concerns over Strait of Hormuz plans - Reuters",
+    "Dollar set for weekly gain as traders eye Iran talks, US jobs data - Reuters",
+    "AI demand keeps China's export engine humming, but risks loom - Reuters",
+    "Vessel traffic through Hormuz dwindles this week as markets watch Iran-Oman talks - Reuters",
+    "Everybody wants energy security post the Iran war, but how? - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
