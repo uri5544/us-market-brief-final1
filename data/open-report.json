@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-08-10",
-  "generated_at": "2026-08-10 11:19 UTC",
+  "generated_at": "2026-08-10 21:52 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Risk-on confirmation",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Opening market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.61%",
-      "tone": "pos"
+      "value": "-0.03%",
+      "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+1.17%",
-      "tone": "pos"
+      "value": "-0.30%",
+      "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.27%",
-      "tone": "pos"
+      "value": "-0.12%",
+      "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+1.11%",
-      "tone": "pos"
+      "value": "-0.52%",
+      "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "15.15",
+      "value": "14.9",
       "tone": "blue"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.61%, Nasdaq proxy +1.17%, Dow proxy +0.27%, Russell proxy +1.11%.",
-    "VIX עומד על 15.15.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Santoli: Stocks return to their winning ways. But was July's brief pain enough to satisfy the market gods?"
+    "תמונת המדדים כרגע: S&P proxy -0.03%, Nasdaq proxy -0.30%, Dow proxy -0.12%, Russell proxy -0.52%.",
+    "VIX עומד על 14.9.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: Wall Street ends down as expectations of Hormuz deal fade - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Santoli: Stocks return to their winning ways. But was July's brief pain enough to satisfy the market gods?",
-    "Iran says no reason to fear Pakistan-Turkey-Saudi security pact - reuters.com",
-    "Mohsen Rezaei appointed as secretary of Iran's top security body - reuters.com",
-    "China is balancing Asia's crude oil demand by itself - reuters.com",
-    "Global stocks tick up with oil steady on Hormuz plans - reuters.com",
-    "Alleged Irish crime boss Kinahan charged with directing criminal organisation - Reuters"
+    "Wall Street ends down as expectations of Hormuz deal fade - Reuters",
+    "Meta's latest model advances Zuckerberg's vision for personal AI assistants",
+    "Who is Iran's Mohsen Rezaei, the hardliner appointed to key security role? - Reuters",
+    "Mohsen Rezaei appointed as secretary of Iran's top security body - Reuters",
+    "Trump says Iran must pay compensation for those it has killed and wounded - Reuters",
+    "We're buying more of an AI stock that's under pressure to start the week"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,7 +85,6 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies positive",
       "VIX relatively calm"
     ]
   }
