@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-08-11",
-  "generated_at": "2026-08-11 11:02 UTC",
+  "generated_at": "2026-08-11 21:58 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.03%",
+      "value": "-0.32%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.30%",
+      "value": "-0.34%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.12%",
+      "value": "-0.32%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.52%",
-      "tone": "neg"
+      "value": "+0.34%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "14.9",
+      "value": "15.46",
       "tone": "blue"
     },
     {
@@ -59,21 +59,21 @@
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.03%, Nasdaq proxy -0.30%, Dow proxy -0.12%, Russell proxy -0.52%.",
-    "VIX עומד על 14.9.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Oil climbs 2%, extending gains on dimming U.S.-Iran peace hopes - Reuters"
+    "תמונת המדדים כרגע: S&P proxy -0.32%, Nasdaq proxy -0.34%, Dow proxy -0.32%, Russell proxy +0.34%.",
+    "VIX עומד על 15.46.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: Wall Street ends down as US-Iran peace optimism fades - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Oil climbs 2%, extending gains on dimming U.S.-Iran peace hopes - Reuters",
-    "Wall Street just endorsed Jensen Huang's 'big concept' for AI. What now?",
-    "Trump boarded secret Turkey flight via catering truck due to Iran threat – media - Reuters",
-    "US-Iran standoff sends oil up, dents stocks - Reuters",
-    "Gulf shipping traffic via Strait of Hormuz falls to six vessels - Reuters",
-    "Gold eases from over two-month high as rising oil prices cloud rate outlook - Reuters"
+    "Wall Street ends down as US-Iran peace optimism fades - Reuters",
+    "We're lifting our price target on Cardinal Health after issuing rosy profit guidance",
+    "Oil continues climb with doubts about potential US-Iran deal; stocks retreat - Reuters",
+    "Hormuz to stay closed unless US meets Iran's conditions, Iran official says - Reuters",
+    "Four crew killed in Red Sea attack while missile strike reported in Gulf - Reuters",
+    "Invitation Homes CEO says ban on institutional homebuying will bring down prices, but not immediately"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
