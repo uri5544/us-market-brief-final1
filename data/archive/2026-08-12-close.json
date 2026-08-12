@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-08-12",
-  "generated_at": "2026-08-12 11:09 UTC",
+  "generated_at": "2026-08-12 21:56 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Balanced / neutral",
+  "market_regime": "Risk-on confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.32%",
-      "tone": "neg"
+      "value": "+0.25%",
+      "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.34%",
-      "tone": "neg"
+      "value": "+0.73%",
+      "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.32%",
+      "value": "-0.02%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.34%",
+      "value": "+0.57%",
       "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "15.46",
+      "value": "15.28",
       "tone": "blue"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
+    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.32%, Nasdaq proxy -0.34%, Dow proxy -0.32%, Russell proxy +0.34%.",
-    "VIX עומד על 15.46.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: China’s answer to Boeing and Airbus makes first international flight — could COMAC challenge the aviation duopoly?"
+    "תמונת המדדים כרגע: S&P proxy +0.25%, Nasdaq proxy +0.73%, Dow proxy -0.02%, Russell proxy +0.57%.",
+    "VIX עומד על 15.28.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: Iranian photojournalist faces 15 years in prison over images, reporting - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "China’s answer to Boeing and Airbus makes first international flight — could COMAC challenge the aviation duopoly?",
-    "European stocks steady ahead of US inflation data; geopolitical risks in focus - Reuters",
-    "Iran to join BRICS development bank soon, central bank governor says - Reuters",
-    "Hormuz shipping traffic falls to one-week low amid hostilities - Reuters",
-    "TUI avoids another profit warning as Iran war further dents travel bookings - Reuters",
-    "US consumer prices likely increased moderately in July as gasoline prices eased - Reuters"
+    "Iranian photojournalist faces 15 years in prison over images, reporting - Reuters",
+    "CoreWeave counters a key bear case on the AI trade. What it means for our data center stocks",
+    "Huge oil slick hitting Oman's shoreline as agencies warn of disaster - Reuters",
+    "Credible missile threat led to secret aircraft switch for Trump, source says - Reuters",
+    "Iran says no progress on reviving interim peace deal with US - Reuters",
+    "How to trade gold prices as Fed rate hike and inflation odds shifts"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,6 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
+      "Index proxies positive",
       "VIX relatively calm"
     ]
   }
