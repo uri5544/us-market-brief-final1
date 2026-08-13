@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-08-13",
-  "generated_at": "2026-08-13 11:09 UTC",
+  "generated_at": "2026-08-13 21:56 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Risk-on confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.25%",
+      "value": "+0.70%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.73%",
+      "value": "+1.16%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.02%",
-      "tone": "neg"
+      "value": "+0.14%",
+      "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.57%",
+      "value": "+0.26%",
       "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "15.28",
+      "value": "14.55",
       "tone": "blue"
     },
     {
@@ -59,21 +59,21 @@
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.25%, Nasdaq proxy +0.73%, Dow proxy -0.02%, Russell proxy +0.57%.",
-    "VIX עומד על 15.28.",
+    "תמונת המדדים כרגע: S&P proxy +0.70%, Nasdaq proxy +1.16%, Dow proxy +0.14%, Russell proxy +0.26%.",
+    "VIX עומד על 14.55.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Treasury yields dip as Wall Street awaits wholesale inflation data"
+    "כותרת בולטת שנקלטה: NEWSLETTER: Trump reckons with a war that won’t leave him alone - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Treasury yields dip as Wall Street awaits wholesale inflation data",
-    "Stocks edge up with oil price below $90, dollar at 2-week high, Iran in focus - Reuters",
-    "UK economy gains from Gulf ceasefire, World Cup and sunshine - Reuters",
-    "Jailed Istanbul mayor Imamoglu joins new opposition party amid political turmoil - Reuters",
-    "Gold off two-month peak as traders seek inflation cues - Reuters",
-    "Indian benchmarks extend fall on Mideast uncertainty; Tata stocks steady - Reuters"
+    "NEWSLETTER: Trump reckons with a war that won’t leave him alone - Reuters",
+    "US could not verify Israeli warnings of Iran plots against Trump, sources say - Reuters",
+    "Cramer: How words of wisdom from Gene Hackman help me make peace with investing mistakes",
+    "Stocks rise as traders reduce rate hike bets, oil prices drop - Reuters",
+    "Iran, US make competing claims over control of Strait of Hormuz - Reuters",
+    "Hegseth says reports about poor conditions aboard carrier are misrepresented - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
