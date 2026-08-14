@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-08-14",
-  "generated_at": "2026-08-14 11:06 UTC",
+  "generated_at": "2026-08-14 21:34 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Risk-on confirmation",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Opening market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.70%",
-      "tone": "pos"
+      "value": "-0.20%",
+      "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+1.16%",
-      "tone": "pos"
+      "value": "-0.14%",
+      "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.14%",
-      "tone": "pos"
+      "value": "-0.21%",
+      "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.26%",
+      "value": "+0.52%",
       "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "14.55",
+      "value": "14.63",
       "tone": "blue"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.70%, Nasdaq proxy +1.16%, Dow proxy +0.14%, Russell proxy +0.26%.",
-    "VIX עומד על 14.55.",
+    "תמונת המדדים כרגע: S&P proxy -0.20%, Nasdaq proxy -0.14%, Dow proxy -0.21%, Russell proxy +0.52%.",
+    "VIX עומד על 14.63.",
     "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Treasury yields rise as U.S. threatens Iran with more economic sanctions"
+    "כותרת בולטת שנקלטה: Trump urges Americans to accept higher gas prices as he escalates Iran rhetoric - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Treasury yields rise as U.S. threatens Iran with more economic sanctions",
-    "Hormuz shipping traffic capped amid competing claims from US and Iran - Reuters",
-    "Asian stocks head for strong weekly gains as US rate hike bets fade - Reuters",
-    "Indian shares slip as US threatens indefinite naval blockade of Iran - Reuters",
-    "Oil rises after US threatens indefinite blockade of Iran; set for weekly gains - Reuters",
-    "Bessent says US to apply measures never seen on Iran - Reuters"
+    "Trump urges Americans to accept higher gas prices as he escalates Iran rhetoric - Reuters",
+    "Oil climbs over $1 on tanker attacks, no progrees on peace - Reuters",
+    "What flash memory maker SanDisk told investors this week is a boon for our newest stock",
+    "Two slicks appear in Gulf as huge oil spill off Oman threatens disaster - Reuters",
+    "New CNBC Generation Lab poll shows almost half of 18- to 34-year-olds see democratic socialism positively",
+    "Disney CEO Josh D'Amaro to speak with CNBC live from D23 expo"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,7 +85,6 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies positive",
       "VIX relatively calm"
     ]
   }
