@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-08-18",
-  "generated_at": "2026-08-18 10:44 UTC",
+  "generated_at": "2026-08-18 21:33 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,32 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.47%",
+      "value": "-0.68%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.16%",
+      "value": "-1.69%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.49%",
+      "value": "-0.24%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.34%",
+      "value": "-1.26%",
       "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "14.25",
+      "value": "15.19",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "4.6800000000%",
       "tone": "blue"
     }
   ],
@@ -54,21 +59,21 @@
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.47%, Nasdaq proxy -0.16%, Dow proxy -0.49%, Russell proxy -0.34%.",
-    "VIX עומד על 14.25.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: How investors profit from soccer even as Premier League club losses skyrocket"
+    "תמונת המדדים כרגע: S&P proxy -0.68%, Nasdaq proxy -1.69%, Dow proxy -0.24%, Russell proxy -1.26%.",
+    "VIX עומד על 15.19.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: UAE says two missiles detected earlier were launched from Iran - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "How investors profit from soccer even as Premier League club losses skyrocket",
-    "Eight Israeli airstrikes hit Syria's Abu al-Duhur airbase, no casualties, state TV reports - Reuters",
-    "China's state shippers deploy oil tankers outside Gulf, avoid chokepoints, sources say - Reuters",
-    "European shares slip as oil prices and bond yields surge on Middle East fears - Reuters",
-    "US 30-year yields hit highest level since 2007 as war, oil worries fester - Reuters",
-    "The 30-year Treasury yield just hit a 19-year high. Three things could drive it even higher"
+    "UAE says two missiles detected earlier were launched from Iran - Reuters",
+    "Dollar range-bound as markets price dovish Fed response - Reuters",
+    "US working on deconfliction mechanism among Turkey, Israel and Syria, US envoy says - Reuters",
+    "Tech selloff pulls Wall Street to two-week lows as bond yields climb - Reuters",
+    "U.S. government debt yields are surging at a bad time. Here's what's behind the move",
+    "Hormuz Strait to remain shut until U.S. meets interim deal conditions, Iran says - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
