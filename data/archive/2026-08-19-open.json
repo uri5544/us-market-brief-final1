@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-08-19",
-  "generated_at": "2026-08-19 10:43 UTC",
+  "generated_at": "2026-08-19 21:34 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.68%",
-      "tone": "neg"
+      "value": "+0.21%",
+      "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-1.69%",
+      "value": "-0.20%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.24%",
-      "tone": "neg"
+      "value": "+0.26%",
+      "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "-1.26%",
-      "tone": "neg"
+      "value": "+0.50%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "15.19",
+      "value": "15.84",
       "tone": "blue"
     },
     {
@@ -57,45 +57,23 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.68%, Nasdaq proxy -1.69%, Dow proxy -0.24%, Russell proxy -1.26%.",
-    "VIX עומד על 15.19, ותשואת אג\"ח ארה\"ב ל-10 שנים על 4.7200000000%.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "המניה הבולטת בפיד movers היא XOSWW.",
-    "כותרת בולטת שנקלטה: South Korea minister says Trump appears to be pressuring Seoul over Iran, investment - Reuters"
+    "תמונת המדדים כרגע: S&P proxy +0.21%, Nasdaq proxy -0.20%, Dow proxy +0.26%, Russell proxy +0.50%.",
+    "VIX עומד על 15.84.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Wall St rises as yields ease, Moderna lifts healthcare stocks - Reuters"
   ],
-  "movers": [
-    {
-      "asset": "XOSWW",
-      "move": "822.2222%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "PFSA",
-      "move": "506.6225%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "LGCL",
-      "move": "-82.8582%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "AACBR",
-      "move": "-72.5%",
-      "driver": "Alpha Vantage top movers feed"
-    }
-  ],
+  "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "South Korea minister says Trump appears to be pressuring Seoul over Iran, investment - Reuters",
-    "Pictures of the Day | August 18, 2026 - Reuters",
-    "Hormuz traffic slows as uncertainty over waterway persists - Reuters",
-    "Oil hits three-week high on uncertainty over Hormuz - Reuters",
-    "Tech selloff weighs down Wall Street as bond yields climb - Reuters",
-    "US yields edge lower despite Iran worries, broader sell-off - Reuters"
+    "Wall St rises as yields ease, Moderna lifts healthcare stocks - Reuters",
+    "US warns Siemens devices can be hacked amid fears Iran is breaching water plants - Reuters",
+    "Where we stand on Broadcom after Marvell muscles in on its key customer Google",
+    "UAE's financial embargo on Iran after missile threat puts rivalry back in spotlight - Reuters",
+    "A speakeasy inside a gas station is the hottest cocktail bar in a Minnesota town—the business brought in almost $5 million in a year",
+    "Jim Cramer says buy Target on any pullback as turnaround takes hold"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -107,7 +85,6 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies negative",
       "VIX relatively calm"
     ]
   }
