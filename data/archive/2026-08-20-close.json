@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-08-20",
-  "generated_at": "2026-08-20 10:44 UTC",
+  "generated_at": "2026-08-20 21:36 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.21%",
-      "tone": "pos"
+      "value": "-0.84%",
+      "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.20%",
+      "value": "-0.72%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.26%",
-      "tone": "pos"
+      "value": "-1.25%",
+      "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.50%",
-      "tone": "pos"
+      "value": "-1.34%",
+      "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "15.84",
+      "value": "14.89",
       "tone": "blue"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.21%, Nasdaq proxy -0.20%, Dow proxy +0.26%, Russell proxy +0.50%.",
-    "VIX עומד על 15.84.",
+    "תמונת המדדים כרגע: S&P proxy -0.84%, Nasdaq proxy -0.72%, Dow proxy -1.25%, Russell proxy -1.34%.",
+    "VIX עומד על 14.89.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Iran executes man over charges related to January protests, state media says - Reuters"
+    "כותרת בולטת שנקלטה: Harry and Meghan: Their life together in photos - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Iran executes man over charges related to January protests, state media says - Reuters",
-    "The Iran war energy crisis is just getting started - Reuters",
-    "Israeli warns Turkey against 'dangerous adventures' in Syria; Syria says no Turkish build-up planned - Reuters",
-    "Hormuz shipping unchanged amid US-Iran stalemate, data shows - Reuters",
-    "Trump warns of economic consequences for any country that supports Iran - Reuters",
-    "China boosts imports of Russian crude, stymieing India's refiners - Reuters"
+    "Harry and Meghan: Their life together in photos - Reuters",
+    "The Los Angeles Lakers sold for $12.5 billion. Here’s what every NBA team is now worth",
+    "Oil settles up more than 2% after Trump threatens countries supporting Iran - Reuters",
+    "Hyundai to increase U.S. production at new Georgia plant, CEO tells CNBC",
+    "US hits Hezbollah with fresh sanctions, emphasizing ties to Iranian government - Reuters",
+    "Bessent says US will impose toughest ever sanctions on Iran, urges China to cooperate - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,6 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
+      "Index proxies negative",
       "VIX relatively calm"
     ]
   }
