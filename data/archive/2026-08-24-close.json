@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-08-24",
-  "generated_at": "2026-08-24 10:50 UTC",
+  "generated_at": "2026-08-24 21:38 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Risk-on confirmation",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,49 +26,54 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.41%",
-      "tone": "pos"
+      "value": "-0.29%",
+      "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.35%",
-      "tone": "pos"
+      "value": "-1.00%",
+      "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.89%",
+      "value": "+0.27%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.77%",
-      "tone": "pos"
+      "value": "-0.66%",
+      "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "16.01",
+      "value": "15.13",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "4.6900000000%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.41%, Nasdaq proxy +0.35%, Dow proxy +0.89%, Russell proxy +0.77%.",
-    "VIX עומד על 16.01.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: The Hormuz crude volume debate masks the real shortage of refined fuels - Reuters"
+    "תמונת המדדים כרגע: S&P proxy -0.29%, Nasdaq proxy -1.00%, Dow proxy +0.27%, Russell proxy -0.66%.",
+    "VIX עומד על 15.13.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: S&P 500, Nasdaq end down on tech stocks, investors weigh Iran moves - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "The Hormuz crude volume debate masks the real shortage of refined fuels - Reuters",
-    "Pakistan's Munir spoke to Trump ahead of Tehran visit, sources say - Reuters",
-    "Iran warns vessels violating Hormuz transit rules of fines, detention - Reuters",
-    "UK briefs energy chiefs after Iran-linked cyber attack reports - Reuters",
-    "China vows to protect its rights as US readies Iran sanction - Reuters",
-    "Germany's Wadephul to urge Rubio to take more active role on Ukraine - Reuters"
+    "S&P 500, Nasdaq end down on tech stocks, investors weigh Iran moves - Reuters",
+    "Here's what the charts say about Nvidia's stock heading into earnings",
+    "US removes Syria from terrorism sponsor list, lifting major investment obstacle - Reuters",
+    "Trump's approval holds at record low as US support for Iran war falls, Reuters Ipsos poll finds - Reuters",
+    "Israel's Netanyahu says Iran tried to kill one of his sons - Reuters",
+    "US threatens countries doing business with Iran, but holds off on penalties for now - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -80,7 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies positive",
+      "Index proxies negative",
       "VIX relatively calm"
     ]
   }
