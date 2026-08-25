@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-08-25",
-  "generated_at": "2026-08-25 10:46 UTC",
+  "generated_at": "2026-08-25 21:37 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Balanced / neutral",
+  "market_regime": "Risk-on confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.29%",
-      "tone": "neg"
+      "value": "+0.32%",
+      "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-1.00%",
-      "tone": "neg"
+      "value": "+0.62%",
+      "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.27%",
+      "value": "+0.30%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.66%",
-      "tone": "neg"
+      "value": "+0.42%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "15.13",
+      "value": "15.85",
       "tone": "blue"
     },
     {
@@ -57,23 +57,45 @@
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
+    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.29%, Nasdaq proxy -1.00%, Dow proxy +0.27%, Russell proxy -0.66%.",
-    "VIX עומד על 15.13.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: US prepares to send diplomats back to Middle East embassies after Iran war evacuations, NYT reports - Reuters"
+    "תמונת המדדים כרגע: S&P proxy +0.32%, Nasdaq proxy +0.62%, Dow proxy +0.30%, Russell proxy +0.42%.",
+    "VIX עומד על 15.85.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "המניה הבולטת בפיד movers היא DAIC.",
+    "כותרת בולטת שנקלטה: 2 of our software stocks face major tests of whether their rallies are for real"
   ],
-  "movers": [],
+  "movers": [
+    {
+      "asset": "DAIC",
+      "move": "306.1033%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "DAICW",
+      "move": "300.0%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "FLZH",
+      "move": "-77.2038%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "SWAGW",
+      "move": "-53.0%",
+      "driver": "Alpha Vantage top movers feed"
+    }
+  ],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "US prepares to send diplomats back to Middle East embassies after Iran war evacuations, NYT reports - Reuters",
-    "Iran vows to retaliate after US widens sanctions - Reuters",
-    "BlackBerry CEO says robotics is one of its fastest-growing businesses",
-    "Iran war makes multibillion-dollar Tanzania LNG more attractive, Equinor says - Reuters",
-    "United States sanctions oil trader Wellbred over Iran links - Reuters",
-    "Six months into Iran war, almost half of global oil flows from war zones - Reuters"
+    "2 of our software stocks face major tests of whether their rallies are for real",
+    "Six months into Iran war, almost half of global oil flows from war zones - Reuters",
+    "Explainer: Why the bond market may be resetting expectations about the US - Reuters",
+    "Kalshi traders see low likelihood of major crypto bill becoming law this year",
+    "U.S. Secret Service aware of Iranian video threat against Barron Trump - Reuters",
+    "Bond rout ending? Massive bets on bond rally dominate options market"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,7 +107,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies negative",
+      "Index proxies positive",
       "VIX relatively calm"
     ]
   }
