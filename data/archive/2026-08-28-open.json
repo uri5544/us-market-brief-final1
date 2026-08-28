@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-08-28",
-  "generated_at": "2026-08-28 05:18 UTC",
+  "generated_at": "2026-08-28 21:10 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Risk-on confirmation",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Opening market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.66%",
-      "tone": "pos"
+      "value": "-0.23%",
+      "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+1.37%",
-      "tone": "pos"
+      "value": "-0.65%",
+      "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.19%",
-      "tone": "pos"
+      "value": "-0.03%",
+      "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.29%",
-      "tone": "pos"
+      "value": "-1.35%",
+      "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "15.21",
+      "value": "14.51",
       "tone": "blue"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.66%, Nasdaq proxy +1.37%, Dow proxy +0.19%, Russell proxy +0.29%.",
-    "VIX עומד על 15.21.",
+    "תמונת המדדים כרגע: S&P proxy -0.23%, Nasdaq proxy -0.65%, Dow proxy -0.03%, Russell proxy -1.35%.",
+    "VIX עומד על 14.51.",
     "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Iran war diplomacy turns toward reopening Strait of Hormuz - Reuters"
+    "כותרת בולטת שנקלטה: Stock traders warm up to Warsh as volatility index touches year-to-date low"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Iran war diplomacy turns toward reopening Strait of Hormuz - Reuters",
-    "Oil on track for weekly loss even as Iran tensions simmer - Reuters",
-    "US-hosted G20 finance meeting to target growth, imbalances, Iran sanctions, Treasury official says - Reuters",
-    "After six months, the Iran war has reached its endgame — a costly stalemate - Reuters",
-    "Jim Cramer says Nvidia and Salesforce earnings upended two bear narratives",
-    "Iran sets conditions for reopening Strait of Hormuz, top security official Rezaei says - Reuters"
+    "Stock traders warm up to Warsh as volatility index touches year-to-date low",
+    "Bessent attacks Warren over yen intervention query, offers ‘Foreign Exchange for Dummies’ lesson",
+    "Meta's $17 billion settlement mandates new safeguards for kids—many are promising, says safety expert",
+    "What we learned from Warsh's Jackson Hole speech, and GE Vernova's CFO to retire",
+    "US hits Egyptian bank branches with Iran sanctions as war marks six months - Reuters",
+    "Apple hikes subscription prices for Apple TV and Apple One in the U.S."
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,7 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies positive",
+      "Index proxies negative",
       "VIX relatively calm"
     ]
   }
