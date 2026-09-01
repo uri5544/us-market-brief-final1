@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-09-01",
-  "generated_at": "2026-09-01 14:50 UTC",
+  "generated_at": "2026-09-01 23:15 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,22 +26,22 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.40%",
+      "value": "-0.69%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.86%",
+      "value": "-1.27%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.24%",
+      "value": "-0.72%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.53%",
+      "value": "-1.14%",
       "tone": "neg"
     },
     {
@@ -51,29 +51,51 @@
     },
     {
       "label": "US10Y",
-      "value": "4.73%",
+      "value": "4.75%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy -0.40%, Nasdaq proxy -0.86%, Dow proxy -0.24%, Russell proxy -0.53%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -0.69%, Nasdaq proxy -1.27%, Dow proxy -0.72%, Russell proxy -1.14%.",
     "VIX עומד על 14.92.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: U.S. House aims to avoid government shutdown amid GOP hardliner resistance"
+    "המניה הבולטת בפיד movers היא GTERW.",
+    "כותרת בולטת שנקלטה: OpenAI says Astra AI model is its first that crosses 'Critical' cybersecurity capability"
   ],
-  "movers": [],
+  "movers": [
+    {
+      "asset": "GTERW",
+      "move": "135.9477%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "LCFYW",
+      "move": "108.5427%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "KTTAW",
+      "move": "-64.0%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "MIACW",
+      "move": "-50.9804%",
+      "driver": "Alpha Vantage top movers feed"
+    }
+  ],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "U.S. House aims to avoid government shutdown amid GOP hardliner resistance",
-    "Jim Cramer's top 10 things to watch in the stock market Tuesday",
-    "10-year yield hits highest since January 2025 as Middle East tensions return to focus",
-    "Risk-reward outlook for stocks is getting worse as historically tough month kicks off, says Citadel",
-    "Lilly taps obesity windfall for more M&A. Plus, Elon Musk remarks pull GE Vernova lower",
-    "Mortgage rates surge to the highest since June 2025 as new Middle East attacks push oil prices up"
+    "OpenAI says Astra AI model is its first that crosses 'Critical' cybersecurity capability",
+    "Stan Kroenke buys controlling stake in MLB's Los Angeles Angels",
+    "We're sitting on more cash than at any time this year. Here's why",
+    "Jim Cramer says selling Amazon shares over new FTC lawsuit would be 'hysterical'",
+    "Students are reconsidering their majors, career paths and industries due to AI: CNBC survey",
+    "AI token prices are hitting new record lows"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
