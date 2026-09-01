@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-09-01",
-  "generated_at": "2026-09-01 00:33 UTC",
+  "generated_at": "2026-09-01 14:50 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.30%",
+      "value": "-0.40%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.05%",
-      "tone": "pos"
+      "value": "-0.86%",
+      "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.65%",
+      "value": "-0.24%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.62%",
+      "value": "-0.53%",
       "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "14.43",
+      "value": "14.92",
       "tone": "blue"
     },
     {
@@ -58,22 +58,22 @@
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.30%, Nasdaq proxy +0.05%, Dow proxy -0.65%, Russell proxy -0.62%.",
-    "VIX עומד על 14.43.",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -0.40%, Nasdaq proxy -0.86%, Dow proxy -0.24%, Russell proxy -0.53%.",
+    "VIX עומד על 14.92.",
     "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Risk-reward outlook for stocks is getting worse as historically tough month kicks off, says Citadel"
+    "כותרת בולטת שנקלטה: U.S. House aims to avoid government shutdown amid GOP hardliner resistance"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
+    "U.S. House aims to avoid government shutdown amid GOP hardliner resistance",
+    "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+    "10-year yield hits highest since January 2025 as Middle East tensions return to focus",
     "Risk-reward outlook for stocks is getting worse as historically tough month kicks off, says Citadel",
     "Lilly taps obesity windfall for more M&A. Plus, Elon Musk remarks pull GE Vernova lower",
-    "Mortgage rates surge to the highest since June 2025 as new Middle East attacks push oil prices up",
-    "Trump reportedly plans to announce new drug pricing deals with nearly a dozen drugmakers",
-    "Waiting for homebuying to get more affordable? Here's what to expect in 2027",
-    "Why Nvidia and CrowdStrike are up in an otherwise down stock market"
+    "Mortgage rates surge to the highest since June 2025 as new Middle East attacks push oil prices up"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
