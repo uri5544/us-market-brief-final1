@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-09-02",
-  "generated_at": "2026-09-02 14:26 UTC",
+  "generated_at": "2026-09-02 23:15 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Risk-on confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,22 +26,22 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.45%",
+      "value": "+0.44%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.18%",
+      "value": "+0.23%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.67%",
+      "value": "+0.54%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+1.00%",
+      "value": "+1.18%",
       "tone": "pos"
     },
     {
@@ -51,29 +51,29 @@
     },
     {
       "label": "US10Y",
-      "value": "4.75%",
+      "value": "4.79%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy +0.45%, Nasdaq proxy +0.18%, Dow proxy +0.67%, Russell proxy +1.00%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy +0.44%, Nasdaq proxy +0.23%, Dow proxy +0.54%, Russell proxy +1.18%.",
     "VIX עומד על 16.34.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: American Airlines continues premium push with redesigned Boeing planes"
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: Wall St ends higher as stocks reclaim some shine - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "American Airlines continues premium push with redesigned Boeing planes",
-    "Jim Cramer's top 10 things to watch in the stock market Wednesday",
-    "Apple shares are doing something they haven't done in 20 years. Here’s what’s happening",
-    "OpenAI says Astra AI model is its first that crosses 'Critical' cybersecurity capability",
-    "Stan Kroenke buys controlling stake in MLB's Los Angeles Angels",
-    "We're sitting on more cash than at any time this year. Here's why"
+    "Wall St ends higher as stocks reclaim some shine - Reuters",
+    "Trump aides seek 'quiet' in Iran war but say attacks may intensify after November elections - Reuters",
+    "US-Iran strikes raise fears of renewed war across the Middle East - Reuters",
+    "NBA suspends Clippers owner Ballmer for one year in Kawhi Leonard salary cap probe",
+    "J&J's run to record highs hasn't reached the finish line yet. Here are the key drivers",
+    "Broadcom's stock drops 5% as weak guidance overshadows earnings beat"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
