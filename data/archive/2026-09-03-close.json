@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-09-03",
-  "generated_at": "2026-09-03 14:31 UTC",
+  "generated_at": "2026-09-03 23:13 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Risk-on confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,50 +26,36 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.50%",
+      "value": "+1.05%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.58%",
+      "value": "+1.19%",
       "tone": "pos"
-    },
-    {
-      "label": "Dow proxy",
-      "value": "+0.57%",
-      "tone": "pos"
-    },
-    {
-      "label": "Russell proxy",
-      "value": "-0.05%",
-      "tone": "neg"
     },
     {
       "label": "VIX",
       "value": "15.2",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "4.79%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy +0.50%, Nasdaq proxy +0.58%, Dow proxy +0.57%, Russell proxy -0.05%.",
+    "תמונת המדדים כרגע: S&P proxy +1.05%, Nasdaq proxy +1.19%, VIX 15.2, US10Y 4.79%.",
     "VIX עומד על 15.2.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Jim Cramer's top 10 things to watch in the stock market Thursday"
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20."
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
-  "headlines": [
-    "Jim Cramer's top 10 things to watch in the stock market Thursday",
-    "Oil prices hit fresh 6-week highs on renewed Middle East tensions - Reuters",
-    "Stocks gain as bonds recover; rising Gulf tensions boost oil - Reuters",
-    "How much money Americans in their 30s and 40s have in their 401(k)s—see how you stack up",
-    "Billionaire family offices back health care and biotech startups in August",
-    "Britain's King Charles to host Oman's Sultan for October state visit - Reuters"
-  ],
+  "headlines": [],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
     "להמשיך לנקות ניסוחים מעורבים של עברית ואנגלית.",

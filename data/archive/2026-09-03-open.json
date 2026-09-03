@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-09-03",
-  "generated_at": "2026-09-03 14:31 UTC",
+  "generated_at": "2026-09-03 23:13 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Risk-on confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -25,50 +25,40 @@
   ],
   "metrics": [
     {
-      "label": "S&P proxy",
-      "value": "+0.46%",
-      "tone": "pos"
-    },
-    {
-      "label": "Nasdaq proxy",
-      "value": "+0.55%",
-      "tone": "pos"
-    },
-    {
-      "label": "Dow proxy",
-      "value": "+0.55%",
-      "tone": "pos"
-    },
-    {
       "label": "Russell proxy",
-      "value": "-0.10%",
-      "tone": "neg"
+      "value": "+0.40%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
       "value": "15.2",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "4.79%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy +0.46%, Nasdaq proxy +0.55%, Dow proxy +0.55%, Russell proxy -0.10%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: Russell proxy +0.40%, VIX 15.2, US10Y 4.79%.",
     "VIX עומד על 15.2.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Jim Cramer's top 10 things to watch in the stock market Thursday"
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Deadly strike on Iranian wedding was likely a direct hit by a US munition, analysis shows - reuters.com"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Jim Cramer's top 10 things to watch in the stock market Thursday",
-    "Oil prices hit fresh 6-week highs on renewed Middle East tensions - Reuters",
-    "Stocks gain as bonds recover; rising Gulf tensions boost oil - Reuters",
-    "How much money Americans in their 30s and 40s have in their 401(k)s—see how you stack up",
-    "Billionaire family offices back health care and biotech startups in August",
-    "Britain's King Charles to host Oman's Sultan for October state visit - Reuters"
+    "Deadly strike on Iranian wedding was likely a direct hit by a US munition, analysis shows - reuters.com",
+    "Vance says Iran conflict is not a war, declines to offer timeline for end - reuters.com",
+    "US diesel prices hit record high as conflicts intensify supply crunch - reuters.com",
+    "Vance: US probing airstrike that Iran says hit a wedding party - reuters.com",
+    "Adobe names Anil Chakravarthy as CEO, replacing Shantanu Narayen",
+    "Oil prices mixed as investors weigh Middle East escalation, chance of Russia-Ukraine peace deal - reuters.com"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
