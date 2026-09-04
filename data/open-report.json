@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-09-04",
-  "generated_at": "2026-09-04 14:18 UTC",
+  "generated_at": "2026-09-04 22:59 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,22 +26,22 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.25%",
+      "value": "-0.39%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.35%",
+      "value": "+0.18%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.47%",
+      "value": "-0.53%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.04%",
+      "value": "+0.28%",
       "tone": "pos"
     },
     {
@@ -51,29 +51,29 @@
     },
     {
       "label": "US10Y",
-      "value": "4.79%",
+      "value": "4.77%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy -0.25%, Nasdaq proxy +0.35%, Dow proxy -0.47%, Russell proxy +0.04%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -0.39%, Nasdaq proxy +0.18%, Dow proxy -0.53%, Russell proxy +0.28%.",
     "VIX עומד על 14.32.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Labor Day marks the start of 'fallcations' as wealthy travelers avoid summer crowds"
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: Judge weighs how to dismiss Reflecting Pool vandalism charge against Olympian"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Labor Day marks the start of 'fallcations' as wealthy travelers avoid summer crowds",
-    "Gloria Steinem hosted salons in her living room for decades—how to gather for conversation and connection, says expert",
-    "2-year yield rises to highest since January 2025 after hot jobs report boosts expectations that the Fed could raise rates",
-    "Here are our top 10 things to watch in the stock market Friday",
-    "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries",
-    "The big business of personal protection: How private security became a $50 billion industry"
+    "Judge weighs how to dismiss Reflecting Pool vandalism charge against Olympian",
+    "Trump says US may hit Iran's Pickaxe Mountain soon - Reuters",
+    "Witkoff, Kushner heading abroad to discuss Ukraine peace, Trump says - Reuters",
+    "U.S. approves potential sale of Joint Direct Attack Munitions-Extend Range to Saudi Arabia for $5 billion - Reuters",
+    "What strong jobs data means for rates — plus, an out-of-favor trade shines this week",
+    "US sanctions Turkish bank, two subsidiaries in latest pressure on Iran - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
