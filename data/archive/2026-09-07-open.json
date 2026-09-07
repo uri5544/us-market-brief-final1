@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-09-07",
-  "generated_at": "2026-09-07 15:48 UTC",
+  "generated_at": "2026-09-07 23:26 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,22 +26,22 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.38%",
+      "value": "-0.39%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.19%",
+      "value": "+0.18%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.52%",
+      "value": "-0.53%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.29%",
+      "value": "+0.28%",
       "tone": "pos"
     },
     {
@@ -59,21 +59,21 @@
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
     "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.38%, Nasdaq proxy +0.19%, Dow proxy -0.52%, Russell proxy +0.29%.",
+    "תמונת המדדים כרגע: S&P proxy -0.39%, Nasdaq proxy +0.18%, Dow proxy -0.53%, Russell proxy +0.28%.",
     "VIX עומד על 14.32.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Gulf equities mixed amid US-Iran flare-ups - Reuters"
+    "כותרת בולטת שנקלטה: Israeli clearance of Gaza rubble could destroy 'evidence', says UN expert - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
+    "Israeli clearance of Gaza rubble could destroy 'evidence', says UN expert - Reuters",
+    "UK's Burnham, Trump discuss working towards Ukraine-Russia ceasefire, Downing Street says - Reuters",
     "Gulf equities mixed amid US-Iran flare-ups - Reuters",
     "'Ah! Rejected, yet again': How this 45-year-old turned his 'demoralizing' job search into a one-man show",
     "UAE says its energy exports will not be 'held hostage' by Iran war - Reuters",
-    "Oman says it evacuated 16 crew members of Saudi Sidr vessel attacked by Iran - Reuters",
-    "Iran vows to respond to US strikes, says US energy companies' facilities are 'exposed' - Reuters",
-    "Israeli strikes on southern Lebanese town kill 11, state news agency says - Reuters"
+    "Saudi Arabia preparing to grant IAEA more intrusive powers, Grossi says - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
