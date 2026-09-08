@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-09-08",
-  "generated_at": "2026-09-08 14:30 UTC",
+  "generated_at": "2026-09-08 23:19 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,22 +26,22 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.48%",
+      "value": "-0.55%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.22%",
+      "value": "-0.08%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-1.25%",
+      "value": "-1.13%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.36%",
+      "value": "-0.45%",
       "tone": "neg"
     },
     {
@@ -51,29 +51,29 @@
     },
     {
       "label": "US10Y",
-      "value": "4.77%",
+      "value": "4.78%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy -0.48%, Nasdaq proxy -0.22%, Dow proxy -1.25%, Russell proxy -0.36%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -0.55%, Nasdaq proxy -0.08%, Dow proxy -1.13%, Russell proxy -0.45%.",
     "VIX עומד על 15.3.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: UK announces new Israel sanctions, despite U.S. warning of economic consequences"
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Who are the Houthis, Iran’s allies in Yemen? - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "UK announces new Israel sanctions, despite U.S. warning of economic consequences",
-    "Jim Cramer's top 10 things to watch in the stock market Tuesday",
-    "Property Play: Here’s where rental demand is heading and what it means for future home sales",
-    "Netanyahu races to unify Israel's right wing in bid to avert election defeat - Reuters",
+    "Who are the Houthis, Iran’s allies in Yemen? - Reuters",
+    "This alternative energy stock is more popular than SpaceX in the options pits. Here's why",
     "Iran-backed Houthis attack four Saudi cities in expansion of Middle East war, 73 hurt - Reuters",
-    "UK publishes legislation for tougher sanctions on Iran over nuclear programme - Reuters"
+    "Wall Street slides, oil surges amid worries over inflation, Middle East - Reuters",
+    "Huawei heads to trial in US over its business dealings in Iran - Reuters",
+    "Air traffic control issue disrupts flights at major UK airports - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
