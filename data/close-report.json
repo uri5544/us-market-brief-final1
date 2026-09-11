@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-09-11",
-  "generated_at": "2026-09-11 14:23 UTC",
+  "generated_at": "2026-09-11 23:11 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Risk-on confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,22 +26,22 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+1.09%",
+      "value": "+0.85%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+1.12%",
+      "value": "+0.87%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+1.07%",
+      "value": "+0.97%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.70%",
+      "value": "+0.41%",
       "tone": "pos"
     },
     {
@@ -51,51 +51,29 @@
     },
     {
       "label": "US10Y",
-      "value": "4.83%",
+      "value": "4.95%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy +1.09%, Nasdaq proxy +1.12%, Dow proxy +1.07%, Russell proxy +0.70%.",
-    "VIX עומד על 17.84, ותשואת אג\"ח ארה\"ב ל-10 שנים על 4.83%.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "המניה הבולטת בפיד movers היא TNON.",
-    "כותרת בולטת שנקלטה: Leopold Aschenbrenner's Situational Awareness is active in options market, sources say"
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy +0.85%, Nasdaq proxy +0.87%, Dow proxy +0.97%, Russell proxy +0.41%.",
+    "VIX עומד על 17.84.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Gulf oil threatened anew as Houthis reach key island and pipeline is shut down - Reuters"
   ],
-  "movers": [
-    {
-      "asset": "TNON",
-      "move": "117.2131%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "NXATW",
-      "move": "110.0%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "MKDW",
-      "move": "-48.4848%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "SWRD",
-      "move": "-45.6098%",
-      "driver": "Alpha Vantage top movers feed"
-    }
-  ],
+  "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Leopold Aschenbrenner's Situational Awareness is active in options market, sources say",
-    "Jim Cramer's top 10 things to watch in the stock market Friday",
-    "Nonprofit received $2 million from Olivia Rodrigo and Melinda French Gates—it wants to give cash to abuse survivors",
-    "Yemen's Houthis reach strategic island at mouth of vital shipping lane - Reuters",
-    "Wealthy investors are pouring billions into this new tax strategy despite risks",
-    "25 years after 9/11, the U.S. starts rolling back travel restrictions, from liquids to gate access"
+    "Gulf oil threatened anew as Houthis reach key island and pipeline is shut down - Reuters",
+    "Saudi Arabia says drones launched from Iraq hit East-West pipeline, holds off on retaliation - Reuters",
+    "How Anthropic says Claude was used for weapons, spying and cyber operations - Reuters",
+    "Twenty-five years after September 11, Americans reflect on attack that changed a nation - Reuters",
+    "Why this industrial gas giant deserves its premium valuation (and should be owned)",
+    "Meet Ottava, J&J's surgical robot leading the healthcare giant into a lucrative new market"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
