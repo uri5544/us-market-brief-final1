@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-09-14",
-  "generated_at": "2026-09-14 16:20 UTC",
+  "generated_at": "2026-09-14 23:50 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,23 +26,23 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.25%",
+      "value": "-0.45%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.56%",
+      "value": "-0.80%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.04%",
+      "value": "-0.25%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.13%",
-      "tone": "pos"
+      "value": "-0.34%",
+      "tone": "neg"
     },
     {
       "label": "VIX",
@@ -51,29 +51,29 @@
     },
     {
       "label": "US10Y",
-      "value": "4.95%",
+      "value": "4.96%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy -0.25%, Nasdaq proxy -0.56%, Dow proxy -0.04%, Russell proxy +0.13%.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -0.45%, Nasdaq proxy -0.80%, Dow proxy -0.25%, Russell proxy -0.34%.",
     "VIX עומד על 15.84.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Here are our top 10 things to watch in the stock market Monday"
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: US imposes fresh sanctions on Russia's VTB Bank over alleged Iran ties - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Here are our top 10 things to watch in the stock market Monday",
-    "Yemen's displaced long for loved ones, stability as Houthis advance - Reuters",
-    "AI stocks tumble on safety warnings. How to proceed — including 2 names on our shopping list",
-    "Syria fuel price hikes trigger widest protests since Assad fall - Reuters",
-    "College students feel more pressure to be perfect. Experts explain why",
-    "Iranian strait authority issues updated list of sanctioned vessels - Reuters"
+    "US imposes fresh sanctions on Russia's VTB Bank over alleged Iran ties - Reuters",
+    "Billionaire Dangote launches oil refinery 'people's IPO', Africa's biggest - Reuters",
+    "Not all tech is under fire in Monday's selling, while investors seek refuge in defensive stocks",
+    "Counting the votes: Warsh faces a tough battle as the Fed girds for expected interest rate hike",
+    "Is a 'SaaSpocalypse'-like sell-off coming for AI hardware stocks? Not so fast",
+    "As the oil surge continues, trader Mike Khouw sees more upside in this surging name"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,6 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
+      "Index proxies negative",
       "VIX relatively calm"
     ]
   }
