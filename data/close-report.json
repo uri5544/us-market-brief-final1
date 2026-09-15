@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-09-15",
-  "generated_at": "2026-09-15 14:57 UTC",
+  "generated_at": "2026-09-15 23:30 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,7 +26,7 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.56%",
+      "value": "-0.46%",
       "tone": "neg"
     },
     {
@@ -36,12 +36,12 @@
     },
     {
       "label": "Dow proxy",
-      "value": "-0.95%",
+      "value": "-0.62%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-1.28%",
+      "value": "-0.96%",
       "tone": "neg"
     },
     {
@@ -53,22 +53,22 @@
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy -0.56%, Nasdaq proxy -0.65%, Dow proxy -0.95%, Russell proxy -1.28%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -0.46%, Nasdaq proxy -0.65%, Dow proxy -0.62%, Russell proxy -0.96%.",
     "VIX עומד על 17.1.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Airfares, gas and hotel prices were up this summer—Americans traveled anyway"
+    "כותרת בולטת שנקלטה: Best of the Emmy Awards - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Airfares, gas and hotel prices were up this summer—Americans traveled anyway",
-    "What to expect from stocks and bonds if interest rates remain higher for longer, according to investing pros",
-    "Jim Cramer's top 10 things to watch in the stock market Tuesday",
-    "Fed up with AI interviews, some job seekers are dropping out as candidates and blacklisting companies from consideration",
-    "Amazon's AWS is unable to restore access to Bahrain, one UAE cloud data zone after war damage - Reuters",
-    "No one and done: The Fed will hike at least two times over the next year, according to CNBC survey"
+    "Best of the Emmy Awards - Reuters",
+    "Bessent defends Trump economic policies, reveals plans to meet Chinese official - Reuters",
+    "Iran war cost hits $38 billion, forecast to rise $3 billion a month, CBO says - Reuters",
+    "Wells Fargo sees improvement in a key metric — plus, Lilly gets praise beyond GLP-1s",
+    "US Republican lawmaker seeks Hegseth's impeachment over Iran - Reuters",
+    "US energy chief says Saudi Arabia oil pipeline should be back online within days - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
