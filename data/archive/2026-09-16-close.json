@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-09-16",
-  "generated_at": "2026-09-16 14:55 UTC",
+  "generated_at": "2026-09-16 23:37 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,23 +26,23 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.31%",
-      "tone": "pos"
+      "value": "-0.44%",
+      "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.76%",
+      "value": "+0.03%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.13%",
+      "value": "-1.15%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.36%",
-      "tone": "pos"
+      "value": "-0.43%",
+      "tone": "neg"
     },
     {
       "label": "VIX",
@@ -51,51 +51,29 @@
     },
     {
       "label": "US10Y",
-      "value": "4.97%",
+      "value": "5%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy +0.31%, Nasdaq proxy +0.76%, Dow proxy -0.13%, Russell proxy +0.36%.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -0.44%, Nasdaq proxy +0.03%, Dow proxy -1.15%, Russell proxy -0.43%.",
     "VIX עומד על 17.2.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "המניה הבולטת בפיד movers היא NFEGP.",
-    "כותרת בולטת שנקלטה: Costco expands Uber Eats delivery partnership to 47 states"
+    "כותרת בולטת שנקלטה: US officials met Iran-backed Houthis in Oman over the weekend, sources say - Reuters"
   ],
-  "movers": [
-    {
-      "asset": "NFEGP",
-      "move": "762.6823%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "RETO",
-      "move": "676.2684%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "FEED",
-      "move": "-69.2537%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "HCAI",
-      "move": "-67.1752%",
-      "driver": "Alpha Vantage top movers feed"
-    }
-  ],
+  "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Costco expands Uber Eats delivery partnership to 47 states",
-    "China's top diplomat urges Iran, US to show restraint, revive talks - Reuters",
-    "Your AI interviewer will see you now: How job seekers should navigate the 'jarring' new hiring technology",
-    "US House takes up Russia sanctions bill backed by late senator Graham - Reuters",
     "US officials met Iran-backed Houthis in Oman over the weekend, sources say - Reuters",
-    "Flyers are happier with U.S. airports, despite near record travel levels, J.D. Power report shows"
+    "US House passes Russia sanctions bill championed by late Senator Graham - Reuters",
+    "Israel, Morocco agree to upgrade diplomatic ties, Israeli government says - Reuters",
+    "Top Democrat on US House committee will not support Israel bomb sale - Reuters",
+    "Boeing CEO: 737 Max production taking 'a little bit longer' to stabilize than expected",
+    "Fed delivers its first hike in 3 years. Plus, what's moving Starbucks and GE Vernova"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -107,6 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
+      "Index proxies negative",
       "VIX relatively calm"
     ]
   }
