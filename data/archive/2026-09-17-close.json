@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-09-17",
-  "generated_at": "2026-09-17 14:58 UTC",
+  "generated_at": "2026-09-17 23:30 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Risk-on confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,22 +26,22 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.89%",
+      "value": "+1.13%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+1.51%",
+      "value": "+1.73%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.33%",
+      "value": "+0.61%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+1.03%",
+      "value": "+0.53%",
       "tone": "pos"
     },
     {
@@ -51,29 +51,29 @@
     },
     {
       "label": "US10Y",
-      "value": "5%",
+      "value": "5.01%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy +0.89%, Nasdaq proxy +1.51%, Dow proxy +0.33%, Russell proxy +1.03%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy +1.13%, Nasdaq proxy +1.73%, Dow proxy +0.61%, Russell proxy +0.53%.",
     "VIX עומד על 17.71.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Impoverished by war in Iran, Afghan migrants return to Taliban rule - Reuters"
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: US to allow Iranian leaders to attend UN General Assembly - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Impoverished by war in Iran, Afghan migrants return to Taliban rule - Reuters",
+    "US to allow Iranian leaders to attend UN General Assembly - Reuters",
     "EXCLUSIVE: China presses Iran to help rein in Houthis after Saudi appeal, sources say - Reuters",
-    "Explainer: How Yemen's Houthis went from a small mountain militia to a big regional threat - Reuters",
-    "Our top 10 things to watch in the stock market Thursday",
-    "UN mission finds grounds to believe US committed war crimes in Iran, and Tehran crimes against humanity - Reuters",
-    "Charities say gifts by deceased donors are getting held up at financial firms"
+    "US allies fret over how Trump might play his Taiwan hand with Xi - Reuters",
+    "Impoverished by war in Iran, Afghan migrants return to Taliban rule - Reuters",
+    "JP Morgan says it has no clear oil market endgame as Iran conflict drags on - Reuters",
+    "Intel and Micron lead our portfolio higher, and J&J's strengthens our case for owning it"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
