@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-09-22",
-  "generated_at": "2026-09-22 00:02 UTC",
+  "generated_at": "2026-09-22 14:49 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Risk-on confirmation",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+1.55%",
-      "tone": "pos"
+      "value": "-0.01%",
+      "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+2.77%",
+      "value": "+0.43%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.76%",
-      "tone": "pos"
+      "value": "-0.42%",
+      "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.52%",
+      "value": "+0.28%",
       "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "14.81",
+      "value": "14.87",
       "tone": "blue"
     },
     {
@@ -57,23 +57,45 @@
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +1.55%, Nasdaq proxy +2.77%, Dow proxy +0.76%, Russell proxy +0.52%.",
-    "VIX עומד על 14.81.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -0.01%, Nasdaq proxy +0.43%, Dow proxy -0.42%, Russell proxy +0.28%.",
+    "VIX עומד על 14.87.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: EXCLUSIVE: Trump approval falls to record low of 32% as high costs bite, Reuters/Ipsos poll finds - Reuters"
+    "המניה הבולטת בפיד movers היא GRML.",
+    "כותרת בולטת שנקלטה: Watch: Trump speaks at UN General Assembly"
   ],
-  "movers": [],
+  "movers": [
+    {
+      "asset": "GRML",
+      "move": "230.5263%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "GLNDW",
+      "move": "186.2069%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "RIV^",
+      "move": "-69.5652%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "ASGI^#",
+      "move": "-61.0556%",
+      "driver": "Alpha Vantage top movers feed"
+    }
+  ],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "EXCLUSIVE: Trump approval falls to record low of 32% as high costs bite, Reuters/Ipsos poll finds - Reuters",
-    "Stocks had a great day on the surface. But something alarming occurred not seen since 1999",
-    "Trump administration proposes $5 billion to kickstart investment fund to rebuild Gulf energy sites, WSJ reports - Reuters",
-    "PODCAST: Paramount deal, Germany elections and AI at the UN (Updated) - Reuters",
-    "Wall Street ends sharply higher as AI optimism reignites and Treasury yields retreat - Reuters",
-    "Intel surges 12% as CPU stocks rally. Here's what's driving the move"
+    "Watch: Trump speaks at UN General Assembly",
+    "September surge or October offload? Jobs experts weigh in on this fall’s hiring trends",
+    "Iran, US hint at revival of talks as Trump, Pezeshkian due to attend UN - Reuters",
+    "Trump to use UN speech to defend Iran war, tout peace efforts - Reuters",
+    "Santoli: The S&P 500 is within striking distance of record as bull relies on familiar leadership",
+    "Jim Cramer's top 10 things to watch in the stock market Tuesday"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,7 +107,6 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies positive",
       "VIX relatively calm"
     ]
   }
