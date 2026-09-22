@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-09-22",
-  "generated_at": "2026-09-22 14:49 UTC",
+  "generated_at": "2026-09-22 23:34 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,22 +26,22 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.01%",
+      "value": "-0.02%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.43%",
+      "value": "+0.81%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.42%",
+      "value": "-0.34%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.28%",
+      "value": "+0.57%",
       "tone": "pos"
     },
     {
@@ -51,19 +51,19 @@
     },
     {
       "label": "US10Y",
-      "value": "5.01%",
+      "value": "4.96%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy -0.01%, Nasdaq proxy +0.43%, Dow proxy -0.42%, Russell proxy +0.28%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -0.02%, Nasdaq proxy +0.81%, Dow proxy -0.34%, Russell proxy +0.57%.",
     "VIX עומד על 14.87.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
     "המניה הבולטת בפיד movers היא GRML.",
-    "כותרת בולטת שנקלטה: Watch: Trump speaks at UN General Assembly"
+    "כותרת בולטת שנקלטה: Qantas to start selling tickets next year for its New York to Sydney nonstop flight"
   ],
   "movers": [
     {
@@ -90,12 +90,12 @@
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Watch: Trump speaks at UN General Assembly",
-    "September surge or October offload? Jobs experts weigh in on this fall’s hiring trends",
-    "Iran, US hint at revival of talks as Trump, Pezeshkian due to attend UN - Reuters",
-    "Trump to use UN speech to defend Iran war, tout peace efforts - Reuters",
-    "Santoli: The S&P 500 is within striking distance of record as bull relies on familiar leadership",
-    "Jim Cramer's top 10 things to watch in the stock market Tuesday"
+    "Qantas to start selling tickets next year for its New York to Sydney nonstop flight",
+    "Trump threatens to annihilate Iran as diplomats push for deal at UN - Reuters",
+    "A top chip stock analyst sees big things for Nvidia, Broadcom. How his case aligns with ours",
+    "PODCAST: Trump's UN speech, ICC sanctions and Turkey's LGBTQ+ crackdown (Updated) - Reuters",
+    "Canada is giving C$100 million in international aid for Palestine, says Carney - Reuters",
+    "Trump warns in UN speech he could 'annihilate' Iran without peace deal - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
