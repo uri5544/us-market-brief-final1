@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-09-24",
-  "generated_at": "2026-09-24 15:01 UTC",
+  "generated_at": "2026-09-24 23:50 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,22 +26,22 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.43%",
+      "value": "-0.08%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.72%",
+      "value": "-0.01%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.52%",
+      "value": "-0.31%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.67%",
+      "value": "-0.09%",
       "tone": "neg"
     },
     {
@@ -51,29 +51,29 @@
     },
     {
       "label": "US10Y",
-      "value": "4.96%",
+      "value": "5.11%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy -0.43%, Nasdaq proxy -0.72%, Dow proxy -0.52%, Russell proxy -0.67%.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -0.08%, Nasdaq proxy -0.01%, Dow proxy -0.31%, Russell proxy -0.09%.",
     "VIX עומד על 14.21.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation"
+    "כותרת בולטת שנקלטה: S&P 500 ends marginally lower as investors focus on US-Iran war - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation",
-    "Our top 10 things to watch in the stock market Thursday",
-    "Family offices double down on stocks and private equity even as inflation spurs worry, Citi survey finds",
-    "US Democrats tee up pre-election war powers vote as some Republicans break with Trump on Iran - Reuters",
-    "Netanyahu's fleeting visit to New York mirrors strained US ties - Reuters",
-    "Stephen Curry says WNBA needs to keep conversations about the league 'focused on basketball'"
+    "S&P 500 ends marginally lower as investors focus on US-Iran war - Reuters",
+    "History shows financial calamities occur when rates rise rapidly like this: 'Something always breaks'",
+    "US Senate rejects Democratic-led resolution to curb Trump's Iran war powers - Reuters",
+    "Saudi Arabia says it intercepted Houthi missiles; group claims strikes on Riyadh, Aramco - Reuters",
+    "Netanyahu's fleeting visit to New York mirrors strained US ties - reuters.com",
+    "What must happen for Boeing stock to get unstuck. The company needs, at least, to do its part"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,7 +85,6 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies negative",
       "VIX relatively calm"
     ]
   }
