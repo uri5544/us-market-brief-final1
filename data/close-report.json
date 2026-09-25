@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-09-25",
-  "generated_at": "2026-09-25 15:13 UTC",
+  "generated_at": "2026-09-25 23:55 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Balanced / neutral",
+  "market_regime": "Risk-on confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,49 +26,76 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.17%",
+      "value": "+0.54%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.22%",
+      "value": "+0.46%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.25%",
+      "value": "+0.94%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.15%",
-      "tone": "neg"
+      "value": "+0.11%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
       "value": "14.21",
       "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "5.18%",
+      "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy +0.17%, Nasdaq proxy +0.22%, Dow proxy +0.25%, Russell proxy -0.15%.",
-    "VIX עומד על 14.21.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: EXCLUSIVE: Qatar Airways retires idle A330s and sends pilots to RwandAir as Iran war drags - Reuters"
+    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy +0.54%, Nasdaq proxy +0.46%, Dow proxy +0.94%, Russell proxy +0.11%.",
+    "VIX עומד על 14.21, ותשואת אג\"ח ארה\"ב ל-10 שנים על 5.18%.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "המניה הבולטת בפיד movers היא PDYNW.",
+    "כותרת בולטת שנקלטה: Here's exactly what Paramount promised Hollywood to land WBD — and why some are still skeptical"
   ],
-  "movers": [],
+  "movers": [
+    {
+      "asset": "PDYNW",
+      "move": "175.0%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "NTRBW",
+      "move": "152.6582%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "JSPRW",
+      "move": "-92.3077%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "BENF",
+      "move": "-50.0%",
+      "driver": "Alpha Vantage top movers feed"
+    }
+  ],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "EXCLUSIVE: Qatar Airways retires idle A330s and sends pilots to RwandAir as Iran war drags - Reuters",
-    "Top 10 things to watch in the stock market Friday",
-    "Airlines waive flight-change fees ahead of nor'easter",
-    "New study reveals the estate-planning choices that are likely to pit heirs against each other",
-    "Three Iraqi airports suspend Iranian flights starting Friday, sources and state media say - Reuters",
-    "Pact with Saudi and Pakistan could expand to Muslim world, Iran, Turkish speaker says - Reuters"
+    "Here's exactly what Paramount promised Hollywood to land WBD — and why some are still skeptical",
+    "Trump, Xi discuss Middle East war as Iran presses 7-day plan to end fighting - Reuters",
+    "Iran will make no nuclear concessions, Iranian official says - Reuters",
+    "Iran's Araqchi says now up to US to accept 7-day plan - Reuters",
+    "What we want to see next week from one of Jim Cramer's 6 stocks to buy",
+    "Oil prices slide about 2% as US, Iran explore path out of war - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -80,6 +107,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
+      "Index proxies positive",
       "VIX relatively calm"
     ]
   }
