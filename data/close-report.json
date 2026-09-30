@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-09-30",
-  "generated_at": "2026-09-30 00:20 UTC",
+  "generated_at": "2026-09-30 16:23 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Balanced / neutral",
+  "market_regime": "Risk-on confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.18%",
-      "tone": "neg"
+      "value": "+0.56%",
+      "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.19%",
+      "value": "+0.85%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.22%",
+      "value": "-0.07%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.36%",
-      "tone": "neg"
+      "value": "+0.22%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "16.07",
+      "value": "16.04",
       "tone": "blue"
     },
     {
@@ -57,45 +57,23 @@
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.18%, Nasdaq proxy +0.19%, Dow proxy -0.22%, Russell proxy -0.36%.",
-    "VIX עומד על 16.07.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "המניה הבולטת בפיד movers היא ARBEW.",
-    "כותרת בולטת שנקלטה: Trump says he does not know if Iran is going to 'give up yet' - Reuters"
+    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +0.56%, Nasdaq proxy +0.85%, Dow proxy -0.07%, Russell proxy +0.22%.",
+    "VIX עומד על 16.04.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Passengers overcame pilot who tried to crash flydubai flight, Israel says - Reuters"
   ],
-  "movers": [
-    {
-      "asset": "ARBEW",
-      "move": "330.4348%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "KNRX",
-      "move": "304.6053%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "XHLD",
-      "move": "-92.4479%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "NCI",
-      "move": "-83.7543%",
-      "driver": "Alpha Vantage top movers feed"
-    }
-  ],
+  "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Trump says he does not know if Iran is going to 'give up yet' - Reuters",
-    "US imposes sanctions on 13 tied to Iran weapons procurement - Reuters",
-    "Goldman Sachs CEO succession planning faces one big problem",
-    "Prediction market traders think the U.S. added more jobs in September than economists estimate",
-    "John Ternus' vision for Apple is coming into view, and we like what we see",
-    "Using old election playbook, Netanyahu projects image as Israel's protector despite Hamas attack - Reuters"
+    "Passengers overcame pilot who tried to crash flydubai flight, Israel says - Reuters",
+    "Higher interest rates can be scary for stocks — but it's not that simple",
+    "Parents who want to help their kids in a tough job market should avoid this 1 move, says career expert",
+    "UK airbase suspect tipped off police, Times says - Reuters",
+    "We're scooping up shares of 2 stocks that fell victim to a September swoon",
+    "Jim Cramer's top 10 things to watch in the stock market Wednesday"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -107,6 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
+      "Index proxies positive",
       "VIX relatively calm"
     ]
   }
