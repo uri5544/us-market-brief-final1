@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-10-01",
-  "generated_at": "2026-10-01 00:30 UTC",
+  "generated_at": "2026-10-01 17:00 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.21%",
+      "value": "-0.23%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.25%",
-      "tone": "pos"
+      "value": "-0.27%",
+      "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.84%",
+      "value": "-0.28%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.40%",
-      "tone": "neg"
+      "value": "+0.24%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "16.04",
+      "value": "16.34",
       "tone": "blue"
     },
     {
@@ -58,22 +58,22 @@
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.21%, Nasdaq proxy +0.25%, Dow proxy -0.84%, Russell proxy -0.40%.",
-    "VIX עומד על 16.04.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Passengers foil bid to crash Dubai-Tel Aviv flight, Israel says, after co-pilot stabs pilot - Reuters"
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -0.23%, Nasdaq proxy -0.27%, Dow proxy -0.28%, Russell proxy +0.24%.",
+    "VIX עומד על 16.34.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Nike's new Caitlin Clark shoes are already almost sold out"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Passengers foil bid to crash Dubai-Tel Aviv flight, Israel says, after co-pilot stabs pilot - Reuters",
-    "Israel to ramp up pilot checks after flydubai scare - Reuters",
-    "Why Jim Cramer isn't buying more Boeing despite its huge Navy contract win",
-    "Joy mixed with fear as US forces quit Iraq leaving potential security vacuum - Reuters",
-    "Wall Street is closing out a strong quarter. Plus, Lilly's mixed obesity drug trial data",
-    "Two trades that just happened in 'Magnificent Seven' stocks point to big gains ahead"
+    "Nike's new Caitlin Clark shoes are already almost sold out",
+    "Israel's Netanyahu: Co-pilot of flydubai plane underwent radical Islamist indoctrination - Reuters",
+    "How you can help your grandparents age well, says researcher—it could benefit your well-being too",
+    "EXCLUSIVE: Syrian government officials and Hezbollah held secret talks in Turkey, sources say - Reuters",
+    "Billionaire family offices bet on geothermal energy, brain implants in September",
+    "Israeli airlines plan to resume Dubai flights after flydubai incident - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
