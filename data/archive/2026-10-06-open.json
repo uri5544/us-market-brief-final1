@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-10-06",
-  "generated_at": "2026-10-06 01:43 UTC",
+  "generated_at": "2026-10-06 16:45 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Risk-on confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.67%",
+      "value": "+0.72%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.88%",
-      "tone": "pos"
-    },
-    {
-      "label": "Dow proxy",
-      "value": "+0.20%",
-      "tone": "pos"
-    },
-    {
-      "label": "Russell proxy",
       "value": "+0.66%",
       "tone": "pos"
     },
     {
+      "label": "Dow proxy",
+      "value": "+0.59%",
+      "tone": "pos"
+    },
+    {
+      "label": "Russell proxy",
+      "value": "-0.41%",
+      "tone": "neg"
+    },
+    {
       "label": "VIX",
-      "value": "15.31",
+      "value": "15.52",
       "tone": "blue"
     },
     {
@@ -58,44 +58,22 @@
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.67%, Nasdaq proxy +0.88%, Dow proxy +0.20%, Russell proxy +0.66%.",
-    "VIX עומד על 15.31.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "המניה הבולטת בפיד movers היא MI.",
-    "כותרת בולטת שנקלטה: Wall Street rewards Microsoft's AI pivot. A longtime skeptic says it's just the beginning"
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +0.72%, Nasdaq proxy +0.66%, Dow proxy +0.59%, Russell proxy -0.41%.",
+    "VIX עומד על 15.52.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Californians blast Trump remark that Iran could 'take out' Los Angeles, San Diego - Reuters"
   ],
-  "movers": [
-    {
-      "asset": "MI",
-      "move": "666.2192%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "SAIQ",
-      "move": "260.5405%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "NMCO^",
-      "move": "-65.6667%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "UWMC^#",
-      "move": "-63.125%",
-      "driver": "Alpha Vantage top movers feed"
-    }
-  ],
+  "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Wall Street rewards Microsoft's AI pivot. A longtime skeptic says it's just the beginning",
-    "Nvidia looks to take out its record high close — plus, don't worry about Intel's dip",
-    "Cramer is closely watching Nvidia's massive buyback. Here's what he wants to see",
-    "These are the cheapest and most expensive U.S. flights this November",
-    "Jim Cramer's top 10 things to watch in the stock market Monday",
-    "Why airfare could rise even more, but airline profits won't"
+    "Californians blast Trump remark that Iran could 'take out' Los Angeles, San Diego - Reuters",
+    "What's behind an 'explosion of buying' Tuesday, including the rally in GE Vernova",
+    "British Airways plans record 106-seat business class on Airbus A380 jumbo jets",
+    "Iran drone plot fears led US to remove bombers from UK base, US officials say - Reuters",
+    "Nigeria's Dangote refinery targets 10 million retail investors for planned IPO, CEO says - Reuters",
+    "64% of Gen Z has tried manifestation, psychics or other mystical dating tactics: ‘People don't feel like they're in control,' says relationship coach"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
