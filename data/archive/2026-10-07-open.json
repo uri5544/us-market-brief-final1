@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-10-07",
-  "generated_at": "2026-10-07 00:36 UTC",
+  "generated_at": "2026-10-07 17:24 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.55%",
-      "tone": "pos"
+      "value": "-0.19%",
+      "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.46%",
-      "tone": "pos"
+      "value": "-0.29%",
+      "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.48%",
-      "tone": "pos"
+      "value": "-0.54%",
+      "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.72%",
+      "value": "-1.00%",
       "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "15.52",
+      "value": "15.01",
       "tone": "blue"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.55%, Nasdaq proxy +0.46%, Dow proxy +0.48%, Russell proxy -0.72%.",
-    "VIX עומד על 15.52.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: 'I'm getting fed up': early US midterm voters line up before dawn in Ohio - Reuters"
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -0.19%, Nasdaq proxy -0.29%, Dow proxy -0.54%, Russell proxy -1.00%.",
+    "VIX עומד על 15.01, ותשואת אג\"ח ארה\"ב ל-10 שנים על 5.31%.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: Most Republicans in tight midterm races distance themselves from Trump, Reuters review finds - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "'I'm getting fed up': early US midterm voters line up before dawn in Ohio - Reuters",
-    "Transcript of US Vice President Vance interview in Alaska - Reuters",
-    "EXCLUSIVE: In interview, US Vice President Vance says Iran must cut nuclear enrichment to end war - Reuters",
-    "Trump says nobody knows who is running Iran - Reuters",
-    "Yemeni government fighters shown driving vehicles over Houthi opponents - Reuters",
-    "US Senator Murphy says Pentagon denied him access to US base in Qatar - Reuters"
+    "Most Republicans in tight midterm races distance themselves from Trump, Reuters review finds - Reuters",
+    "Explainer: The status of Iran's uranium enrichment programme - Reuters",
+    "Jim Cramer's key to Wednesday's market — plus, relief for Intel after a concerning report",
+    "EXCLUSIVE: Lebanon's Hezbollah gets $200 million from Iran to help displaced, sources say - Reuters",
+    "Turkey sending technical, defensive support to Saudi Arabia to help fight Houthis, officials say - Reuters",
+    "Attacks on tankers in Hormuz hit highest of any week since start of Iran war, sources say - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,6 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
+      "Index proxies negative",
       "VIX relatively calm"
     ]
   }
