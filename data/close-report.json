@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-10-08",
-  "generated_at": "2026-10-08 00:55 UTC",
+  "generated_at": "2026-10-08 17:23 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,49 +26,49 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.24%",
+      "value": "-0.68%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.25%",
+      "value": "-1.62%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.69%",
+      "value": "-0.04%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-1.29%",
+      "value": "-0.25%",
       "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "15.01",
+      "value": "15.08",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.24%, Nasdaq proxy -0.25%, Dow proxy -0.69%, Russell proxy -1.29%.",
-    "VIX עומד על 15.01.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Samsung forecasts record third-quarter profit of $80 billion on the back of AI boom"
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -0.68%, Nasdaq proxy -1.62%, Dow proxy -0.04%, Russell proxy -0.25%.",
+    "VIX עומד על 15.08.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: Trump says US will not attack Iran before midterm elections in November - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Samsung forecasts record third-quarter profit of $80 billion on the back of AI boom",
-    "SpaceX’s plans to buy more Nvidia GPUs is keeping Jim Cramer bullish on the chip stock",
-    "Explainer: The status of Iran's uranium enrichment programme - Reuters",
-    "Most Republicans in tight midterm races distance themselves from Trump, Reuters review finds - Reuters",
-    "IEA to accelerate oil reserve release, says 100 million barrels still to come - Reuters",
-    "EXCLUSIVE: Lebanon's Hezbollah gets $200 million from Iran to help displaced, sources say - Reuters"
+    "Trump says US will not attack Iran before midterm elections in November - Reuters",
+    "We're putting some of our large cash pile to work in a beaten-down consumer name",
+    "Plane billows smoke at Riyadh airport as Houthis escalate attacks - Reuters",
+    "Jim Cramer says he's in a buying mood. Here are some stocks he's considering",
+    "German government raises growth forecasts for 2026 and 2027 - Reuters",
+    "Asia races to stockpile oil, speed up renewables in response to Iran war - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
