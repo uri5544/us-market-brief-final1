@@ -1,0 +1,113 @@
+{
+  "schema_version": "4.0-clean",
+  "report_type": "close",
+  "report_date": "2026-10-12",
+  "generated_at": "2026-10-12 19:46 UTC",
+  "report_window": "Automated market brief",
+  "market_regime": "Balanced / neutral",
+  "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
+  "hero_title": "Closing market brief",
+  "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
+  "movers_title": "Live movers",
+  "badges": [
+    {
+      "label": "LIVE DATA ONLY",
+      "class": "live"
+    },
+    {
+      "label": "CLEAN OUTPUT",
+      "class": "macro"
+    },
+    {
+      "label": "SCORING ENGINE",
+      "class": "info"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P proxy",
+      "value": "-0.08%",
+      "tone": "neg"
+    },
+    {
+      "label": "Nasdaq proxy",
+      "value": "-0.70%",
+      "tone": "neg"
+    },
+    {
+      "label": "Dow proxy",
+      "value": "+0.31%",
+      "tone": "pos"
+    },
+    {
+      "label": "Russell proxy",
+      "value": "-0.38%",
+      "tone": "neg"
+    },
+    {
+      "label": "VIX",
+      "value": "14.84",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "5.22%",
+      "tone": "blue"
+    }
+  ],
+  "summary": [
+    "זהו דוח סגירה אוטומטי במבנה אחיד.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -0.08%, Nasdaq proxy -0.70%, Dow proxy +0.31%, Russell proxy -0.38%.",
+    "VIX עומד על 14.84.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "המניה הבולטת בפיד movers היא WFF.",
+    "כותרת בולטת שנקלטה: Microsoft, Micron and Meta make news. Here's what the updates mean for our stakes"
+  ],
+  "movers": [
+    {
+      "asset": "WFF",
+      "move": "499.5122%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "BTBDW",
+      "move": "230.4636%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "MDCXW",
+      "move": "-61.9048%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "SXTC",
+      "move": "-56.7103%",
+      "driver": "Alpha Vantage top movers feed"
+    }
+  ],
+  "sectors": [],
+  "macro": [],
+  "headlines": [
+    "Microsoft, Micron and Meta make news. Here's what the updates mean for our stakes",
+    "UK PM Burnham says Iran's IRGC likely behind RAF Fairford incident - Reuters",
+    "What's in the diesel deal between Putin and Trump? - Reuters",
+    "Trump defends Russia diesel deal as lawmakers from both parties complain - Reuters",
+    "Parenting in the digital age can be ‘a very anxiety provoking experience,’ says Emily Oster: How parents can lower that anxiety",
+    "Saudi capital's airport to remain shut this week as airlines cancel services - Reuters"
+  ],
+  "tomorrow_setup": [
+    "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
+    "להמשיך לנקות ניסוחים מעורבים של עברית ואנגלית.",
+    "להסתיר בלוקים ריקים במקום להציג placeholder מטעה."
+  ],
+  "pipeline_status": {
+    "data_freshness": "live fields only",
+    "generator": "scripts/generate_reports.py",
+    "environment": "github-actions",
+    "scoring_reasons": [
+      "VIX relatively calm"
+    ]
+  }
+}
