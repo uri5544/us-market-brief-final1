@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-10-13",
-  "generated_at": "2026-10-13 02:32 UTC",
+  "generated_at": "2026-10-13 17:33 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.06%",
+      "value": "-0.12%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.70%",
+      "value": "-0.60%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.35%",
-      "tone": "pos"
+      "value": "-0.34%",
+      "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.37%",
+      "value": "-0.50%",
       "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "14.84",
+      "value": "15.21",
       "tone": "blue"
     },
     {
@@ -57,13 +57,13 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.06%, Nasdaq proxy -0.70%, Dow proxy +0.35%, Russell proxy -0.37%.",
-    "VIX עומד על 14.84.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -0.12%, Nasdaq proxy -0.60%, Dow proxy -0.34%, Russell proxy -0.50%.",
+    "VIX עומד על 15.21.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
     "המניה הבולטת בפיד movers היא MNDR.",
-    "כותרת בולטת שנקלטה: Saudi warning system stayed silent before deadly airport attacks - Reuters"
+    "כותרת בולטת שנקלטה: Saudi Arabia strikes Yemen capital as Houthis vow to retaliate - Reuters"
   ],
   "movers": [
     {
@@ -90,12 +90,12 @@
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Saudi warning system stayed silent before deadly airport attacks - Reuters",
-    "Trump defends Russia diesel deal as lawmakers from both parties complain - Reuters",
-    "US hopes diesel deal can 'soften' Moscow on peace talks, sources say - Reuters",
-    "Here's a calculator to explain why Cramer always stays invested. Plug in your own numbers, too",
-    "Bear to bull: A double upgrade of Salesforce illustrates the folly of the 'SaaSpocalypse'",
-    "Saudi capital's airport to remain shut this week as airlines cancel services - Reuters"
+    "Saudi Arabia strikes Yemen capital as Houthis vow to retaliate - Reuters",
+    "Jim Cramer bucks all the stock market negativity with 3 buy recommendations",
+    "Trump says Yemen's Houthis are 'behaving very badly' - Reuters",
+    "We're adding to a consumer staples stock in advance of a big catalyst",
+    "Wells Fargo beats profit estimates, but net interest income, revenue fall short - Reuters",
+    "Iran and Russia are stepping up hybrid campaigns in Britain, UK spy chief says - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -107,6 +107,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
+      "Index proxies negative",
       "VIX relatively calm"
     ]
   }
