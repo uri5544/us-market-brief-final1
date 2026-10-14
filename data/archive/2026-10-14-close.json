@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-10-14",
-  "generated_at": "2026-10-14 15:04 UTC",
+  "generated_at": "2026-10-14 23:52 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,22 +26,22 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.77%",
+      "value": "-1.08%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-1.11%",
+      "value": "-1.97%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.17%",
+      "value": "-0.11%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-1.37%",
+      "value": "-1.93%",
       "tone": "neg"
     },
     {
@@ -51,51 +51,29 @@
     },
     {
       "label": "US10Y",
-      "value": "5.24%",
+      "value": "5.21%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy -0.77%, Nasdaq proxy -1.11%, Dow proxy -0.17%, Russell proxy -1.37%.",
-    "VIX עומד על 15.27, ותשואת אג\"ח ארה\"ב ל-10 שנים על 5.24%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -1.08%, Nasdaq proxy -1.97%, Dow proxy -0.11%, Russell proxy -1.93%.",
+    "VIX עומד על 15.27.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "המניה הבולטת בפיד movers היא JBDI.",
-    "כותרת בולטת שנקלטה: Gulf markets mixed; Saudi stocks hardest hit on Aramco attack - Reuters"
+    "כותרת בולטת שנקלטה: Russia's Lavrov, China's Wang discuss cooperation, Ukraine, Iran at Asia security meeting - Reuters"
   ],
-  "movers": [
-    {
-      "asset": "JBDI",
-      "move": "251.7949%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "TCRT",
-      "move": "188.5714%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "WFF",
-      "move": "-87.7315%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "MDCXW",
-      "move": "-69.7428%",
-      "driver": "Alpha Vantage top movers feed"
-    }
-  ],
+  "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Gulf markets mixed; Saudi stocks hardest hit on Aramco attack - Reuters",
-    "US consumer prices accelerate in September on costlier gasoline; core CPI firmer - Reuters",
-    "Netanyahu says he is not seeking to attack Iran again before Israel election - Reuters",
-    "Jim Cramer's top 10 things to watch in the stock market Wednesday",
-    "Container ship sinks near Hormuz after being hit by projectile, sources say - Reuters",
-    "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit - Reuters"
+    "Russia's Lavrov, China's Wang discuss cooperation, Ukraine, Iran at Asia security meeting - Reuters",
+    "US inflation heats up in September; Fed rate hike this month back on table - Reuters",
+    "Ohio's working-class voters rethink support for Trump and the Republican Party - Reuters",
+    "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit - Reuters",
+    "AI infrastructure stocks tumble. Here's a few reasons for the sell-off",
+    "UN peacekeeping chief says talks on future of Lebanon mission must begin soon - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
