@@ -1,0 +1,91 @@
+{
+  "schema_version": "4.0-clean",
+  "report_type": "close",
+  "report_date": "2026-10-14",
+  "generated_at": "2026-10-14 00:14 UTC",
+  "report_window": "Automated market brief",
+  "market_regime": "Balanced / neutral",
+  "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
+  "hero_title": "Closing market brief",
+  "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
+  "movers_title": "Live movers",
+  "badges": [
+    {
+      "label": "LIVE DATA ONLY",
+      "class": "live"
+    },
+    {
+      "label": "CLEAN OUTPUT",
+      "class": "macro"
+    },
+    {
+      "label": "SCORING ENGINE",
+      "class": "info"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P proxy",
+      "value": "-0.01%",
+      "tone": "neg"
+    },
+    {
+      "label": "Nasdaq proxy",
+      "value": "-0.33%",
+      "tone": "neg"
+    },
+    {
+      "label": "Dow proxy",
+      "value": "-0.33%",
+      "tone": "neg"
+    },
+    {
+      "label": "Russell proxy",
+      "value": "-0.43%",
+      "tone": "neg"
+    },
+    {
+      "label": "VIX",
+      "value": "15.21",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "5.24%",
+      "tone": "blue"
+    }
+  ],
+  "summary": [
+    "זהו דוח סגירה אוטומטי במבנה אחיד.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -0.01%, Nasdaq proxy -0.33%, Dow proxy -0.33%, Russell proxy -0.43%.",
+    "VIX עומד על 15.21.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: BofA fined $1.2 billion by US government for failing to police suspicious activity - Reuters"
+  ],
+  "movers": [],
+  "sectors": [],
+  "macro": [],
+  "headlines": [
+    "BofA fined $1.2 billion by US government for failing to police suspicious activity - Reuters",
+    "Saudi Aramco administrative building attacked, limited fire reported - Reuters",
+    "In Yemen's Taiz, shelling worsens and prices spiral - Reuters",
+    "United Airlines is making it harder to reach its top frequent flyer status in 2027",
+    "EXCLUSIVE: Saudi Arabia plans hybrid format for marquee FII conference after attacks, sources say - Reuters",
+    "Judge says Musk engaged in intimidation of ex-FEMA CFO Mary Comans, clears her name"
+  ],
+  "tomorrow_setup": [
+    "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
+    "להמשיך לנקות ניסוחים מעורבים של עברית ואנגלית.",
+    "להסתיר בלוקים ריקים במקום להציג placeholder מטעה."
+  ],
+  "pipeline_status": {
+    "data_freshness": "live fields only",
+    "generator": "scripts/generate_reports.py",
+    "environment": "github-actions",
+    "scoring_reasons": [
+      "VIX relatively calm"
+    ]
+  }
+}
