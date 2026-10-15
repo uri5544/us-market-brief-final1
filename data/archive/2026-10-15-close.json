@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-10-15",
-  "generated_at": "2026-10-15 14:57 UTC",
+  "generated_at": "2026-10-15 23:39 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Balanced / neutral",
+  "market_regime": "Risk-on confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,54 +26,49 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.09%",
-      "tone": "neg"
+      "value": "+0.28%",
+      "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.85%",
+      "value": "-0.13%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.78%",
+      "value": "+1.08%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.97%",
+      "value": "+1.37%",
       "tone": "pos"
     },
     {
       "label": "VIX",
       "value": "16.87",
       "tone": "blue"
-    },
-    {
-      "label": "US10Y",
-      "value": "5.21%",
-      "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy -0.09%, Nasdaq proxy -0.85%, Dow proxy +0.78%, Russell proxy +0.97%.",
+    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy +0.28%, Nasdaq proxy -0.13%, Dow proxy +1.08%, Russell proxy +1.37%.",
     "VIX עומד על 16.87.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Southwest is overhauling its frequent flyer program. Here's what's changing"
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: Yemen's Houthis hit palace in Aden, coalition details attacks on Saudi infrastructure - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Southwest is overhauling its frequent flyer program. Here's what's changing",
-    "How the Houthis are helping Iran turn Saudi Arabia into a pressure point - Reuters",
-    "Treasury yields slide as investors flee to safety of bonds amid tech rout",
-    "Jim Cramer's top 10 things to watch in the stock market Thursday",
-    "You may never work with an Elizabeth Holmes—but here's how to handle a co-worker who makes false claims",
-    "Cboe to expand options trading hours for major stocks and ETFs"
+    "Yemen's Houthis hit palace in Aden, coalition details attacks on Saudi infrastructure - Reuters",
+    "KFC to switch to Coca-Cola beverages in U.S. restaurants for the first time in decades",
+    "Nvidia and Cisco confirm multimillion-dollar donations to Trump's White House ballroom",
+    "Some 'classic' money advice is actually pretty new—and not all of it is worthwhile, says historian",
+    "Hezbollah says it owned confiscated explosives, meant to attack Israel - Reuters",
+    "Anduril CEO defends Trump administration contracts: 'We've done incredibly well under Biden'"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,6 +80,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
+      "Index proxies positive",
       "VIX relatively calm"
     ]
   }
