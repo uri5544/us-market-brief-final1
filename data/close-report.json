@@ -1,10 +1,10 @@
 {
   "schema_version": "4.0-clean",
   "report_type": "close",
-  "report_date": "2026-10-15",
-  "generated_at": "2026-10-15 23:39 UTC",
+  "report_date": "2026-10-16",
+  "generated_at": "2026-10-16 14:47 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Risk-on confirmation",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,49 +26,54 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.28%",
+      "value": "+0.05%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.13%",
+      "value": "-0.69%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+1.08%",
+      "value": "+0.33%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+1.37%",
-      "tone": "pos"
+      "value": "-0.19%",
+      "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "16.87",
+      "value": "16.46",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "5.19%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.28%, Nasdaq proxy -0.13%, Dow proxy +1.08%, Russell proxy +1.37%.",
-    "VIX עומד על 16.87.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Yemen's Houthis hit palace in Aden, coalition details attacks on Saudi infrastructure - Reuters"
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +0.05%, Nasdaq proxy -0.69%, Dow proxy +0.33%, Russell proxy -0.19%.",
+    "VIX עומד על 16.46.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Norwegian teen jailed for 20 years for UK murder plot after being recruited online - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Yemen's Houthis hit palace in Aden, coalition details attacks on Saudi infrastructure - Reuters",
-    "KFC to switch to Coca-Cola beverages in U.S. restaurants for the first time in decades",
-    "Nvidia and Cisco confirm multimillion-dollar donations to Trump's White House ballroom",
-    "Some 'classic' money advice is actually pretty new—and not all of it is worthwhile, says historian",
-    "Hezbollah says it owned confiscated explosives, meant to attack Israel - Reuters",
-    "Anduril CEO defends Trump administration contracts: 'We've done incredibly well under Biden'"
+    "Norwegian teen jailed for 20 years for UK murder plot after being recruited online - Reuters",
+    "AI 'espionage' is a reality that companies need to be 'wary of,' Jay Clayton says",
+    "Here's how the CoreWeave sell-off is affecting OpenAI vs. Anthropic valuations",
+    "Our top 10 things to watch in the stock market Friday",
+    "Trump says US may need to strike Iran's Pickaxe Mountain - Reuters",
+    "Major delays at Italian airports due to data network failure - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -80,7 +85,6 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies positive",
       "VIX relatively calm"
     ]
   }
