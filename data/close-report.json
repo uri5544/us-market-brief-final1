@@ -1,10 +1,10 @@
 {
   "schema_version": "4.0-clean",
   "report_type": "close",
-  "report_date": "2026-10-16",
-  "generated_at": "2026-10-16 23:29 UTC",
+  "report_date": "2026-10-19",
+  "generated_at": "2026-10-19 16:58 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Balanced / neutral",
+  "market_regime": "Constructive risk-on",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-1.11%",
-      "tone": "neg"
+      "value": "+0.59%",
+      "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-2.50%",
-      "tone": "neg"
+      "value": "+1.50%",
+      "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.40%",
-      "tone": "neg"
+      "value": "+0.05%",
+      "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "-1.69%",
-      "tone": "neg"
+      "value": "+0.41%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "16.46",
+      "value": "19.99",
       "tone": "blue"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -1.11%, Nasdaq proxy -2.50%, Dow proxy -0.40%, Russell proxy -1.69%.",
-    "VIX עומד על 16.46.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu - Reuters"
+    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +0.59%, Nasdaq proxy +1.50%, Dow proxy +0.05%, Russell proxy +0.41%.",
+    "VIX עומד על 19.99.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: Explainer: What's behind Egypt's move towards possible military involvement in Saudi-Yemen conflict? - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu - Reuters",
-    "Israeli settlers attack Palestinians during West Bank olive harvest - Reuters",
-    "US solicits exchange of up to 17 million barrels of oil from strategic reserve - Reuters",
-    "Why did CoreWeave stock get crushed this week? Look to this corner of the debt market for clues",
-    "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock - Reuters",
-    "Wall Street's fear gauge is ripping. Traders see it going even higher"
+    "Explainer: What's behind Egypt's move towards possible military involvement in Saudi-Yemen conflict? - Reuters",
+    "We're buying more of a beaten-up stock before another overhang is lifted",
+    "Every look from the Victoria's Secret Fashion Show - Reuters",
+    "Houthi attack kills 53 at Yemen government training camp, officials say - Reuters",
+    "NYSE becomes latest exchange to extend options hours as appetite for around-the-clock trading grows",
+    "World Food Programme cuts aid to 500,000 Palestinians in Gaza, cites funding shortages - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,8 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies negative",
-      "VIX relatively calm"
+      "Index proxies positive"
     ]
   }
 }
