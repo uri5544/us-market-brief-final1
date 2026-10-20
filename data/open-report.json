@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-10-20",
-  "generated_at": "2026-10-20 00:15 UTC",
+  "generated_at": "2026-10-20 15:00 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Constructive risk-on",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.42%",
+      "value": "+0.68%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+1.21%",
+      "value": "+0.50%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.03%",
-      "tone": "neg"
+      "value": "+1.32%",
+      "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.31%",
+      "value": "+2.03%",
       "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "19.99",
+      "value": "18.44",
       "tone": "blue"
     },
     {
@@ -58,22 +58,22 @@
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.42%, Nasdaq proxy +1.21%, Dow proxy -0.03%, Russell proxy +0.31%.",
-    "VIX עומד על 19.99.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Every look from the Victoria's Secret Fashion Show - Reuters"
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +0.68%, Nasdaq proxy +0.50%, Dow proxy +1.32%, Russell proxy +2.03%.",
+    "VIX עומד על 18.44.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Anthropic in talks with neocloud Nscale over second multibillion-dollar deal, source tells CNBC"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Every look from the Victoria's Secret Fashion Show - Reuters",
-    "Kremlin says Putin, Trump and Xi could hold a three-way meeting in China next month - Reuters",
-    "Tech stocks had a nice oversold bounce on Monday. Earnings this week will determine if it's for real",
-    "Pakistan army chief Asim Munir to visit Tehran on Tuesday - Reuters",
-    "Crushed tech stocks bounce — plus, new doctor survey keeps us positive on Lilly",
-    "Germany summons Iranian envoy over plot to kill Jewish community leader - Reuters"
+    "Anthropic in talks with neocloud Nscale over second multibillion-dollar deal, source tells CNBC",
+    "Turkey submits Saudi-Pakistan defence pact to parliament for ratification, sources say - Reuters",
+    "Britain says it will carry out defensive air missions over Saudi Arabia - Reuters",
+    "Apple shares aren't cheap. Here's how to get long for less",
+    "SpaceX reports after the bell. Here's what options traders expect",
+    "Jim Cramer's top 10 things to watch in the stock market Tuesday"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
