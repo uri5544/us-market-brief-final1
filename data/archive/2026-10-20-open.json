@@ -1,0 +1,91 @@
+{
+  "schema_version": "4.0-clean",
+  "report_type": "open",
+  "report_date": "2026-10-20",
+  "generated_at": "2026-10-20 00:15 UTC",
+  "report_window": "Automated market brief",
+  "market_regime": "Constructive risk-on",
+  "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
+  "hero_title": "Opening market brief",
+  "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
+  "movers_title": "Live movers",
+  "badges": [
+    {
+      "label": "LIVE DATA ONLY",
+      "class": "live"
+    },
+    {
+      "label": "CLEAN OUTPUT",
+      "class": "macro"
+    },
+    {
+      "label": "SCORING ENGINE",
+      "class": "info"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P proxy",
+      "value": "+0.42%",
+      "tone": "pos"
+    },
+    {
+      "label": "Nasdaq proxy",
+      "value": "+1.21%",
+      "tone": "pos"
+    },
+    {
+      "label": "Dow proxy",
+      "value": "-0.03%",
+      "tone": "neg"
+    },
+    {
+      "label": "Russell proxy",
+      "value": "+0.31%",
+      "tone": "pos"
+    },
+    {
+      "label": "VIX",
+      "value": "19.99",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "5.09%",
+      "tone": "blue"
+    }
+  ],
+  "summary": [
+    "זהו דוח פתיחה אוטומטי במבנה אחיד.",
+    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy +0.42%, Nasdaq proxy +1.21%, Dow proxy -0.03%, Russell proxy +0.31%.",
+    "VIX עומד על 19.99.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: Every look from the Victoria's Secret Fashion Show - Reuters"
+  ],
+  "movers": [],
+  "sectors": [],
+  "macro": [],
+  "headlines": [
+    "Every look from the Victoria's Secret Fashion Show - Reuters",
+    "Kremlin says Putin, Trump and Xi could hold a three-way meeting in China next month - Reuters",
+    "Tech stocks had a nice oversold bounce on Monday. Earnings this week will determine if it's for real",
+    "Pakistan army chief Asim Munir to visit Tehran on Tuesday - Reuters",
+    "Crushed tech stocks bounce — plus, new doctor survey keeps us positive on Lilly",
+    "Germany summons Iranian envoy over plot to kill Jewish community leader - Reuters"
+  ],
+  "tomorrow_setup": [
+    "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
+    "להמשיך לנקות ניסוחים מעורבים של עברית ואנגלית.",
+    "להסתיר בלוקים ריקים במקום להציג placeholder מטעה."
+  ],
+  "pipeline_status": {
+    "data_freshness": "live fields only",
+    "generator": "scripts/generate_reports.py",
+    "environment": "github-actions",
+    "scoring_reasons": [
+      "Index proxies positive"
+    ]
+  }
+}
