@@ -1,8 +1,8 @@
 {
   "schema_version": "4.0-clean",
   "report_type": "close",
-  "report_date": "2026-10-20",
-  "generated_at": "2026-10-20 23:47 UTC",
+  "report_date": "2026-10-21",
+  "generated_at": "2026-10-21 15:11 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Constructive risk-on",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,28 +26,23 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.34%",
+      "value": "+0.29%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.10%",
-      "tone": "neg"
+      "value": "+0.91%",
+      "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+1.05%",
+      "value": "+0.06%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+1.66%",
+      "value": "+0.37%",
       "tone": "pos"
-    },
-    {
-      "label": "VIX",
-      "value": "18.44",
-      "tone": "blue"
     },
     {
       "label": "US10Y",
@@ -58,22 +53,21 @@
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.34%, Nasdaq proxy -0.10%, Dow proxy +1.05%, Russell proxy +1.66%.",
-    "VIX עומד על 18.44.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: US coaxing refiners to produce more diesel as prices surge, energy officials say - Reuters"
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +0.29%, Nasdaq proxy +0.91%, Dow proxy +0.06%, Russell proxy +0.37%.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: The political ad wars are still being fought over the airwaves even as digital gains share"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "US coaxing refiners to produce more diesel as prices surge, energy officials say - Reuters",
-    "Iran says Saudi Arabia, Houthis have not answered mediation offer - Reuters",
-    "Obsessed with CoreWeave and the AI trade? You're missing out on some great stocks",
-    "Iran's Nournews says Qatari delegation arrives in Tehran - Reuters",
-    "United Airlines slashes 2026 profit outlook on fuel prices, but travelers keep booking despite higher fares",
-    "China says US' DeepSeek ban disregards Xi-Trump consensus - Reuters"
+    "The political ad wars are still being fought over the airwaves even as digital gains share",
+    "Most Gulf bourses slip as Iran-US diplomacy hits a standstill - Reuters",
+    "Israel's election may change its leader, but not Iran war policy - Reuters",
+    "Our top 10 things to watch in the stock market Wednesday",
+    "OpenAI expands ChatGPT Ads to 26 new countries as diversification push accelerates",
+    "COMMENTARY: China uses crude stockpiles, but rising oil imports may curtail draws - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",

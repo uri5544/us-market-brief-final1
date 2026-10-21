@@ -1,0 +1,85 @@
+{
+  "schema_version": "4.0-clean",
+  "report_type": "open",
+  "report_date": "2026-10-21",
+  "generated_at": "2026-10-21 15:11 UTC",
+  "report_window": "Automated market brief",
+  "market_regime": "Constructive risk-on",
+  "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
+  "hero_title": "Opening market brief",
+  "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
+  "movers_title": "Live movers",
+  "badges": [
+    {
+      "label": "LIVE DATA ONLY",
+      "class": "live"
+    },
+    {
+      "label": "CLEAN OUTPUT",
+      "class": "macro"
+    },
+    {
+      "label": "SCORING ENGINE",
+      "class": "info"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P proxy",
+      "value": "+0.29%",
+      "tone": "pos"
+    },
+    {
+      "label": "Nasdaq proxy",
+      "value": "+0.91%",
+      "tone": "pos"
+    },
+    {
+      "label": "Dow proxy",
+      "value": "+0.06%",
+      "tone": "pos"
+    },
+    {
+      "label": "Russell proxy",
+      "value": "+0.37%",
+      "tone": "pos"
+    },
+    {
+      "label": "US10Y",
+      "value": "5.15%",
+      "tone": "blue"
+    }
+  ],
+  "summary": [
+    "זהו דוח פתיחה אוטומטי במבנה אחיד.",
+    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +0.29%, Nasdaq proxy +0.91%, Dow proxy +0.06%, Russell proxy +0.37%.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: The political ad wars are still being fought over the airwaves even as digital gains share"
+  ],
+  "movers": [],
+  "sectors": [],
+  "macro": [],
+  "headlines": [
+    "The political ad wars are still being fought over the airwaves even as digital gains share",
+    "Most Gulf bourses slip as Iran-US diplomacy hits a standstill - Reuters",
+    "Israel's election may change its leader, but not Iran war policy - Reuters",
+    "Our top 10 things to watch in the stock market Wednesday",
+    "OpenAI expands ChatGPT Ads to 26 new countries as diversification push accelerates",
+    "COMMENTARY: China uses crude stockpiles, but rising oil imports may curtail draws - Reuters"
+  ],
+  "tomorrow_setup": [
+    "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
+    "להמשיך לנקות ניסוחים מעורבים של עברית ואנגלית.",
+    "להסתיר בלוקים ריקים במקום להציג placeholder מטעה."
+  ],
+  "pipeline_status": {
+    "data_freshness": "live fields only",
+    "generator": "scripts/generate_reports.py",
+    "environment": "github-actions",
+    "scoring_reasons": [
+      "Index proxies positive"
+    ]
+  }
+}
