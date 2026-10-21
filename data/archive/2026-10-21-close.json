@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-10-21",
-  "generated_at": "2026-10-21 15:11 UTC",
+  "generated_at": "2026-10-21 23:58 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Constructive risk-on",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,48 +26,43 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.29%",
+      "value": "+0.53%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.91%",
+      "value": "+1.05%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.06%",
+      "value": "+0.64%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.37%",
+      "value": "+0.25%",
       "tone": "pos"
-    },
-    {
-      "label": "US10Y",
-      "value": "5.15%",
-      "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy +0.29%, Nasdaq proxy +0.91%, Dow proxy +0.06%, Russell proxy +0.37%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy +0.53%, Nasdaq proxy +1.05%, Dow proxy +0.64%, Russell proxy +0.25%.",
     "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: The political ad wars are still being fought over the airwaves even as digital gains share"
+    "כותרת בולטת שנקלטה: EXCLUSIVE: US orders diplomats to depart Saudi Arabia amid Houthi strikes - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "The political ad wars are still being fought over the airwaves even as digital gains share",
-    "Most Gulf bourses slip as Iran-US diplomacy hits a standstill - Reuters",
-    "Israel's election may change its leader, but not Iran war policy - Reuters",
-    "Our top 10 things to watch in the stock market Wednesday",
-    "OpenAI expands ChatGPT Ads to 26 new countries as diversification push accelerates",
-    "COMMENTARY: China uses crude stockpiles, but rising oil imports may curtail draws - Reuters"
+    "EXCLUSIVE: US orders diplomats to depart Saudi Arabia amid Houthi strikes - Reuters",
+    "Putin agrees to resume 3-way peace talks with Ukraine and US - Reuters",
+    "Southwest Airlines cuts 2026 profit forecast on higher fuel",
+    "SpaceX gives the AI trade a shot in the arm. What it means for our stocks",
+    "Apple's iPhone Duo in short supply — plus, the 2 stocks fueling an AI rebound",
+    "US sanctions Greece-, Panama-based law firm over aid to Iranian shipping - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
