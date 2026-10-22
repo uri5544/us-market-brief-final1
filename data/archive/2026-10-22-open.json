@@ -1,0 +1,114 @@
+{
+  "schema_version": "4.0-clean",
+  "report_type": "open",
+  "report_date": "2026-10-22",
+  "generated_at": "2026-10-22 15:13 UTC",
+  "report_window": "Automated market brief",
+  "market_regime": "Balanced / neutral",
+  "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
+  "hero_title": "Opening market brief",
+  "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
+  "movers_title": "Live movers",
+  "badges": [
+    {
+      "label": "LIVE DATA ONLY",
+      "class": "live"
+    },
+    {
+      "label": "CLEAN OUTPUT",
+      "class": "macro"
+    },
+    {
+      "label": "SCORING ENGINE",
+      "class": "info"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P proxy",
+      "value": "-1.33%",
+      "tone": "neg"
+    },
+    {
+      "label": "Nasdaq proxy",
+      "value": "-2.50%",
+      "tone": "neg"
+    },
+    {
+      "label": "Dow proxy",
+      "value": "-0.35%",
+      "tone": "neg"
+    },
+    {
+      "label": "Russell proxy",
+      "value": "-0.54%",
+      "tone": "neg"
+    },
+    {
+      "label": "VIX",
+      "value": "16.68",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "5.12%",
+      "tone": "blue"
+    }
+  ],
+  "summary": [
+    "זהו דוח פתיחה אוטומטי במבנה אחיד.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -1.33%, Nasdaq proxy -2.50%, Dow proxy -0.35%, Russell proxy -0.54%.",
+    "VIX עומד על 16.68.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "המניה הבולטת בפיד movers היא SHFS.",
+    "כותרת בולטת שנקלטה: Gulf markets fall as fresh Houthi strikes on Saudi Arabia raise regional risk - Reuters"
+  ],
+  "movers": [
+    {
+      "asset": "SHFS",
+      "move": "71.5239%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "AHT-H",
+      "move": "61.3383%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "GPATW",
+      "move": "-50.9299%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "RBNE",
+      "move": "-41.8049%",
+      "driver": "Alpha Vantage top movers feed"
+    }
+  ],
+  "sectors": [],
+  "macro": [],
+  "headlines": [
+    "Gulf markets fall as fresh Houthi strikes on Saudi Arabia raise regional risk - Reuters",
+    "Jobless claims near the lowest since the 1960s as low-fire trend continues",
+    "Saudi Aramco tells staff to evacuate Dhahran headquarters, sources say - Reuters",
+    "Our top 10 things to watch in the stock market Thursday",
+    "American Express brings Airbnb bookings and rewards to Amex Travel platform",
+    "Israeli settlers steal Palestinians' olives as attacks on harvest grow more violent - Reuters"
+  ],
+  "tomorrow_setup": [
+    "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
+    "להמשיך לנקות ניסוחים מעורבים של עברית ואנגלית.",
+    "להסתיר בלוקים ריקים במקום להציג placeholder מטעה."
+  ],
+  "pipeline_status": {
+    "data_freshness": "live fields only",
+    "generator": "scripts/generate_reports.py",
+    "environment": "github-actions",
+    "scoring_reasons": [
+      "Index proxies negative",
+      "VIX relatively calm"
+    ]
+  }
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": "4.0-clean",
   "report_type": "close",
-  "report_date": "2026-10-21",
-  "generated_at": "2026-10-21 23:58 UTC",
+  "report_date": "2026-10-22",
+  "generated_at": "2026-10-22 15:13 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Constructive risk-on",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,43 +26,54 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.53%",
-      "tone": "pos"
+      "value": "-1.33%",
+      "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+1.05%",
-      "tone": "pos"
+      "value": "-2.50%",
+      "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.64%",
-      "tone": "pos"
+      "value": "-0.35%",
+      "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.25%",
-      "tone": "pos"
+      "value": "-0.54%",
+      "tone": "neg"
+    },
+    {
+      "label": "VIX",
+      "value": "16.68",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "5.12%",
+      "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.53%, Nasdaq proxy +1.05%, Dow proxy +0.64%, Russell proxy +0.25%.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -1.33%, Nasdaq proxy -2.50%, Dow proxy -0.35%, Russell proxy -0.54%.",
+    "VIX עומד על 16.68.",
     "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: EXCLUSIVE: US orders diplomats to depart Saudi Arabia amid Houthi strikes - Reuters"
+    "כותרת בולטת שנקלטה: Gulf markets fall as fresh Houthi strikes on Saudi Arabia raise regional risk - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "EXCLUSIVE: US orders diplomats to depart Saudi Arabia amid Houthi strikes - Reuters",
-    "Putin agrees to resume 3-way peace talks with Ukraine and US - Reuters",
-    "Southwest Airlines cuts 2026 profit forecast on higher fuel",
-    "SpaceX gives the AI trade a shot in the arm. What it means for our stocks",
-    "Apple's iPhone Duo in short supply — plus, the 2 stocks fueling an AI rebound",
-    "US sanctions Greece-, Panama-based law firm over aid to Iranian shipping - Reuters"
+    "Gulf markets fall as fresh Houthi strikes on Saudi Arabia raise regional risk - Reuters",
+    "Jobless claims near the lowest since the 1960s as low-fire trend continues",
+    "Saudi Aramco tells staff to evacuate Dhahran headquarters, sources say - Reuters",
+    "Our top 10 things to watch in the stock market Thursday",
+    "American Express brings Airbnb bookings and rewards to Amex Travel platform",
+    "Israeli settlers steal Palestinians' olives as attacks on harvest grow more violent - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -74,7 +85,8 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies positive"
+      "Index proxies negative",
+      "VIX relatively calm"
     ]
   }
 }
