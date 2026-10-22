@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-10-22",
-  "generated_at": "2026-10-22 15:13 UTC",
+  "generated_at": "2026-10-22 23:57 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,23 +26,23 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-1.33%",
+      "value": "-1.18%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-2.50%",
+      "value": "-2.86%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.35%",
-      "tone": "neg"
+      "value": "+0.04%",
+      "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.54%",
-      "tone": "neg"
+      "value": "+0.07%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
@@ -51,29 +51,51 @@
     },
     {
       "label": "US10Y",
-      "value": "5.12%",
+      "value": "5.13%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy -1.33%, Nasdaq proxy -2.50%, Dow proxy -0.35%, Russell proxy -0.54%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -1.18%, Nasdaq proxy -2.86%, Dow proxy +0.04%, Russell proxy +0.07%.",
     "VIX עומד על 16.68.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Gulf markets fall as fresh Houthi strikes on Saudi Arabia raise regional risk - Reuters"
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "המניה הבולטת בפיד movers היא SHFS.",
+    "כותרת בולטת שנקלטה: US regulator is probing suspicious Iran oil trading, official says - Reuters"
   ],
-  "movers": [],
+  "movers": [
+    {
+      "asset": "SHFS",
+      "move": "71.5239%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "AHT-H",
+      "move": "61.3383%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "GPATW",
+      "move": "-50.9299%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "RBNE",
+      "move": "-41.8049%",
+      "driver": "Alpha Vantage top movers feed"
+    }
+  ],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Gulf markets fall as fresh Houthi strikes on Saudi Arabia raise regional risk - Reuters",
-    "Jobless claims near the lowest since the 1960s as low-fire trend continues",
-    "Saudi Aramco tells staff to evacuate Dhahran headquarters, sources say - Reuters",
-    "Our top 10 things to watch in the stock market Thursday",
-    "American Express brings Airbnb bookings and rewards to Amex Travel platform",
-    "Israeli settlers steal Palestinians' olives as attacks on harvest grow more violent - Reuters"
+    "US regulator is probing suspicious Iran oil trading, official says - Reuters",
+    "US Treasury drops Venezuela from countries facing outbound US investment restrictions - Reuters",
+    "A lesson from poker tells us not to fold on Meta after its earnings sell-off. Here’s why",
+    "The perfect storm behind the Nasdaq's rout — plus, some of the bright spots in the market",
+    "Egypt calls for Yemen talks as parliament weighs military support to Saudi Arabia - Reuters",
+    "Gucci sales slip again in latest blow to Kering recovery plan - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
