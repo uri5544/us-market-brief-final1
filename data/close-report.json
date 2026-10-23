@@ -1,8 +1,8 @@
 {
   "schema_version": "4.0-clean",
   "report_type": "close",
-  "report_date": "2026-10-22",
-  "generated_at": "2026-10-22 23:57 UTC",
+  "report_date": "2026-10-23",
+  "generated_at": "2026-10-23 15:00 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-1.18%",
+      "value": "-0.14%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-2.86%",
-      "tone": "neg"
+      "value": "+0.57%",
+      "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.04%",
-      "tone": "pos"
+      "value": "-0.95%",
+      "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.07%",
-      "tone": "pos"
+      "value": "-0.33%",
+      "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "16.68",
+      "value": "19.03",
       "tone": "blue"
     },
     {
@@ -57,45 +57,23 @@
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -1.18%, Nasdaq proxy -2.86%, Dow proxy +0.04%, Russell proxy +0.07%.",
-    "VIX עומד על 16.68.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 0).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -0.14%, Nasdaq proxy +0.57%, Dow proxy -0.95%, Russell proxy -0.33%.",
+    "VIX עומד על 19.03.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "המניה הבולטת בפיד movers היא SHFS.",
-    "כותרת בולטת שנקלטה: US regulator is probing suspicious Iran oil trading, official says - Reuters"
+    "כותרת בולטת שנקלטה: AI agents could disrupt bank deposits. Why Wall Street may be overreacting"
   ],
-  "movers": [
-    {
-      "asset": "SHFS",
-      "move": "71.5239%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "AHT-H",
-      "move": "61.3383%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "GPATW",
-      "move": "-50.9299%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "RBNE",
-      "move": "-41.8049%",
-      "driver": "Alpha Vantage top movers feed"
-    }
-  ],
+  "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "US regulator is probing suspicious Iran oil trading, official says - Reuters",
-    "US Treasury drops Venezuela from countries facing outbound US investment restrictions - Reuters",
-    "A lesson from poker tells us not to fold on Meta after its earnings sell-off. Here’s why",
-    "The perfect storm behind the Nasdaq's rout — plus, some of the bright spots in the market",
-    "Egypt calls for Yemen talks as parliament weighs military support to Saudi Arabia - Reuters",
-    "Gucci sales slip again in latest blow to Kering recovery plan - Reuters"
+    "AI agents could disrupt bank deposits. Why Wall Street may be overreacting",
+    "Restaurant earnings will test whether owning more brands pays off",
+    "PODCAST: The AI reset - Reuters",
+    "American Express is cutting 5% of its workforce",
+    "Our top 10 things to watch in the stock market Friday",
+    "At least seven killed in attack at church in Jordan, state-owned outlet says - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -106,9 +84,6 @@
     "data_freshness": "live fields only",
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
-    "scoring_reasons": [
-      "Index proxies negative",
-      "VIX relatively calm"
-    ]
+    "scoring_reasons": []
   }
 }
