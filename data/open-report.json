@@ -1,10 +1,10 @@
 {
   "schema_version": "4.0-clean",
   "report_type": "open",
-  "report_date": "2026-10-23",
-  "generated_at": "2026-10-23 23:49 UTC",
+  "report_date": "2026-10-26",
+  "generated_at": "2026-10-26 16:46 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Cautious risk-off",
+  "market_regime": "Constructive risk-on",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Opening market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.52%",
-      "tone": "neg"
+      "value": "+0.63%",
+      "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.01%",
-      "tone": "neg"
+      "value": "+1.04%",
+      "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "-1.24%",
-      "tone": "neg"
+      "value": "+0.22%",
+      "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.33%",
-      "tone": "neg"
+      "value": "+0.66%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "19.03",
+      "value": "19.45",
       "tone": "blue"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Cautious risk-off (score -2).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.52%, Nasdaq proxy -0.01%, Dow proxy -1.24%, Russell proxy -0.33%.",
-    "VIX עומד על 19.03.",
+    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +0.63%, Nasdaq proxy +1.04%, Dow proxy +0.22%, Russell proxy +0.66%.",
+    "VIX עומד על 19.45.",
     "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields"
+    "כותרת בולטת שנקלטה: Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
-    "Seven killed as gunmen open fire at church in Jordan in 'terrorist' attack, authorities say - Reuters",
-    "In Florida, Trump vows to deal with Cuba after Iran settled - Reuters",
-    "Trump says US will 'take care of Cuba' on its way back from Iran - Reuters",
-    "Trump says US may do another military operation against Iran - Reuters",
-    "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say - Reuters"
+    "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran - Reuters",
+    "Egypt approves military support for Saudi Arabia after Houthi attacks escalate - Reuters",
+    "Trump DOJ unlawfully fired Epstein prosecutor Maurene Comey, judge rules",
+    "Hezbollah readies for new regional war with funds from Iran, sources say - Reuters",
+    "Galp, Moeve scrap downstream merger as Iran war boosts refinery valuations - Reuters",
+    "Mortgage rates above 7% are the 'new normal'—here's why"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,7 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies negative"
+      "Index proxies positive"
     ]
   }
 }
