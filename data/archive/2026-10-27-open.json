@@ -1,0 +1,113 @@
+{
+  "schema_version": "4.0-clean",
+  "report_type": "open",
+  "report_date": "2026-10-27",
+  "generated_at": "2026-10-27 00:21 UTC",
+  "report_window": "Automated market brief",
+  "market_regime": "Constructive risk-on",
+  "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
+  "hero_title": "Opening market brief",
+  "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
+  "movers_title": "Live movers",
+  "badges": [
+    {
+      "label": "LIVE DATA ONLY",
+      "class": "live"
+    },
+    {
+      "label": "CLEAN OUTPUT",
+      "class": "macro"
+    },
+    {
+      "label": "SCORING ENGINE",
+      "class": "info"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P proxy",
+      "value": "+0.71%",
+      "tone": "pos"
+    },
+    {
+      "label": "Nasdaq proxy",
+      "value": "+1.11%",
+      "tone": "pos"
+    },
+    {
+      "label": "Dow proxy",
+      "value": "+0.31%",
+      "tone": "pos"
+    },
+    {
+      "label": "Russell proxy",
+      "value": "+0.45%",
+      "tone": "pos"
+    },
+    {
+      "label": "VIX",
+      "value": "19.45",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "5%",
+      "tone": "blue"
+    }
+  ],
+  "summary": [
+    "זהו דוח פתיחה אוטומטי במבנה אחיד.",
+    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy +0.71%, Nasdaq proxy +1.11%, Dow proxy +0.31%, Russell proxy +0.45%.",
+    "VIX עומד על 19.45.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "המניה הבולטת בפיד movers היא BGLWW.",
+    "כותרת בולטת שנקלטה: Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran - Reuters"
+  ],
+  "movers": [
+    {
+      "asset": "BGLWW",
+      "move": "733.3333%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "AIOK",
+      "move": "182.8235%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "AARD",
+      "move": "-64.8101%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "RDACR",
+      "move": "-62.1239%",
+      "driver": "Alpha Vantage top movers feed"
+    }
+  ],
+  "sectors": [],
+  "macro": [],
+  "headlines": [
+    "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran - Reuters",
+    "JetBlue posts bigger loss on fuel costs, but CEO says margins improving",
+    "US consumers paying the most for fuel price spikes from Iran war, study says - Reuters",
+    "Anthropic's IPO puts power in the hands of founders, giving everyday shareholders little voice",
+    "'No fuel to keep babies warm': shortages push hospitals in Yemen's Taiz to brink - Reuters",
+    "Egypt approves military support for Saudi Arabia after Houthi attacks escalate - Reuters"
+  ],
+  "tomorrow_setup": [
+    "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
+    "להמשיך לנקות ניסוחים מעורבים של עברית ואנגלית.",
+    "להסתיר בלוקים ריקים במקום להציג placeholder מטעה."
+  ],
+  "pipeline_status": {
+    "data_freshness": "live fields only",
+    "generator": "scripts/generate_reports.py",
+    "environment": "github-actions",
+    "scoring_reasons": [
+      "Index proxies positive"
+    ]
+  }
+}
