@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-10-28",
-  "generated_at": "2026-10-28 00:26 UTC",
+  "generated_at": "2026-10-28 16:35 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Constructive risk-on",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,49 +26,54 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.56%",
+      "value": "+0.21%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+1.27%",
+      "value": "+0.14%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.06%",
+      "value": "+0.24%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+1.15%",
+      "value": "+-0.00%",
       "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "18.39",
+      "value": "17.52",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "5%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.56%, Nasdaq proxy +1.27%, Dow proxy +0.06%, Russell proxy +1.15%.",
-    "VIX עומד על 18.39.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Rights monitors raise concerns over senior UAE diplomat bid for next UN boss - Reuters"
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +0.21%, Nasdaq proxy +0.14%, Dow proxy +0.24%, Russell proxy +-0.00%.",
+    "VIX עומד על 17.52.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Jim Cramer sees buying opportunities in these 2 beaten-down stocks"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Rights monitors raise concerns over senior UAE diplomat bid for next UN boss - Reuters",
-    "Robinhood quarterly revenue rises 12% as event contracts, options offset crypto slump",
-    "AI debt fears ease ahead of Oracle, Alphabet and Amazon updates. Here's what to watch.",
-    "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile - Reuters",
-    "Food and household brands warn of more price hikes as Iran war costs bite - Reuters",
-    "What's behind the AI trade comeback — plus, our take on Intel's latest deal"
+    "Jim Cramer sees buying opportunities in these 2 beaten-down stocks",
+    "Iran's Revolutionary Court sentences director Panahi to jail term, travel ban - Reuters",
+    "Bearista cups are returning at Starbucks. Can the viral sensation boost holiday sales again?",
+    "America's largest budget airline reports 71% jump in airfare",
+    "Brazil's Flavio Bolsonaro arrives in US after election defeat - Reuters",
+    "PODCAST: A hawkish hold? - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -80,7 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies positive"
+      "VIX relatively calm"
     ]
   }
 }
