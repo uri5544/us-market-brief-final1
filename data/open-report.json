@@ -1,8 +1,8 @@
 {
   "schema_version": "4.0-clean",
   "report_type": "open",
-  "report_date": "2026-10-27",
-  "generated_at": "2026-10-27 15:51 UTC",
+  "report_date": "2026-10-28",
+  "generated_at": "2026-10-28 00:26 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Constructive risk-on",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,22 +26,22 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.64%",
+      "value": "+0.56%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+1.29%",
+      "value": "+1.27%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.13%",
+      "value": "+0.06%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.96%",
+      "value": "+1.15%",
       "tone": "pos"
     },
     {
@@ -58,44 +58,22 @@
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy +0.64%, Nasdaq proxy +1.29%, Dow proxy +0.13%, Russell proxy +0.96%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy +0.56%, Nasdaq proxy +1.27%, Dow proxy +0.06%, Russell proxy +1.15%.",
     "VIX עומד על 18.39.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "המניה הבולטת בפיד movers היא BTBDW.",
-    "כותרת בולטת שנקלטה: American Airlines hikes annual fees on rewards cards for first time since 2018"
+    "כותרת בולטת שנקלטה: Rights monitors raise concerns over senior UAE diplomat bid for next UN boss - Reuters"
   ],
-  "movers": [
-    {
-      "asset": "BTBDW",
-      "move": "171.8182%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "HSCSW",
-      "move": "154.902%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "BRZL",
-      "move": "-59.6629%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "PCTTW",
-      "move": "-59.1837%",
-      "driver": "Alpha Vantage top movers feed"
-    }
-  ],
+  "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "American Airlines hikes annual fees on rewards cards for first time since 2018",
+    "Rights monitors raise concerns over senior UAE diplomat bid for next UN boss - Reuters",
+    "Robinhood quarterly revenue rises 12% as event contracts, options offset crypto slump",
+    "AI debt fears ease ahead of Oracle, Alphabet and Amazon updates. Here's what to watch.",
     "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile - Reuters",
-    "High inflation to persist globally into next year, Reuters poll shows - Reuters",
-    "Most Gulf bourses advance as Saudi defence pact countries push for peace - Reuters",
-    "Jim Cramer's top 10 things to watch in the stock market Tuesday",
-    "Two men charged in UK with helping Iran over RAF Fairford incident - Reuters"
+    "Food and household brands warn of more price hikes as Iran war costs bite - Reuters",
+    "What's behind the AI trade comeback — plus, our take on Intel's latest deal"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
