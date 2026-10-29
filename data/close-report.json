@@ -1,10 +1,10 @@
 {
   "schema_version": "4.0-clean",
   "report_type": "close",
-  "report_date": "2026-10-28",
-  "generated_at": "2026-10-28 16:35 UTC",
+  "report_date": "2026-10-29",
+  "generated_at": "2026-10-29 00:48 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Balanced / neutral",
+  "market_regime": "Risk-on confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,22 +26,22 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.21%",
+      "value": "+0.34%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.14%",
+      "value": "+0.60%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.24%",
+      "value": "+0.27%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+-0.00%",
+      "value": "+0.40%",
       "tone": "pos"
     },
     {
@@ -51,29 +51,29 @@
     },
     {
       "label": "US10Y",
-      "value": "5%",
+      "value": "4.99%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy +0.21%, Nasdaq proxy +0.14%, Dow proxy +0.24%, Russell proxy +-0.00%.",
+    "מצב השוק לפי מנוע הניקוד: Risk-on confirmation (score 3).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy +0.34%, Nasdaq proxy +0.60%, Dow proxy +0.27%, Russell proxy +0.40%.",
     "VIX עומד על 17.52.",
     "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Jim Cramer sees buying opportunities in these 2 beaten-down stocks"
+    "כותרת בולטת שנקלטה: Libya's eastern administration bars entry to Iranians, Afghans - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Jim Cramer sees buying opportunities in these 2 beaten-down stocks",
-    "Iran's Revolutionary Court sentences director Panahi to jail term, travel ban - Reuters",
-    "Bearista cups are returning at Starbucks. Can the viral sensation boost holiday sales again?",
-    "America's largest budget airline reports 71% jump in airfare",
-    "Brazil's Flavio Bolsonaro arrives in US after election defeat - Reuters",
-    "PODCAST: A hawkish hold? - Reuters"
+    "Libya's eastern administration bars entry to Iranians, Afghans - Reuters",
+    "Iran sees only unacceptable ideas in latest mediation to end war, official says - Reuters",
+    "Phillips 66 posts record quarterly profit on refining strength - Reuters",
+    "Fed chairman talks tough on inflation — plus, what's behind Micron's big rally",
+    "Bond investor Jeff Gundlach talks to CNBC about Fed's rate pause, Warsh reducing vote-setting meetings",
+    "We're adding a new, high-profile AI play to our Bullpen stocks to watch list"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,6 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
+      "Index proxies positive",
       "VIX relatively calm"
     ]
   }
