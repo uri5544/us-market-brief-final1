@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-10-30",
-  "generated_at": "2026-10-30 00:49 UTC",
+  "generated_at": "2026-10-30 16:40 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,54 +26,71 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.38%",
+      "value": "-1.51%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-1.42%",
+      "value": "-3.16%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.37%",
+      "value": "-0.68%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.97%",
-      "tone": "pos"
+      "value": "-1.67%",
+      "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "16.91",
-      "tone": "blue"
-    },
-    {
-      "label": "US10Y",
-      "value": "5.05%",
+      "value": "17.2",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.38%, Nasdaq proxy -1.42%, Dow proxy -0.37%, Russell proxy +0.97%.",
-    "VIX עומד על 16.91.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -1.51%, Nasdaq proxy -3.16%, Dow proxy -0.68%, Russell proxy -1.67%.",
+    "VIX עומד על 17.2.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Animal welfare-focused farm group targets Republicans in rural races - Reuters"
+    "המניה הבולטת בפיד movers היא BGLWW.",
+    "כותרת בולטת שנקלטה: Jim Cramer reveals 3 stocks to buy — plus, why he is not selling the Intel plunge"
   ],
-  "movers": [],
+  "movers": [
+    {
+      "asset": "BGLWW",
+      "move": "445.7143%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "BURU",
+      "move": "117.8966%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "DYNCW",
+      "move": "-93.7143%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "NOWL",
+      "move": "-53.6131%",
+      "driver": "Alpha Vantage top movers feed"
+    }
+  ],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Animal welfare-focused farm group targets Republicans in rural races - Reuters",
-    "Vance outreach to Iran related to medical supplies, says Trump - Reuters",
-    "Yemen's hospitals buckle as fighting escalates - Reuters",
-    "Jim Cramer: Why investors are punishing Alphabet and giving Microsoft a pass",
-    "We’re downgrading Alphabet after its rough quarter. Here’s where we’d buy again",
-    "Polymarket reports outage on international exchange, halts trading"
+    "Jim Cramer reveals 3 stocks to buy — plus, why he is not selling the Intel plunge",
+    "BP beats forecasts with record profit, targets early settling of Deepwater Horizon bill - Reuters",
+    "'Bad time to troll': Binance cofounder Changpeng Zhao asks Elon Musk for 'respect' after post about bitcoin hack",
+    "Iran's IRGC Navy says three tankers catch fire in Strait of Hormuz - Reuters",
+    "Oman navy evacuates 25 crew from vessel off Musandam - Reuters",
+    "Jim Cramer's top 10 things to watch in the stock market Friday"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,6 +102,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
+      "Index proxies negative",
       "VIX relatively calm"
     ]
   }
