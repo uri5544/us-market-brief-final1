@@ -1,0 +1,91 @@
+{
+  "schema_version": "4.0-clean",
+  "report_type": "open",
+  "report_date": "2026-10-30",
+  "generated_at": "2026-10-30 00:49 UTC",
+  "report_window": "Automated market brief",
+  "market_regime": "Balanced / neutral",
+  "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
+  "hero_title": "Opening market brief",
+  "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
+  "movers_title": "Live movers",
+  "badges": [
+    {
+      "label": "LIVE DATA ONLY",
+      "class": "live"
+    },
+    {
+      "label": "CLEAN OUTPUT",
+      "class": "macro"
+    },
+    {
+      "label": "SCORING ENGINE",
+      "class": "info"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P proxy",
+      "value": "-0.38%",
+      "tone": "neg"
+    },
+    {
+      "label": "Nasdaq proxy",
+      "value": "-1.42%",
+      "tone": "neg"
+    },
+    {
+      "label": "Dow proxy",
+      "value": "-0.37%",
+      "tone": "neg"
+    },
+    {
+      "label": "Russell proxy",
+      "value": "+0.97%",
+      "tone": "pos"
+    },
+    {
+      "label": "VIX",
+      "value": "16.91",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "5.05%",
+      "tone": "blue"
+    }
+  ],
+  "summary": [
+    "זהו דוח פתיחה אוטומטי במבנה אחיד.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -0.38%, Nasdaq proxy -1.42%, Dow proxy -0.37%, Russell proxy +0.97%.",
+    "VIX עומד על 16.91.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: Animal welfare-focused farm group targets Republicans in rural races - Reuters"
+  ],
+  "movers": [],
+  "sectors": [],
+  "macro": [],
+  "headlines": [
+    "Animal welfare-focused farm group targets Republicans in rural races - Reuters",
+    "Vance outreach to Iran related to medical supplies, says Trump - Reuters",
+    "Yemen's hospitals buckle as fighting escalates - Reuters",
+    "Jim Cramer: Why investors are punishing Alphabet and giving Microsoft a pass",
+    "We’re downgrading Alphabet after its rough quarter. Here’s where we’d buy again",
+    "Polymarket reports outage on international exchange, halts trading"
+  ],
+  "tomorrow_setup": [
+    "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
+    "להמשיך לנקות ניסוחים מעורבים של עברית ואנגלית.",
+    "להסתיר בלוקים ריקים במקום להציג placeholder מטעה."
+  ],
+  "pipeline_status": {
+    "data_freshness": "live fields only",
+    "generator": "scripts/generate_reports.py",
+    "environment": "github-actions",
+    "scoring_reasons": [
+      "VIX relatively calm"
+    ]
+  }
+}

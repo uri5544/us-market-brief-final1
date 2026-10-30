@@ -1,8 +1,8 @@
 {
   "schema_version": "4.0-clean",
   "report_type": "close",
-  "report_date": "2026-10-29",
-  "generated_at": "2026-10-29 16:53 UTC",
+  "report_date": "2026-10-30",
+  "generated_at": "2026-10-30 00:49 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,22 +26,22 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.42%",
+      "value": "-0.38%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-1.41%",
+      "value": "-1.42%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.48%",
+      "value": "-0.37%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+1.05%",
+      "value": "+0.97%",
       "tone": "pos"
     },
     {
@@ -51,51 +51,29 @@
     },
     {
       "label": "US10Y",
-      "value": "4.99%",
+      "value": "5.05%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy -0.42%, Nasdaq proxy -1.41%, Dow proxy -0.48%, Russell proxy +1.05%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -0.38%, Nasdaq proxy -1.42%, Dow proxy -0.37%, Russell proxy +0.97%.",
     "VIX עומד על 16.91.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "המניה הבולטת בפיד movers היא SLXNW.",
-    "כותרת בולטת שנקלטה: We’re adding to our position in a rebounding bank stock"
+    "כותרת בולטת שנקלטה: Animal welfare-focused farm group targets Republicans in rural races - Reuters"
   ],
-  "movers": [
-    {
-      "asset": "SLXNW",
-      "move": "257.1429%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "ULBI",
-      "move": "145.4403%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "JDZG",
-      "move": "-75.4098%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "PLCE",
-      "move": "-54.3398%",
-      "driver": "Alpha Vantage top movers feed"
-    }
-  ],
+  "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "We’re adding to our position in a rebounding bank stock",
-    "EXCLUSIVE: QatarEnergy buys US, other LNG to hedge future Hormuz disruptions - Reuters",
-    "Iran’s hidden web of military agencies is slipping hardware past the US blockade - Reuters",
-    "Steve Eisman gets more conservative with portfolio as AI trade nears 'tipping point'",
-    "Open enrollment is a chance to get this ‘sneaky-good’ investment account that can be ‘better than a Roth’",
-    "Farmer-funded attack ads targeting Republicans air across rural America - Reuters"
+    "Animal welfare-focused farm group targets Republicans in rural races - Reuters",
+    "Vance outreach to Iran related to medical supplies, says Trump - Reuters",
+    "Yemen's hospitals buckle as fighting escalates - Reuters",
+    "Jim Cramer: Why investors are punishing Alphabet and giving Microsoft a pass",
+    "We’re downgrading Alphabet after its rough quarter. Here’s where we’d buy again",
+    "Polymarket reports outage on international exchange, halts trading"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
