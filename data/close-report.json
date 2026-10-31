@@ -1,8 +1,8 @@
 {
   "schema_version": "4.0-clean",
   "report_type": "close",
-  "report_date": "2026-10-30",
-  "generated_at": "2026-10-30 16:40 UTC",
+  "report_date": "2026-10-31",
+  "generated_at": "2026-10-31 00:41 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,39 +26,44 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-1.51%",
+      "value": "-1.77%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-3.16%",
+      "value": "-3.47%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.68%",
+      "value": "-1.07%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-1.67%",
+      "value": "-1.65%",
       "tone": "neg"
     },
     {
       "label": "VIX",
       "value": "17.2",
       "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "4.98%",
+      "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy -1.51%, Nasdaq proxy -3.16%, Dow proxy -0.68%, Russell proxy -1.67%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -1.77%, Nasdaq proxy -3.47%, Dow proxy -1.07%, Russell proxy -1.65%.",
     "VIX עומד על 17.2.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
     "המניה הבולטת בפיד movers היא BGLWW.",
-    "כותרת בולטת שנקלטה: Jim Cramer reveals 3 stocks to buy — plus, why he is not selling the Intel plunge"
+    "כותרת בולטת שנקלטה: Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes"
   ],
   "movers": [
     {
@@ -85,12 +90,12 @@
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Jim Cramer reveals 3 stocks to buy — plus, why he is not selling the Intel plunge",
-    "BP beats forecasts with record profit, targets early settling of Deepwater Horizon bill - Reuters",
-    "'Bad time to troll': Binance cofounder Changpeng Zhao asks Elon Musk for 'respect' after post about bitcoin hack",
-    "Iran's IRGC Navy says three tankers catch fire in Strait of Hormuz - Reuters",
-    "Oman navy evacuates 25 crew from vessel off Musandam - Reuters",
-    "Jim Cramer's top 10 things to watch in the stock market Friday"
+    "Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
+    "Iran's IRGC Navy says four tankers catch fire in Strait of Hormuz - Reuters",
+    "Saudi-led coalition says it downs Houthi drone over Medina; Houthis deny attack - Reuters",
+    "Zelenskiy says he will head to Turkey for talks - Reuters",
+    "Tech gets crushed, defensive stocks shine. How we're making sense of it all",
+    "FATF removes Bulgaria, Congo, Ivory Coast and Monaco from 'grey list' but leaves Vietnam on - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
