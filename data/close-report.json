@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-11-03",
-  "generated_at": "2026-11-03 02:52 UTC",
+  "generated_at": "2026-11-03 17:47 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Cautious risk-off",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,39 +26,44 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.48%",
-      "tone": "neg"
-    },
-    {
-      "label": "Nasdaq proxy",
-      "value": "-1.36%",
-      "tone": "neg"
-    },
-    {
-      "label": "Dow proxy",
       "value": "+0.43%",
       "tone": "pos"
     },
     {
-      "label": "Russell proxy",
-      "value": "-0.07%",
+      "label": "Nasdaq proxy",
+      "value": "+0.82%",
+      "tone": "pos"
+    },
+    {
+      "label": "Dow proxy",
+      "value": "-0.45%",
       "tone": "neg"
     },
     {
+      "label": "Russell proxy",
+      "value": "+0.48%",
+      "tone": "pos"
+    },
+    {
       "label": "VIX",
-      "value": "19.42",
+      "value": "21.15",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "4.94%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Cautious risk-off (score -2).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.48%, Nasdaq proxy -1.36%, Dow proxy +0.43%, Russell proxy -0.07%.",
-    "VIX עומד על 19.42.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 0).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +0.43%, Nasdaq proxy +0.82%, Dow proxy -0.45%, Russell proxy +0.48%.",
+    "VIX עומד על 21.15, ותשואת אג\"ח ארה\"ב ל-10 שנים על 4.94%.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
     "המניה הבולטת בפיד movers היא INO.",
-    "כותרת בולטת שנקלטה: Kimberly-Clark closes its acquisition of Tylenol maker Kenvue. What to expect next"
+    "כותרת בולטת שנקלטה: Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto 108511116"
   ],
   "movers": [
     {
@@ -85,12 +90,12 @@
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Kimberly-Clark closes its acquisition of Tylenol maker Kenvue. What to expect next",
-    "Trump focuses on Reflecting Pool in final public speech before midterms",
-    "2 of our banks are at the heart of this week's biggest tech deals",
-    "Prediction market traders now see nearly 75% chance of Democrats winning the Senate",
-    "Texas governor race tightens in prediction markets, but Abbott remains favored",
-    "Apple reports after the bell. Options traders expect a big move"
+    "Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto 108511116",
+    "We're trimming some more off a stock that's enjoying nice post-earnings gains",
+    "Las Vegas Raiders owner Mark Davis says he feels no pressure to rush backup QB Fernando Mendoza",
+    "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+    "Supermarket fridges are under attack in Europe — here's what's happening",
+    "Indian shares extend gains on softer oil, strong earnings - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -101,8 +106,6 @@
     "data_freshness": "live fields only",
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
-    "scoring_reasons": [
-      "Index proxies negative"
-    ]
+    "scoring_reasons": []
   }
 }
