@@ -1,0 +1,89 @@
+{
+  "schema_version": "4.0-clean",
+  "report_type": "close",
+  "report_date": "2026-11-04",
+  "generated_at": "2026-11-04 01:14 UTC",
+  "report_window": "Automated market brief",
+  "market_regime": "Balanced / neutral",
+  "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
+  "hero_title": "Closing market brief",
+  "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
+  "movers_title": "Live movers",
+  "badges": [
+    {
+      "label": "LIVE DATA ONLY",
+      "class": "live"
+    },
+    {
+      "label": "CLEAN OUTPUT",
+      "class": "macro"
+    },
+    {
+      "label": "SCORING ENGINE",
+      "class": "info"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P proxy",
+      "value": "+0.30%",
+      "tone": "pos"
+    },
+    {
+      "label": "Nasdaq proxy",
+      "value": "+0.62%",
+      "tone": "pos"
+    },
+    {
+      "label": "Dow proxy",
+      "value": "-0.44%",
+      "tone": "neg"
+    },
+    {
+      "label": "Russell proxy",
+      "value": "+0.23%",
+      "tone": "pos"
+    },
+    {
+      "label": "VIX",
+      "value": "21.15",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "4.91%",
+      "tone": "blue"
+    }
+  ],
+  "summary": [
+    "זהו דוח סגירה אוטומטי במבנה אחיד.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 0).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy +0.30%, Nasdaq proxy +0.62%, Dow proxy -0.44%, Russell proxy +0.23%.",
+    "VIX עומד על 21.15.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: US has no immediate plan to strike Iran, Trump tells FT - Reuters"
+  ],
+  "movers": [],
+  "sectors": [],
+  "macro": [],
+  "headlines": [
+    "US has no immediate plan to strike Iran, Trump tells FT - Reuters",
+    "As Americans vote, Trump says US will stop $4 billion in aid to Israel - Reuters",
+    "Election Day: Here is the No. 1 issue we're watching as a signal for stocks",
+    "Ex-Amex CEO shares when business leaders need to speak up about politics: 'You should care about what happens in our society'",
+    "Marathon profit beats estimates on soaring margins; strikes $4.2 billion refinery deal with CVR - Reuters",
+    "Israeli ex-generals condemn settler violence, help Palestinian farmers - Reuters"
+  ],
+  "tomorrow_setup": [
+    "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
+    "להמשיך לנקות ניסוחים מעורבים של עברית ואנגלית.",
+    "להסתיר בלוקים ריקים במקום להציג placeholder מטעה."
+  ],
+  "pipeline_status": {
+    "data_freshness": "live fields only",
+    "generator": "scripts/generate_reports.py",
+    "environment": "github-actions",
+    "scoring_reasons": []
+  }
+}
