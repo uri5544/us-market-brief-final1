@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-11-04",
-  "generated_at": "2026-11-04 01:14 UTC",
+  "generated_at": "2026-11-04 17:57 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Balanced / neutral",
+  "market_regime": "Constructive risk-on",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Opening market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.30%",
+      "value": "+1.94%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.62%",
+      "value": "+1.67%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.44%",
-      "tone": "neg"
+      "value": "+2.97%",
+      "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.23%",
+      "value": "+1.63%",
       "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "21.15",
+      "value": "20.83",
       "tone": "blue"
     },
     {
@@ -57,45 +57,23 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 0).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +0.30%, Nasdaq proxy +0.62%, Dow proxy -0.44%, Russell proxy +0.23%.",
-    "VIX עומד על 21.15, ותשואת אג\"ח ארה\"ב ל-10 שנים על 4.91%.",
+    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +1.94%, Nasdaq proxy +1.67%, Dow proxy +2.97%, Russell proxy +1.63%.",
+    "VIX עומד על 20.83.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "המניה הבולטת בפיד movers היא INO.",
-    "כותרת בולטת שנקלטה: US has no immediate plan to strike Iran, Trump tells FT - Reuters"
+    "כותרת בולטת שנקלטה: Jim Cramer says this bank stock is a buy after its post-election pullback"
   ],
-  "movers": [
-    {
-      "asset": "INO",
-      "move": "213.745%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "VCIG",
-      "move": "168.4034%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "KPTI",
-      "move": "-83.0816%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "WHLR",
-      "move": "-60.3247%",
-      "driver": "Alpha Vantage top movers feed"
-    }
-  ],
+  "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "US has no immediate plan to strike Iran, Trump tells FT - Reuters",
-    "As Americans vote, Trump says US will stop $4 billion in aid to Israel - Reuters",
-    "Election Day: Here is the No. 1 issue we're watching as a signal for stocks",
-    "Ex-Amex CEO shares when business leaders need to speak up about politics: 'You should care about what happens in our society'",
-    "Marathon profit beats estimates on soaring margins; strikes $4.2 billion refinery deal with CVR - Reuters",
-    "Israeli ex-generals condemn settler violence, help Palestinian farmers - Reuters"
+    "Jim Cramer says this bank stock is a buy after its post-election pullback",
+    "Wall Street rallies after Democrats win Congress; data center stocks slide - Reuters",
+    "Trump hammers Fox News, blaming network for GOP losses as ratings slide",
+    "Iranian officials gloat as US voters deal blow to Trump - Reuters",
+    "Iran's Khamenei says US hostility will persist regardless of party in power - Reuters",
+    "From Iran to trade: how the US midterms impact the rest of the world - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -106,6 +84,8 @@
     "data_freshness": "live fields only",
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
-    "scoring_reasons": []
+    "scoring_reasons": [
+      "Index proxies positive"
+    ]
   }
 }
