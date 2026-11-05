@@ -1,0 +1,91 @@
+{
+  "schema_version": "4.0-clean",
+  "report_type": "open",
+  "report_date": "2026-11-05",
+  "generated_at": "2026-11-05 01:25 UTC",
+  "report_window": "Automated market brief",
+  "market_regime": "Constructive risk-on",
+  "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
+  "hero_title": "Opening market brief",
+  "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
+  "movers_title": "Live movers",
+  "badges": [
+    {
+      "label": "LIVE DATA ONLY",
+      "class": "live"
+    },
+    {
+      "label": "CLEAN OUTPUT",
+      "class": "macro"
+    },
+    {
+      "label": "SCORING ENGINE",
+      "class": "info"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P proxy",
+      "value": "+1.65%",
+      "tone": "pos"
+    },
+    {
+      "label": "Nasdaq proxy",
+      "value": "+0.97%",
+      "tone": "pos"
+    },
+    {
+      "label": "Dow proxy",
+      "value": "+3.10%",
+      "tone": "pos"
+    },
+    {
+      "label": "Russell proxy",
+      "value": "+1.51%",
+      "tone": "pos"
+    },
+    {
+      "label": "VIX",
+      "value": "20.83",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "4.95%",
+      "tone": "blue"
+    }
+  ],
+  "summary": [
+    "זהו דוח פתיחה אוטומטי במבנה אחיד.",
+    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy +1.65%, Nasdaq proxy +0.97%, Dow proxy +3.10%, Russell proxy +1.51%.",
+    "VIX עומד על 20.83.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Beaten at home, Trump faces stark choice on Iran: deal or escalation - Reuters"
+  ],
+  "movers": [],
+  "sectors": [],
+  "macro": [],
+  "headlines": [
+    "Beaten at home, Trump faces stark choice on Iran: deal or escalation - Reuters",
+    "Trump says Hegseth doing 'a very good job' as questions swirl about his future - Reuters",
+    "Republicans call for Trump to change course after midterm drubbing - Reuters",
+    "Explainer: How the Democratic sweep could change US energy policy - Reuters",
+    "Cramer: What must happen for Home Depot to keep its 25% monthlong rally going",
+    "Prediction markets cement their status after forecasting Democratic sweep of Congress"
+  ],
+  "tomorrow_setup": [
+    "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
+    "להמשיך לנקות ניסוחים מעורבים של עברית ואנגלית.",
+    "להסתיר בלוקים ריקים במקום להציג placeholder מטעה."
+  ],
+  "pipeline_status": {
+    "data_freshness": "live fields only",
+    "generator": "scripts/generate_reports.py",
+    "environment": "github-actions",
+    "scoring_reasons": [
+      "Index proxies positive"
+    ]
+  }
+}
