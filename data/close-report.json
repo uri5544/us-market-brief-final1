@@ -1,8 +1,8 @@
 {
   "schema_version": "4.0-clean",
   "report_type": "close",
-  "report_date": "2026-11-06",
-  "generated_at": "2026-11-06 17:27 UTC",
+  "report_date": "2026-11-07",
+  "generated_at": "2026-11-07 00:51 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,22 +26,22 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.87%",
+      "value": "+0.31%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+1.93%",
+      "value": "+1.40%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.12%",
-      "tone": "pos"
+      "value": "-0.40%",
+      "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+1.09%",
+      "value": "+0.99%",
       "tone": "pos"
     },
     {
@@ -53,44 +53,22 @@
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy +0.87%, Nasdaq proxy +1.93%, Dow proxy +0.12%, Russell proxy +1.09%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy +0.31%, Nasdaq proxy +1.40%, Dow proxy -0.40%, Russell proxy +0.99%.",
     "VIX עומד על 28.18.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "המניה הבולטת בפיד movers היא AMPGZ.",
-    "כותרת בולטת שנקלטה: Data center double-down: Hassett says Blue Wave won't stop AI build-out"
+    "כותרת בולטת שנקלטה: Trump makes hardliner Stephen Miller his chief of staff after midterm defeat - Reuters"
   ],
-  "movers": [
-    {
-      "asset": "AMPGZ",
-      "move": "258.3333%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "LABT",
-      "move": "213.4796%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "DAVEW",
-      "move": "-77.5%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "CDROW",
-      "move": "-75.5039%",
-      "driver": "Alpha Vantage top movers feed"
-    }
-  ],
+  "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Data center double-down: Hassett says Blue Wave won't stop AI build-out",
-    "Anthropic IPO announcement odds drop on Kalshi following midterms and AI sell-off",
-    "Watch live: Jim Cramer shares his next investing moves for this tough market",
-    "Family offices boost startup investments in October, backing women's health and caregivers",
-    "Wall Street's fear gauge may be flashing a buy sign",
-    "Our top 10 things to watch in the stock market Friday"
+    "Trump makes hardliner Stephen Miller his chief of staff after midterm defeat - Reuters",
+    "US Treasury sanctions Canadian money services firms over Iran-related transactions - Reuters",
+    "'We have nothing': Displaced mothers in Yemen's Taiz collect plastic to survive - Reuters",
+    "Sen. Chris Murphy released from hospital after stroke, will miss votes for 'several weeks' as he rehabs",
+    "Here's a rapid-fire update on all 31 of our stocks, including 2 to buy now",
+    "Top House Oversight Democrat warns Trump family to 'lawyer up'"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
