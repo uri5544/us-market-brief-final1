@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-11-11",
-  "generated_at": "2026-11-11 01:11 UTC",
+  "generated_at": "2026-11-11 17:51 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Cautious risk-off",
+  "market_regime": "Constructive risk-on",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Opening market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.37%",
-      "tone": "neg"
+      "value": "+1.48%",
+      "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.68%",
-      "tone": "neg"
+      "value": "+2.84%",
+      "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.31%",
-      "tone": "neg"
+      "value": "+0.32%",
+      "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "-0.68%",
-      "tone": "neg"
+      "value": "+1.07%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "19.92",
+      "value": "19.46",
       "tone": "blue"
     },
     {
@@ -57,45 +57,23 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Cautious risk-off (score -2).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.37%, Nasdaq proxy -0.68%, Dow proxy -0.31%, Russell proxy -0.68%.",
-    "VIX עומד על 19.92.",
+    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +1.48%, Nasdaq proxy +2.84%, Dow proxy +0.32%, Russell proxy +1.07%.",
+    "VIX עומד על 19.46.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "המניה הבולטת בפיד movers היא OMH.",
-    "כותרת בולטת שנקלטה: US House blocks path to impeach Defense Secretary Hegseth - Reuters"
+    "כותרת בולטת שנקלטה: American Airlines brings fresh food back to NY-Chicago first class for first time since 2019"
   ],
-  "movers": [
-    {
-      "asset": "OMH",
-      "move": "251.087%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "WCT",
-      "move": "92.1754%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "ZURA",
-      "move": "-69.6822%",
-      "driver": "Alpha Vantage top movers feed"
-    },
-    {
-      "asset": "SOC",
-      "move": "-54.399%",
-      "driver": "Alpha Vantage top movers feed"
-    }
-  ],
+  "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "US House blocks path to impeach Defense Secretary Hegseth - Reuters",
-    "Mississippi Senate: Scott Colom extends tight lead over Hyde-Smith as ballot deadlines hit",
-    "Wall St ends lower as hot inflation data, Fed comments heighten rate worries - Reuters",
-    "Fire contained at Iran's South Pars gas platform, Fars says - Reuters",
-    "Iraq bars plane carrying Iran's soccer team from landing in Basra over US sanctions, officials say - Reuters",
-    "Fed officials open door to a half-percentage-point rate hike as inflation worsens - Reuters"
+    "American Airlines brings fresh food back to NY-Chicago first class for first time since 2019",
+    "Jim Cramer's plan for our Intel position. Plus, a rotation loser to buy here",
+    "Tired of spending time fixing other people's AI slop at work? How to talk to them about it",
+    "JetBlue's CEO has pushed back on creditor fears and is betting on premium to return to profitability",
+    "OPEC+ oil output in October nears pre-Iran war rate, led by Saudi Arabia - Reuters",
+    "Jim Cramer's top 10 things to watch in the stock market Wednesday"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -107,7 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies negative"
+      "Index proxies positive"
     ]
   }
 }
