@@ -1,0 +1,113 @@
+{
+  "schema_version": "4.0-clean",
+  "report_type": "close",
+  "report_date": "2026-11-11",
+  "generated_at": "2026-11-11 01:11 UTC",
+  "report_window": "Automated market brief",
+  "market_regime": "Cautious risk-off",
+  "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
+  "hero_title": "Closing market brief",
+  "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
+  "movers_title": "Live movers",
+  "badges": [
+    {
+      "label": "LIVE DATA ONLY",
+      "class": "live"
+    },
+    {
+      "label": "CLEAN OUTPUT",
+      "class": "macro"
+    },
+    {
+      "label": "SCORING ENGINE",
+      "class": "info"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P proxy",
+      "value": "-0.37%",
+      "tone": "neg"
+    },
+    {
+      "label": "Nasdaq proxy",
+      "value": "-0.68%",
+      "tone": "neg"
+    },
+    {
+      "label": "Dow proxy",
+      "value": "-0.31%",
+      "tone": "neg"
+    },
+    {
+      "label": "Russell proxy",
+      "value": "-0.68%",
+      "tone": "neg"
+    },
+    {
+      "label": "VIX",
+      "value": "19.92",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "4.88%",
+      "tone": "blue"
+    }
+  ],
+  "summary": [
+    "זהו דוח סגירה אוטומטי במבנה אחיד.",
+    "מצב השוק לפי מנוע הניקוד: Cautious risk-off (score -2).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -0.37%, Nasdaq proxy -0.68%, Dow proxy -0.31%, Russell proxy -0.68%.",
+    "VIX עומד על 19.92, ותשואת אג\"ח ארה\"ב ל-10 שנים על 4.88%.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "המניה הבולטת בפיד movers היא OMH.",
+    "כותרת בולטת שנקלטה: US House blocks path to impeach Defense Secretary Hegseth - Reuters"
+  ],
+  "movers": [
+    {
+      "asset": "OMH",
+      "move": "251.087%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "WCT",
+      "move": "92.1754%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "ZURA",
+      "move": "-69.6822%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "SOC",
+      "move": "-54.399%",
+      "driver": "Alpha Vantage top movers feed"
+    }
+  ],
+  "sectors": [],
+  "macro": [],
+  "headlines": [
+    "US House blocks path to impeach Defense Secretary Hegseth - Reuters",
+    "Mississippi Senate: Scott Colom extends tight lead over Hyde-Smith as ballot deadlines hit",
+    "Wall St ends lower as hot inflation data, Fed comments heighten rate worries - Reuters",
+    "Fire contained at Iran's South Pars gas platform, Fars says - Reuters",
+    "Iraq bars plane carrying Iran's soccer team from landing in Basra over US sanctions, officials say - Reuters",
+    "Fed officials open door to a half-percentage-point rate hike as inflation worsens - Reuters"
+  ],
+  "tomorrow_setup": [
+    "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
+    "להמשיך לנקות ניסוחים מעורבים של עברית ואנגלית.",
+    "להסתיר בלוקים ריקים במקום להציג placeholder מטעה."
+  ],
+  "pipeline_status": {
+    "data_freshness": "live fields only",
+    "generator": "scripts/generate_reports.py",
+    "environment": "github-actions",
+    "scoring_reasons": [
+      "Index proxies negative"
+    ]
+  }
+}

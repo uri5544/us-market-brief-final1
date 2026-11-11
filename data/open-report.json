@@ -1,8 +1,8 @@
 {
   "schema_version": "4.0-clean",
   "report_type": "open",
-  "report_date": "2026-11-10",
-  "generated_at": "2026-11-10 17:45 UTC",
+  "report_date": "2026-11-11",
+  "generated_at": "2026-11-11 01:11 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Cautious risk-off",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,22 +26,22 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.89%",
+      "value": "-0.37%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-1.61%",
+      "value": "-0.68%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.55%",
+      "value": "-0.31%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-1.05%",
+      "value": "-0.68%",
       "tone": "neg"
     },
     {
@@ -51,29 +51,51 @@
     },
     {
       "label": "US10Y",
-      "value": "4.86%",
+      "value": "4.88%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Cautious risk-off (score -2).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy -0.89%, Nasdaq proxy -1.61%, Dow proxy -0.55%, Russell proxy -1.05%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -0.37%, Nasdaq proxy -0.68%, Dow proxy -0.31%, Russell proxy -0.68%.",
     "VIX עומד על 19.92.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Ex-Google recruiter: You're answering 'Tell me about yourself?' all wrong, and other job interview mistakes—do this instead"
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "המניה הבולטת בפיד movers היא OMH.",
+    "כותרת בולטת שנקלטה: US House blocks path to impeach Defense Secretary Hegseth - Reuters"
   ],
-  "movers": [],
+  "movers": [
+    {
+      "asset": "OMH",
+      "move": "251.087%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "WCT",
+      "move": "92.1754%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "ZURA",
+      "move": "-69.6822%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "SOC",
+      "move": "-54.399%",
+      "driver": "Alpha Vantage top movers feed"
+    }
+  ],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Ex-Google recruiter: You're answering 'Tell me about yourself?' all wrong, and other job interview mistakes—do this instead",
-    "U.S. gas prices fall below $4 for the first time since July",
-    "What are the impeachment articles facing Pete Hegseth? - Reuters",
-    "Wall St opens lower after October's hot inflation print - Reuters",
-    "Does anyone feel safe from layoffs right now?",
-    "Rubio says no need for major combat operations on Iran given US economic campaign - Reuters"
+    "US House blocks path to impeach Defense Secretary Hegseth - Reuters",
+    "Mississippi Senate: Scott Colom extends tight lead over Hyde-Smith as ballot deadlines hit",
+    "Wall St ends lower as hot inflation data, Fed comments heighten rate worries - Reuters",
+    "Fire contained at Iran's South Pars gas platform, Fars says - Reuters",
+    "Iraq bars plane carrying Iran's soccer team from landing in Basra over US sanctions, officials say - Reuters",
+    "Fed officials open door to a half-percentage-point rate hike as inflation worsens - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
