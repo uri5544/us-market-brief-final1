@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-11-12",
-  "generated_at": "2026-11-12 02:12 UTC",
+  "generated_at": "2026-11-12 18:13 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Constructive risk-on",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+1.32%",
+      "value": "+0.09%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+2.31%",
+      "value": "+0.02%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.52%",
+      "value": "+0.21%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.89%",
-      "tone": "pos"
+      "value": "-0.97%",
+      "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "19.46",
+      "value": "17.49",
       "tone": "blue"
     },
     {
@@ -57,23 +57,45 @@
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +1.32%, Nasdaq proxy +2.31%, Dow proxy +0.52%, Russell proxy +0.89%.",
-    "VIX עומד על 19.46.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Cramer's stance on Nvidia's stock amid reports that CEO Jensen Huang may be ousted"
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +0.09%, Nasdaq proxy +0.02%, Dow proxy +0.21%, Russell proxy -0.97%.",
+    "VIX עומד על 17.49.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "המניה הבולטת בפיד movers היא NXXT.",
+    "כותרת בולטת שנקלטה: Here's what Colette Kress and Harvey Jones wrote to Nvidia employees"
   ],
-  "movers": [],
+  "movers": [
+    {
+      "asset": "NXXT",
+      "move": "811.5282%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "MRNOW",
+      "move": "150.0%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "ENGS",
+      "move": "-86.1512%",
+      "driver": "Alpha Vantage top movers feed"
+    },
+    {
+      "asset": "CHSN",
+      "move": "-70.9362%",
+      "driver": "Alpha Vantage top movers feed"
+    }
+  ],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Cramer's stance on Nvidia's stock amid reports that CEO Jensen Huang may be ousted",
-    "Saudi Arabia says debris from intercepted missiles falls in Mecca region - Reuters",
-    "Iran tells COP31 it wants compensation for environmental damage from US-Israeli strikes - Reuters",
-    "Feds arrest top official of healthcare company, alleging illegal drug importation",
-    "Costco is giving shareholders a big, early holiday gift. How to make sure you get it",
-    "Saudi Arabia intercepts Houthi missiles, drones; group denies targeting Mecca - Reuters"
+    "Here's what Colette Kress and Harvey Jones wrote to Nvidia employees",
+    "Sitting on big gains in Nvidia? Jim Cramer's advice on what to do next",
+    "Trump says US does not \"need\" Iran deal, directs Vance to focus on domestic corruption - Reuters",
+    "Four tankers struck by explosions in Strait of Hormuz, Iran says - Reuters",
+    "Saudi Arabia puts pressure on EU to label Yemen's Houthis a terrorist group - Reuters",
+    "UAE says 14 killed, 30 injured in Fujairah traffic accident - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,7 +107,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies positive"
+      "VIX relatively calm"
     ]
   }
 }
