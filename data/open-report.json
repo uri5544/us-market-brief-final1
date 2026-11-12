@@ -1,8 +1,8 @@
 {
   "schema_version": "4.0-clean",
   "report_type": "open",
-  "report_date": "2026-11-11",
-  "generated_at": "2026-11-11 17:51 UTC",
+  "report_date": "2026-11-12",
+  "generated_at": "2026-11-12 02:12 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Constructive risk-on",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,22 +26,22 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+1.48%",
+      "value": "+1.32%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+2.84%",
+      "value": "+2.31%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.32%",
+      "value": "+0.52%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+1.07%",
+      "value": "+0.89%",
       "tone": "pos"
     },
     {
@@ -58,22 +58,22 @@
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy +1.48%, Nasdaq proxy +2.84%, Dow proxy +0.32%, Russell proxy +1.07%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy +1.32%, Nasdaq proxy +2.31%, Dow proxy +0.52%, Russell proxy +0.89%.",
     "VIX עומד על 19.46.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: American Airlines brings fresh food back to NY-Chicago first class for first time since 2019"
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Cramer's stance on Nvidia's stock amid reports that CEO Jensen Huang may be ousted"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "American Airlines brings fresh food back to NY-Chicago first class for first time since 2019",
-    "Jim Cramer's plan for our Intel position. Plus, a rotation loser to buy here",
-    "Tired of spending time fixing other people's AI slop at work? How to talk to them about it",
-    "JetBlue's CEO has pushed back on creditor fears and is betting on premium to return to profitability",
-    "OPEC+ oil output in October nears pre-Iran war rate, led by Saudi Arabia - Reuters",
-    "Jim Cramer's top 10 things to watch in the stock market Wednesday"
+    "Cramer's stance on Nvidia's stock amid reports that CEO Jensen Huang may be ousted",
+    "Saudi Arabia says debris from intercepted missiles falls in Mecca region - Reuters",
+    "Iran tells COP31 it wants compensation for environmental damage from US-Israeli strikes - Reuters",
+    "Feds arrest top official of healthcare company, alleging illegal drug importation",
+    "Costco is giving shareholders a big, early holiday gift. How to make sure you get it",
+    "Saudi Arabia intercepts Houthi missiles, drones; group denies targeting Mecca - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",

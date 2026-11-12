@@ -1,0 +1,91 @@
+{
+  "schema_version": "4.0-clean",
+  "report_type": "open",
+  "report_date": "2026-11-12",
+  "generated_at": "2026-11-12 02:12 UTC",
+  "report_window": "Automated market brief",
+  "market_regime": "Constructive risk-on",
+  "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
+  "hero_title": "Opening market brief",
+  "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
+  "movers_title": "Live movers",
+  "badges": [
+    {
+      "label": "LIVE DATA ONLY",
+      "class": "live"
+    },
+    {
+      "label": "CLEAN OUTPUT",
+      "class": "macro"
+    },
+    {
+      "label": "SCORING ENGINE",
+      "class": "info"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P proxy",
+      "value": "+1.32%",
+      "tone": "pos"
+    },
+    {
+      "label": "Nasdaq proxy",
+      "value": "+2.31%",
+      "tone": "pos"
+    },
+    {
+      "label": "Dow proxy",
+      "value": "+0.52%",
+      "tone": "pos"
+    },
+    {
+      "label": "Russell proxy",
+      "value": "+0.89%",
+      "tone": "pos"
+    },
+    {
+      "label": "VIX",
+      "value": "19.46",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "4.88%",
+      "tone": "blue"
+    }
+  ],
+  "summary": [
+    "זהו דוח פתיחה אוטומטי במבנה אחיד.",
+    "מצב השוק לפי מנוע הניקוד: Constructive risk-on (score 2).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy +1.32%, Nasdaq proxy +2.31%, Dow proxy +0.52%, Russell proxy +0.89%.",
+    "VIX עומד על 19.46.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Cramer's stance on Nvidia's stock amid reports that CEO Jensen Huang may be ousted"
+  ],
+  "movers": [],
+  "sectors": [],
+  "macro": [],
+  "headlines": [
+    "Cramer's stance on Nvidia's stock amid reports that CEO Jensen Huang may be ousted",
+    "Saudi Arabia says debris from intercepted missiles falls in Mecca region - Reuters",
+    "Iran tells COP31 it wants compensation for environmental damage from US-Israeli strikes - Reuters",
+    "Feds arrest top official of healthcare company, alleging illegal drug importation",
+    "Costco is giving shareholders a big, early holiday gift. How to make sure you get it",
+    "Saudi Arabia intercepts Houthi missiles, drones; group denies targeting Mecca - Reuters"
+  ],
+  "tomorrow_setup": [
+    "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
+    "להמשיך לנקות ניסוחים מעורבים של עברית ואנגלית.",
+    "להסתיר בלוקים ריקים במקום להציג placeholder מטעה."
+  ],
+  "pipeline_status": {
+    "data_freshness": "live fields only",
+    "generator": "scripts/generate_reports.py",
+    "environment": "github-actions",
+    "scoring_reasons": [
+      "Index proxies positive"
+    ]
+  }
+}
