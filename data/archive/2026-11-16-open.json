@@ -1,0 +1,91 @@
+{
+  "schema_version": "4.0-clean",
+  "report_type": "open",
+  "report_date": "2026-11-16",
+  "generated_at": "2026-11-16 20:23 UTC",
+  "report_window": "Automated market brief",
+  "market_regime": "Cautious risk-off",
+  "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
+  "hero_title": "Opening market brief",
+  "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
+  "movers_title": "Live movers",
+  "badges": [
+    {
+      "label": "LIVE DATA ONLY",
+      "class": "live"
+    },
+    {
+      "label": "CLEAN OUTPUT",
+      "class": "macro"
+    },
+    {
+      "label": "SCORING ENGINE",
+      "class": "info"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P proxy",
+      "value": "-2.03%",
+      "tone": "neg"
+    },
+    {
+      "label": "Nasdaq proxy",
+      "value": "-2.74%",
+      "tone": "neg"
+    },
+    {
+      "label": "Dow proxy",
+      "value": "-1.48%",
+      "tone": "neg"
+    },
+    {
+      "label": "Russell proxy",
+      "value": "-1.73%",
+      "tone": "neg"
+    },
+    {
+      "label": "VIX",
+      "value": "19.3",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "5.1%",
+      "tone": "blue"
+    }
+  ],
+  "summary": [
+    "זהו דוח פתיחה אוטומטי במבנה אחיד.",
+    "מצב השוק לפי מנוע הניקוד: Cautious risk-off (score -2).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -2.03%, Nasdaq proxy -2.74%, Dow proxy -1.48%, Russell proxy -1.73%.",
+    "VIX עומד על 19.3.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Eli Lilly makes a deal outside obesity. Plus, another word of caution on Nvidia"
+  ],
+  "movers": [],
+  "sectors": [],
+  "macro": [],
+  "headlines": [
+    "Eli Lilly makes a deal outside obesity. Plus, another word of caution on Nvidia",
+    "Jim Cramer says J&J is a 'metaphor for what's working' in the stock market",
+    "Market's Nvidia obsession obscuring an opportunity in this name",
+    "COMMENTARY: Europe draws LNG from Asia, but not fast enough - Reuters",
+    "Robert Pattinson cast as next James Bond",
+    "Bank of Canada Governor Macklem to step down once term ends in 2027 - Reuters"
+  ],
+  "tomorrow_setup": [
+    "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
+    "להמשיך לנקות ניסוחים מעורבים של עברית ואנגלית.",
+    "להסתיר בלוקים ריקים במקום להציג placeholder מטעה."
+  ],
+  "pipeline_status": {
+    "data_freshness": "live fields only",
+    "generator": "scripts/generate_reports.py",
+    "environment": "github-actions",
+    "scoring_reasons": [
+      "Index proxies negative"
+    ]
+  }
+}
