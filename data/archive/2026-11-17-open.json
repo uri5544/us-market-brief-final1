@@ -1,0 +1,91 @@
+{
+  "schema_version": "4.0-clean",
+  "report_type": "open",
+  "report_date": "2026-11-17",
+  "generated_at": "2026-11-17 03:43 UTC",
+  "report_window": "Automated market brief",
+  "market_regime": "Cautious risk-off",
+  "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
+  "hero_title": "Opening market brief",
+  "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
+  "movers_title": "Live movers",
+  "badges": [
+    {
+      "label": "LIVE DATA ONLY",
+      "class": "live"
+    },
+    {
+      "label": "CLEAN OUTPUT",
+      "class": "macro"
+    },
+    {
+      "label": "SCORING ENGINE",
+      "class": "info"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P proxy",
+      "value": "-1.91%",
+      "tone": "neg"
+    },
+    {
+      "label": "Nasdaq proxy",
+      "value": "-2.67%",
+      "tone": "neg"
+    },
+    {
+      "label": "Dow proxy",
+      "value": "-1.43%",
+      "tone": "neg"
+    },
+    {
+      "label": "Russell proxy",
+      "value": "-1.66%",
+      "tone": "neg"
+    },
+    {
+      "label": "VIX",
+      "value": "19.3",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "5.15%",
+      "tone": "blue"
+    }
+  ],
+  "summary": [
+    "זהו דוח פתיחה אוטומטי במבנה אחיד.",
+    "מצב השוק לפי מנוע הניקוד: Cautious risk-off (score -2).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -1.91%, Nasdaq proxy -2.67%, Dow proxy -1.43%, Russell proxy -1.66%.",
+    "VIX עומד על 19.3, ותשואת אג\"ח ארה\"ב ל-10 שנים על 5.15%.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: Celebrity style at the Governors Awards - Reuters"
+  ],
+  "movers": [],
+  "sectors": [],
+  "macro": [],
+  "headlines": [
+    "Celebrity style at the Governors Awards - Reuters",
+    "Oil slips on supply surplus outlook despite Gulf tensions - Reuters",
+    "US condemns Iranian strikes in Bahrain as Rubio holds call with Bahraini counterpart - Reuters",
+    "United Airlines reports system outage affecting departing flights",
+    "Trump approval holds near career low at 32%, Reuters/Ipsos poll finds - Reuters",
+    "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding"
+  ],
+  "tomorrow_setup": [
+    "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
+    "להמשיך לנקות ניסוחים מעורבים של עברית ואנגלית.",
+    "להסתיר בלוקים ריקים במקום להציג placeholder מטעה."
+  ],
+  "pipeline_status": {
+    "data_freshness": "live fields only",
+    "generator": "scripts/generate_reports.py",
+    "environment": "github-actions",
+    "scoring_reasons": [
+      "Index proxies negative"
+    ]
+  }
+}
