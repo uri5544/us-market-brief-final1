@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-11-17",
-  "generated_at": "2026-11-17 03:43 UTC",
+  "generated_at": "2026-11-17 19:09 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Cautious risk-off",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,49 +26,54 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-1.91%",
+      "value": "-1.23%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-2.67%",
+      "value": "-1.14%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-1.43%",
+      "value": "-1.63%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-1.66%",
+      "value": "-1.30%",
       "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "19.3",
+      "value": "22.91",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "5.15%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Cautious risk-off (score -2).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -1.91%, Nasdaq proxy -2.67%, Dow proxy -1.43%, Russell proxy -1.66%.",
-    "VIX עומד על 19.3.",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -1.23%, Nasdaq proxy -1.14%, Dow proxy -1.63%, Russell proxy -1.30%.",
+    "VIX עומד על 22.91.",
     "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Celebrity style at the Governors Awards - Reuters"
+    "כותרת בולטת שנקלטה: Wall St falls before Nvidia earnings in key AI test; Huang says open to return - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Celebrity style at the Governors Awards - Reuters",
-    "Oil slips on supply surplus outlook despite Gulf tensions - Reuters",
-    "US condemns Iranian strikes in Bahrain as Rubio holds call with Bahraini counterpart - Reuters",
-    "United Airlines reports system outage affecting departing flights",
-    "Trump approval holds near career low at 32%, Reuters/Ipsos poll finds - Reuters",
-    "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding"
+    "Wall St falls before Nvidia earnings in key AI test; Huang says open to return - Reuters",
+    "Jensen Huang breaks his silence ahead of Nvidia earnings — plus, 1 stock to buy on weakness",
+    "Trump and Tehran gamble on time as Iran war stalemate deepens - Reuters",
+    "Kalshi takes down controversial Trump 'mention' markets at CFTC's request",
+    "North Macedonia, Greece say they uncovered Iran-linked assassination plot - Reuters",
+    "Britain to supply Ukraine with more than 1,000 short-range missiles - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
