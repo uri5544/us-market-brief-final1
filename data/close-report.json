@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-11-18",
-  "generated_at": "2026-11-18 02:50 UTC",
+  "generated_at": "2026-11-18 18:49 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Cautious risk-off",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-1.01%",
-      "tone": "neg"
+      "value": "+0.11%",
+      "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.73%",
-      "tone": "neg"
+      "value": "+0.69%",
+      "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "-1.62%",
+      "value": "-0.71%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-1.43%",
-      "tone": "neg"
+      "value": "+1.06%",
+      "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "22.91",
+      "value": "25.46",
       "tone": "blue"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Cautious risk-off (score -2).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -1.01%, Nasdaq proxy -0.73%, Dow proxy -1.62%, Russell proxy -1.43%.",
-    "VIX עומד על 22.91.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Eisenkot-led bloc replaces Netanyahu ally as Knesset speaker - Reuters"
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +0.11%, Nasdaq proxy +0.69%, Dow proxy -0.71%, Russell proxy +1.06%.",
+    "VIX עומד על 25.46.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Read Jim Cramer’s full interview with Nvidia’s Colette Kress: Demand, buybacks and China"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Eisenkot-led bloc replaces Netanyahu ally as Knesset speaker - Reuters",
-    "Wall Street ends lower ahead of Nvidia results, focus turns to Anthropic debut - Reuters",
-    "A generational flight from tech to defensive stocks is underway. How we’re capitalizing",
-    "Wall Street's fear gauge is surging again and this time it's not just about AI jitters",
-    "Estonia's plan to shut Russian border disrupts families on both sides - Reuters",
-    "US strikes Iranian missile launch site on Qeshm Island, US official says - Reuters"
+    "Read Jim Cramer’s full interview with Nvidia’s Colette Kress: Demand, buybacks and China",
+    "Is Apple the safe haven investors think it is? Here's a way to trade it with less risk",
+    "Investigators make progress in hunt for cause of FAA ground stop",
+    "Israel launches ground operation in central Gaza, dozens flee - Reuters",
+    "Ford starts U.S. battery cell production using Chinese tech amid geopolitical tensions",
+    "Jim Cramer looks at what turned the market lower and where stocks could go next"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,7 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies negative"
+      "VIX elevated"
     ]
   }
 }
