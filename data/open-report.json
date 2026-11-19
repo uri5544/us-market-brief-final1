@@ -1,8 +1,8 @@
 {
   "schema_version": "4.0-clean",
   "report_type": "open",
-  "report_date": "2026-11-18",
-  "generated_at": "2026-11-18 18:49 UTC",
+  "report_date": "2026-11-19",
+  "generated_at": "2026-11-19 02:28 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,22 +26,22 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+0.11%",
-      "tone": "pos"
+      "value": "-0.31%",
+      "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+0.69%",
+      "value": "+0.39%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.71%",
+      "value": "-1.10%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "+1.06%",
+      "value": "+0.40%",
       "tone": "pos"
     },
     {
@@ -51,29 +51,29 @@
     },
     {
       "label": "US10Y",
-      "value": "5.12%",
+      "value": "5.1%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy +0.11%, Nasdaq proxy +0.69%, Dow proxy -0.71%, Russell proxy +1.06%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -0.31%, Nasdaq proxy +0.39%, Dow proxy -1.10%, Russell proxy +0.40%.",
     "VIX עומד על 25.46.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Read Jim Cramer’s full interview with Nvidia’s Colette Kress: Demand, buybacks and China"
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: Israel launches ground operation in central Gaza, dozens flee - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Read Jim Cramer’s full interview with Nvidia’s Colette Kress: Demand, buybacks and China",
-    "Is Apple the safe haven investors think it is? Here's a way to trade it with less risk",
-    "Investigators make progress in hunt for cause of FAA ground stop",
     "Israel launches ground operation in central Gaza, dozens flee - Reuters",
-    "Ford starts U.S. battery cell production using Chinese tech amid geopolitical tensions",
-    "Jim Cramer looks at what turned the market lower and where stocks could go next"
+    "Why Anthropic's hot IPO is bringing out sellers — plus, a silver lining of the down market",
+    "US tightens Iran blockade with curbs on oil transfers at sea, advisory shows - Reuters",
+    "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
+    "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+    "Nvidia's earnings report had something for the bulls, bears and everyone in between"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
