@@ -1,0 +1,92 @@
+{
+  "schema_version": "4.0-clean",
+  "report_type": "close",
+  "report_date": "2026-11-20",
+  "generated_at": "2026-11-20 02:13 UTC",
+  "report_window": "Automated market brief",
+  "market_regime": "Risk-off confirmation",
+  "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
+  "hero_title": "Closing market brief",
+  "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
+  "movers_title": "Live movers",
+  "badges": [
+    {
+      "label": "LIVE DATA ONLY",
+      "class": "live"
+    },
+    {
+      "label": "CLEAN OUTPUT",
+      "class": "macro"
+    },
+    {
+      "label": "SCORING ENGINE",
+      "class": "info"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P proxy",
+      "value": "-1.96%",
+      "tone": "neg"
+    },
+    {
+      "label": "Nasdaq proxy",
+      "value": "-2.19%",
+      "tone": "neg"
+    },
+    {
+      "label": "Dow proxy",
+      "value": "-2.18%",
+      "tone": "neg"
+    },
+    {
+      "label": "Russell proxy",
+      "value": "-2.18%",
+      "tone": "neg"
+    },
+    {
+      "label": "VIX",
+      "value": "24.56",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "5.07%",
+      "tone": "blue"
+    }
+  ],
+  "summary": [
+    "זהו דוח סגירה אוטומטי במבנה אחיד.",
+    "מצב השוק לפי מנוע הניקוד: Risk-off confirmation (score -3).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -1.96%, Nasdaq proxy -2.19%, Dow proxy -2.18%, Russell proxy -2.18%.",
+    "VIX עומד על 24.56.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: Backing Trump, US Senate Republicans block Iran war resolution - Reuters"
+  ],
+  "movers": [],
+  "sectors": [],
+  "macro": [],
+  "headlines": [
+    "Backing Trump, US Senate Republicans block Iran war resolution - Reuters",
+    "Houthi strike damages Riyadh’s tallest skyscraper - Reuters",
+    "Trump says no rush on Iran decision, looks to next year - Reuters",
+    "Gap names new Athleta CEO, lowers full-year guidance",
+    "3-step method to influence people and win them over, from a Stanford expert: ‘Your voice is like a muscle’",
+    "Somalia orders UAE ambassador to leave, citing 'invasion' - Reuters"
+  ],
+  "tomorrow_setup": [
+    "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
+    "להמשיך לנקות ניסוחים מעורבים של עברית ואנגלית.",
+    "להסתיר בלוקים ריקים במקום להציג placeholder מטעה."
+  ],
+  "pipeline_status": {
+    "data_freshness": "live fields only",
+    "generator": "scripts/generate_reports.py",
+    "environment": "github-actions",
+    "scoring_reasons": [
+      "Index proxies negative",
+      "VIX elevated"
+    ]
+  }
+}
