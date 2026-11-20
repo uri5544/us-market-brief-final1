@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-11-20",
-  "generated_at": "2026-11-20 02:13 UTC",
+  "generated_at": "2026-11-20 18:34 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Risk-off confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-1.96%",
+      "value": "-2.13%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-2.19%",
+      "value": "-3.76%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-2.18%",
+      "value": "-0.79%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-2.18%",
+      "value": "-1.69%",
       "tone": "neg"
     },
     {
       "label": "VIX",
-      "value": "24.56",
+      "value": "28.44",
       "tone": "blue"
     },
     {
@@ -58,22 +58,22 @@
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Risk-off confirmation (score -3).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -1.96%, Nasdaq proxy -2.19%, Dow proxy -2.18%, Russell proxy -2.18%.",
-    "VIX עומד על 24.56.",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -2.13%, Nasdaq proxy -3.76%, Dow proxy -0.79%, Russell proxy -1.69%.",
+    "VIX עומד על 28.44.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Backing Trump, US Senate Republicans block Iran war resolution - Reuters"
+    "כותרת בולטת שנקלטה: We’re making another small buy as the market sell-off deepens"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Backing Trump, US Senate Republicans block Iran war resolution - Reuters",
-    "Houthi strike damages Riyadh’s tallest skyscraper - Reuters",
-    "Trump says no rush on Iran decision, looks to next year - Reuters",
-    "Gap names new Athleta CEO, lowers full-year guidance",
-    "3-step method to influence people and win them over, from a Stanford expert: ‘Your voice is like a muscle’",
-    "Somalia orders UAE ambassador to leave, citing 'invasion' - Reuters"
+    "We’re making another small buy as the market sell-off deepens",
+    "Here's why we want to buy the sharp decline in this chip stock",
+    "Saudi-led forces strike Yemen port as Houthis warn airlines off the kingdom - Reuters",
+    "Congress struggles to avert US shutdown as Iran war divides lawmakers - Reuters",
+    "Jensen Huang wasn't mentioned in latest talks with China, Bessent says",
+    "Ex-GM CEO on Mary Barra succession planning: 'It's going to be tough'"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
