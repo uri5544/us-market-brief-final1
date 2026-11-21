@@ -1,8 +1,8 @@
 {
   "schema_version": "4.0-clean",
   "report_type": "close",
-  "report_date": "2026-11-20",
-  "generated_at": "2026-11-20 18:34 UTC",
+  "report_date": "2026-11-21",
+  "generated_at": "2026-11-21 02:06 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Risk-off confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,54 +26,49 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-2.13%",
+      "value": "-3.64%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-3.76%",
+      "value": "-5.67%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "-0.79%",
+      "value": "-1.98%",
       "tone": "neg"
     },
     {
       "label": "Russell proxy",
-      "value": "-1.69%",
+      "value": "-2.88%",
       "tone": "neg"
     },
     {
       "label": "VIX",
       "value": "28.44",
       "tone": "blue"
-    },
-    {
-      "label": "US10Y",
-      "value": "5.07%",
-      "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Risk-off confirmation (score -3).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy -2.13%, Nasdaq proxy -3.76%, Dow proxy -0.79%, Russell proxy -1.69%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -3.64%, Nasdaq proxy -5.67%, Dow proxy -1.98%, Russell proxy -2.88%.",
     "VIX עומד על 28.44.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: We’re making another small buy as the market sell-off deepens"
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: US Vice President Vance declines to say he would have ordered Iran strikes - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "We’re making another small buy as the market sell-off deepens",
-    "Here's why we want to buy the sharp decline in this chip stock",
-    "Saudi-led forces strike Yemen port as Houthis warn airlines off the kingdom - Reuters",
-    "Congress struggles to avert US shutdown as Iran war divides lawmakers - Reuters",
-    "Jensen Huang wasn't mentioned in latest talks with China, Bessent says",
-    "Ex-GM CEO on Mary Barra succession planning: 'It's going to be tough'"
+    "US Vice President Vance declines to say he would have ordered Iran strikes - Reuters",
+    "Saudi Arabia says it intercepts three Houthi missiles targeting Riyadh - Reuters",
+    "US Treasury sanctions Iranian 'trustees' collecting oil revenues - Reuters",
+    "EXCLUSIVE: Nvidia's accounting is a focus of US SEC investigation, sources say - Reuters",
+    "UK finds fix for fridge and freezer vulnerability after European hacks - Reuters",
+    "Trump cites good talks with Putin on Ukraine, holds back on security guarantees - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
