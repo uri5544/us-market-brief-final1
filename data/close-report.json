@@ -2,9 +2,9 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-11-24",
-  "generated_at": "2026-11-24 05:16 UTC",
+  "generated_at": "2026-11-24 20:37 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Balanced / neutral",
+  "market_regime": "Risk-off confirmation",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Closing market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,49 +26,54 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+4.71%",
-      "tone": "pos"
+      "value": "-0.88%",
+      "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+7.00%",
-      "tone": "pos"
+      "value": "-2.48%",
+      "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+3.06%",
+      "value": "+0.52%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+3.56%",
+      "value": "+0.40%",
       "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "35.89",
+      "value": "26.62",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "4.92%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy +4.71%, Nasdaq proxy +7.00%, Dow proxy +3.06%, Russell proxy +3.56%.",
-    "VIX עומד על 35.89.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Oil holds near three-month low as rising supply offsets Hormuz threat - Reuters"
+    "מצב השוק לפי מנוע הניקוד: Risk-off confirmation (score -3).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -0.88%, Nasdaq proxy -2.48%, Dow proxy +0.52%, Russell proxy +0.40%.",
+    "VIX עומד על 26.62.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Iraqi PM cracks down on Kurds' control of oilfields, Kurds reject risky move - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Oil holds near three-month low as rising supply offsets Hormuz threat - Reuters",
-    "Israeli airstrike kills at least three Palestinians in southern Gaza, medics say - Reuters",
-    "US eyes Iran as possible culprit in dozens of new cyberattacks against ships, WSJ reports - Reuters",
-    "CrowdStrike CEO defends Zscaler acquisition, calls it a 'winning combination'",
-    "South Korea briefly scrambles fighter jets, issues warning after Russia aircraft fly off coast - Reuters",
-    "Nvidia sets options-trading record after CEO comeback. Here are the big trades"
+    "Iraqi PM cracks down on Kurds' control of oilfields, Kurds reject risky move - Reuters",
+    "Gold is doing something strange. Here's one way to play it",
+    "Who qualifies for Costco’s $30-per-share dividend — plus, Meta puts share plan on hold",
+    "Roche expects approved cancer pill to become its best-selling drug - Reuters",
+    "Hostages held in Cartagena, Colombia supermarket after failed armored car hijacking - Reuters",
+    "HPE shares tumble as shrinking AI margins overshadow upbeat forecast - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -80,7 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies positive",
+      "Index proxies negative",
       "VIX elevated"
     ]
   }
