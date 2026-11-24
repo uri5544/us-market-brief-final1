@@ -1,0 +1,92 @@
+{
+  "schema_version": "4.0-clean",
+  "report_type": "open",
+  "report_date": "2026-11-24",
+  "generated_at": "2026-11-24 05:16 UTC",
+  "report_window": "Automated market brief",
+  "market_regime": "Balanced / neutral",
+  "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
+  "hero_title": "Opening market brief",
+  "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
+  "movers_title": "Live movers",
+  "badges": [
+    {
+      "label": "LIVE DATA ONLY",
+      "class": "live"
+    },
+    {
+      "label": "CLEAN OUTPUT",
+      "class": "macro"
+    },
+    {
+      "label": "SCORING ENGINE",
+      "class": "info"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P proxy",
+      "value": "+4.71%",
+      "tone": "pos"
+    },
+    {
+      "label": "Nasdaq proxy",
+      "value": "+7.00%",
+      "tone": "pos"
+    },
+    {
+      "label": "Dow proxy",
+      "value": "+3.06%",
+      "tone": "pos"
+    },
+    {
+      "label": "Russell proxy",
+      "value": "+3.56%",
+      "tone": "pos"
+    },
+    {
+      "label": "VIX",
+      "value": "35.89",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "4.92%",
+      "tone": "blue"
+    }
+  ],
+  "summary": [
+    "זהו דוח פתיחה אוטומטי במבנה אחיד.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy +4.71%, Nasdaq proxy +7.00%, Dow proxy +3.06%, Russell proxy +3.56%.",
+    "VIX עומד על 35.89.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: Oil holds near three-month low as rising supply offsets Hormuz threat - Reuters"
+  ],
+  "movers": [],
+  "sectors": [],
+  "macro": [],
+  "headlines": [
+    "Oil holds near three-month low as rising supply offsets Hormuz threat - Reuters",
+    "Israeli airstrike kills at least three Palestinians in southern Gaza, medics say - Reuters",
+    "US eyes Iran as possible culprit in dozens of new cyberattacks against ships, WSJ reports - Reuters",
+    "CrowdStrike CEO defends Zscaler acquisition, calls it a 'winning combination'",
+    "South Korea briefly scrambles fighter jets, issues warning after Russia aircraft fly off coast - Reuters",
+    "Nvidia sets options-trading record after CEO comeback. Here are the big trades"
+  ],
+  "tomorrow_setup": [
+    "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
+    "להמשיך לנקות ניסוחים מעורבים של עברית ואנגלית.",
+    "להסתיר בלוקים ריקים במקום להציג placeholder מטעה."
+  ],
+  "pipeline_status": {
+    "data_freshness": "live fields only",
+    "generator": "scripts/generate_reports.py",
+    "environment": "github-actions",
+    "scoring_reasons": [
+      "Index proxies positive",
+      "VIX elevated"
+    ]
+  }
+}
