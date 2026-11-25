@@ -1,10 +1,10 @@
 {
   "schema_version": "4.0-clean",
   "report_type": "open",
-  "report_date": "2026-11-24",
-  "generated_at": "2026-11-24 20:37 UTC",
+  "report_date": "2026-11-25",
+  "generated_at": "2026-11-25 04:05 UTC",
   "report_window": "Automated market brief",
-  "market_regime": "Risk-off confirmation",
+  "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
   "hero_title": "Opening market brief",
   "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
@@ -26,22 +26,22 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.88%",
+      "value": "-0.49%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-2.48%",
+      "value": "-1.99%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.52%",
+      "value": "+0.79%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.40%",
+      "value": "+0.53%",
       "tone": "pos"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Risk-off confirmation (score -3).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy -0.88%, Nasdaq proxy -2.48%, Dow proxy +0.52%, Russell proxy +0.40%.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -0.49%, Nasdaq proxy -1.99%, Dow proxy +0.79%, Russell proxy +0.53%.",
     "VIX עומד על 26.62.",
-    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Iraqi PM cracks down on Kurds' control of oilfields, Kurds reject risky move - Reuters"
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: US CIA, ODNI suffer cybersecurity breach of some unclassified information, source says - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Iraqi PM cracks down on Kurds' control of oilfields, Kurds reject risky move - Reuters",
-    "Gold is doing something strange. Here's one way to play it",
-    "Who qualifies for Costco’s $30-per-share dividend — plus, Meta puts share plan on hold",
-    "Roche expects approved cancer pill to become its best-selling drug - Reuters",
-    "Hostages held in Cartagena, Colombia supermarket after failed armored car hijacking - Reuters",
-    "HPE shares tumble as shrinking AI margins overshadow upbeat forecast - Reuters"
+    "US CIA, ODNI suffer cybersecurity breach of some unclassified information, source says - Reuters",
+    "COMMENTARY: Middle East crude oil exports trend lower amid fake Iran stalemate - Reuters",
+    "Israel's Eisenkot clinches first coalition agreement in bid to form government - Reuters",
+    "Saudi-led coalition issues evacuation warning for Yemen's Hodeidah port - Reuters",
+    "UK warns of Russian sabotage threat to companies that supply Ukraine - Reuters",
+    "Hostages held in Cartagena, Colombia, supermarket after failed armored car hijacking - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,7 +85,6 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
-      "Index proxies negative",
       "VIX elevated"
     ]
   }

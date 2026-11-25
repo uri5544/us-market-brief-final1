@@ -1,0 +1,91 @@
+{
+  "schema_version": "4.0-clean",
+  "report_type": "close",
+  "report_date": "2026-11-25",
+  "generated_at": "2026-11-25 04:05 UTC",
+  "report_window": "Automated market brief",
+  "market_regime": "Balanced / neutral",
+  "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
+  "hero_title": "Closing market brief",
+  "hero_text": "הדוח מציג רק נתונים שנטענו בפועל, בלי placeholderים כמו pending או API connection.",
+  "movers_title": "Live movers",
+  "badges": [
+    {
+      "label": "LIVE DATA ONLY",
+      "class": "live"
+    },
+    {
+      "label": "CLEAN OUTPUT",
+      "class": "macro"
+    },
+    {
+      "label": "SCORING ENGINE",
+      "class": "info"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P proxy",
+      "value": "-0.49%",
+      "tone": "neg"
+    },
+    {
+      "label": "Nasdaq proxy",
+      "value": "-1.99%",
+      "tone": "neg"
+    },
+    {
+      "label": "Dow proxy",
+      "value": "+0.79%",
+      "tone": "pos"
+    },
+    {
+      "label": "Russell proxy",
+      "value": "+0.53%",
+      "tone": "pos"
+    },
+    {
+      "label": "VIX",
+      "value": "26.62",
+      "tone": "blue"
+    },
+    {
+      "label": "US10Y",
+      "value": "4.92%",
+      "tone": "blue"
+    }
+  ],
+  "summary": [
+    "זהו דוח סגירה אוטומטי במבנה אחיד.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -0.49%, Nasdaq proxy -1.99%, Dow proxy +0.79%, Russell proxy +0.53%.",
+    "VIX עומד על 26.62.",
+    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
+    "כותרת בולטת שנקלטה: US CIA, ODNI suffer cybersecurity breach of some unclassified information, source says - Reuters"
+  ],
+  "movers": [],
+  "sectors": [],
+  "macro": [],
+  "headlines": [
+    "US CIA, ODNI suffer cybersecurity breach of some unclassified information, source says - Reuters",
+    "COMMENTARY: Middle East crude oil exports trend lower amid fake Iran stalemate - Reuters",
+    "Israel's Eisenkot clinches first coalition agreement in bid to form government - Reuters",
+    "Saudi-led coalition issues evacuation warning for Yemen's Hodeidah port - Reuters",
+    "UK warns of Russian sabotage threat to companies that supply Ukraine - Reuters",
+    "Hostages held in Cartagena, Colombia, supermarket after failed armored car hijacking - Reuters"
+  ],
+  "tomorrow_setup": [
+    "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
+    "להמשיך לנקות ניסוחים מעורבים של עברית ואנגלית.",
+    "להסתיר בלוקים ריקים במקום להציג placeholder מטעה."
+  ],
+  "pipeline_status": {
+    "data_freshness": "live fields only",
+    "generator": "scripts/generate_reports.py",
+    "environment": "github-actions",
+    "scoring_reasons": [
+      "VIX elevated"
+    ]
+  }
+}
