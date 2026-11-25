@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "close",
   "report_date": "2026-11-25",
-  "generated_at": "2026-11-25 04:05 UTC",
+  "generated_at": "2026-11-25 19:53 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.49%",
+      "value": "-0.29%",
       "tone": "neg"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-1.99%",
+      "value": "-0.80%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.79%",
+      "value": "+0.52%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.53%",
+      "value": "+0.77%",
       "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "26.62",
+      "value": "26.36",
       "tone": "blue"
     },
     {
@@ -58,22 +58,22 @@
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.49%, Nasdaq proxy -1.99%, Dow proxy +0.79%, Russell proxy +0.53%.",
-    "VIX עומד על 26.62.",
-    "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: US CIA, ODNI suffer cybersecurity breach of some unclassified information, source says - Reuters"
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy -0.29%, Nasdaq proxy -0.80%, Dow proxy +0.52%, Russell proxy +0.77%.",
+    "VIX עומד על 26.36.",
+    "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
+    "כותרת בולטת שנקלטה: Bullish hopes spring as traders bet against a higher VIX: Options Action Live"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "US CIA, ODNI suffer cybersecurity breach of some unclassified information, source says - Reuters",
-    "COMMENTARY: Middle East crude oil exports trend lower amid fake Iran stalemate - Reuters",
-    "Israel's Eisenkot clinches first coalition agreement in bid to form government - Reuters",
-    "Saudi-led coalition issues evacuation warning for Yemen's Hodeidah port - Reuters",
-    "UK warns of Russian sabotage threat to companies that supply Ukraine - Reuters",
-    "Hostages held in Cartagena, Colombia, supermarket after failed armored car hijacking - Reuters"
+    "Bullish hopes spring as traders bet against a higher VIX: Options Action Live",
+    "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+    "Oil prices rise over 1% after Houthis say they attacked Saudi refinery - Reuters",
+    "Iraq's top court says Baghdad can deploy troops to secure borders in Kurdistan region - Reuters",
+    "Nvidia leads tech sell-off as Huang comeback rally fizzles and AI concerns return",
+    "UK is moving military aircraft to hangars at night over possible drone threats, media reports say - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
