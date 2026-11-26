@@ -1,8 +1,8 @@
 {
   "schema_version": "4.0-clean",
   "report_type": "open",
-  "report_date": "2026-11-25",
-  "generated_at": "2026-11-25 19:53 UTC",
+  "report_date": "2026-11-26",
+  "generated_at": "2026-11-26 03:28 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -31,17 +31,17 @@
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.80%",
+      "value": "-0.65%",
       "tone": "neg"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.52%",
+      "value": "+0.31%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.77%",
+      "value": "+0.65%",
       "tone": "pos"
     },
     {
@@ -51,29 +51,29 @@
     },
     {
       "label": "US10Y",
-      "value": "4.92%",
+      "value": "4.91%",
       "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy -0.29%, Nasdaq proxy -0.80%, Dow proxy +0.52%, Russell proxy +0.77%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy -0.29%, Nasdaq proxy -0.65%, Dow proxy +0.31%, Russell proxy +0.65%.",
     "VIX עומד על 26.36.",
     "תמונת breadth מה-snapshot: gainers 20 מול losers 20.",
-    "כותרת בולטת שנקלטה: Bullish hopes spring as traders bet against a higher VIX: Options Action Live"
+    "כותרת בולטת שנקלטה: S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Bullish hopes spring as traders bet against a higher VIX: Options Action Live",
-    "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
-    "Oil prices rise over 1% after Houthis say they attacked Saudi refinery - Reuters",
-    "Iraq's top court says Baghdad can deploy troops to secure borders in Kurdistan region - Reuters",
-    "Nvidia leads tech sell-off as Huang comeback rally fizzles and AI concerns return",
-    "UK is moving military aircraft to hangars at night over possible drone threats, media reports say - Reuters"
+    "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
+    "US airlines face higher costs from proposed Embraer duty - Reuters",
+    "EXCLUSIVE: Billionaire Boehly signs US-backed share swap deal to buy Lukoil global assets - Reuters",
+    "Russian forces hit Kyiv with ballistic missiles, mayor says - Reuters",
+    "Macy's postpones Thanksgiving Day Parade due to severe weather",
+    "Vance says he was assured Jensen Huang was not under DOJ investigation"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
