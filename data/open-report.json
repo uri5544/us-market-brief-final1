@@ -2,7 +2,7 @@
   "schema_version": "4.0-clean",
   "report_type": "open",
   "report_date": "2026-11-27",
-  "generated_at": "2026-11-27 03:35 UTC",
+  "generated_at": "2026-11-27 19:26 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,27 +26,27 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "-0.29%",
-      "tone": "neg"
+      "value": "+1.63%",
+      "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "-0.65%",
-      "tone": "neg"
+      "value": "+2.70%",
+      "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+0.31%",
+      "value": "+1.27%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+0.65%",
+      "value": "+1.84%",
       "tone": "pos"
     },
     {
       "label": "VIX",
-      "value": "26.36",
+      "value": "26.8",
       "tone": "blue"
     },
     {
@@ -57,23 +57,23 @@
   ],
   "summary": [
     "זהו דוח פתיחה אוטומטי במבנה אחיד.",
-    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score -1).",
-    "סטטוס המסחר בארה\"ב כרגע: closed.",
-    "תמונת המדדים כרגע: S&P proxy -0.29%, Nasdaq proxy -0.65%, Dow proxy +0.31%, Russell proxy +0.65%.",
-    "VIX עומד על 26.36.",
+    "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
+    "סטטוס המסחר בארה\"ב כרגע: open.",
+    "תמונת המדדים כרגע: S&P proxy +1.63%, Nasdaq proxy +2.70%, Dow proxy +1.27%, Russell proxy +1.84%.",
+    "VIX עומד על 26.8.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Brent trades near month's high as Mideast conflict threatens supply - Reuters"
+    "כותרת בולטת שנקלטה: Jensen Huang's return did little to ease AI jitters. We used the weakness to buy"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
-    "Brent trades near month's high as Mideast conflict threatens supply - Reuters",
-    "Hamas weighs response after Israel kills 10 people in Gaza - Reuters",
-    "Attack on Saudi Aramco's Jazan refinery kills worker, halts some operations - Reuters",
-    "Two Italians killed in attack on Kuwait site, Iran denies involvement - Reuters",
-    "Settlers smash foundations of Palestinian family's homes in West Bank - Reuters",
-    "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher"
+    "Jensen Huang's return did little to ease AI jitters. We used the weakness to buy",
+    "Britain's FTSE 100 posts biggest weekly gain in eight months as miners, banks rally - Reuters",
+    "'The Traitors' ended with a $246,300 prize—here's who won and what they told us about spending it",
+    "Top 10 things to watch in the stock market on Black Friday",
+    "Son of Hamas chief survives Israeli strike, Hamas says - Reuters",
+    "Airline Norse Atlantic's Norwegian operating unit declares bankruptcy - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
@@ -85,6 +85,7 @@
     "generator": "scripts/generate_reports.py",
     "environment": "github-actions",
     "scoring_reasons": [
+      "Index proxies positive",
       "VIX elevated"
     ]
   }
