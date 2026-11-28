@@ -1,8 +1,8 @@
 {
   "schema_version": "4.0-clean",
   "report_type": "close",
-  "report_date": "2026-11-27",
-  "generated_at": "2026-11-27 19:26 UTC",
+  "report_date": "2026-11-28",
+  "generated_at": "2026-11-28 03:13 UTC",
   "report_window": "Automated market brief",
   "market_regime": "Balanced / neutral",
   "sub_title": "סקירת שוק אמריקאי אוטומטית עם ניקוי placeholderים וטעינת נתונים זמינים בלבד",
@@ -26,54 +26,49 @@
   "metrics": [
     {
       "label": "S&P proxy",
-      "value": "+1.63%",
+      "value": "+1.62%",
       "tone": "pos"
     },
     {
       "label": "Nasdaq proxy",
-      "value": "+2.70%",
+      "value": "+2.69%",
       "tone": "pos"
     },
     {
       "label": "Dow proxy",
-      "value": "+1.27%",
+      "value": "+1.26%",
       "tone": "pos"
     },
     {
       "label": "Russell proxy",
-      "value": "+1.84%",
+      "value": "+1.83%",
       "tone": "pos"
     },
     {
       "label": "VIX",
       "value": "26.8",
       "tone": "blue"
-    },
-    {
-      "label": "US10Y",
-      "value": "4.91%",
-      "tone": "blue"
     }
   ],
   "summary": [
     "זהו דוח סגירה אוטומטי במבנה אחיד.",
     "מצב השוק לפי מנוע הניקוד: Balanced / neutral (score 1).",
-    "סטטוס המסחר בארה\"ב כרגע: open.",
-    "תמונת המדדים כרגע: S&P proxy +1.63%, Nasdaq proxy +2.70%, Dow proxy +1.27%, Russell proxy +1.84%.",
+    "סטטוס המסחר בארה\"ב כרגע: closed.",
+    "תמונת המדדים כרגע: S&P proxy +1.62%, Nasdaq proxy +2.69%, Dow proxy +1.26%, Russell proxy +1.83%.",
     "VIX עומד על 26.8.",
     "תמונת breadth מה-snapshot: gainers 0 מול losers 0.",
-    "כותרת בולטת שנקלטה: Jensen Huang's return did little to ease AI jitters. We used the weakness to buy"
+    "כותרת בולטת שנקלטה: Son of Hamas chief survives Israeli strike, Hamas says - Reuters"
   ],
   "movers": [],
   "sectors": [],
   "macro": [],
   "headlines": [
+    "Son of Hamas chief survives Israeli strike, Hamas says - Reuters",
+    "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform - Reuters",
+    "US disables ship trying to leave Iran, as Tehran vows to confront blockade - Reuters",
     "Jensen Huang's return did little to ease AI jitters. We used the weakness to buy",
     "Britain's FTSE 100 posts biggest weekly gain in eight months as miners, banks rally - Reuters",
-    "'The Traitors' ended with a $246,300 prize—here's who won and what they told us about spending it",
-    "Top 10 things to watch in the stock market on Black Friday",
-    "Son of Hamas chief survives Israeli strike, Hamas says - Reuters",
-    "Airline Norse Atlantic's Norwegian operating unit declares bankruptcy - Reuters"
+    "At least eight found dead on migrant boat off Spain's Canary Islands - Reuters"
   ],
   "tomorrow_setup": [
     "להרחיב חיבורי נתונים רק במקורות שנותנים ערך יומי אמיתי.",
